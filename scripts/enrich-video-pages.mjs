@@ -447,7 +447,7 @@ function explainConcept(item, terms) {
     return `${item} 这是一条作业边界，不只是学习提醒。${termBridge}现场要先确认电源是否隔离、仪表是否合适、自己是否有许可范围，再决定能不能继续。`;
   }
   if (/保护|断路器|GFCI|保险丝|故障/u.test(item)) {
-    return `${item} 学习时要分清它检测的异常是什么：过电流、漏电差流、接地故障路径或设备失效。${termBridge}不要把一个保护装置理解成能覆盖所有风险。`;
+    return `${item} 学习时要分清它对应的风险边界：过电流、漏电差流、接地故障路径或设备失效并不是同一种问题。${termBridge}不要把一个保护装置理解成能覆盖所有风险。`;
   }
   if (/电压|电流|电阻|功率|压降|kWh|功率因数/u.test(item)) {
     return `${item} 这类概念最好和测量量一起学：哪里量电压、哪里看电流、负载消耗多少功率、导线和端子会不会发热。${termBridge}能把数字和现场部件连起来，才算真正掌握。`;
@@ -539,26 +539,374 @@ function normalizeHeadings(content) {
   return content.replace('\n## 复习问题', '\n## 学习检查清单');
 }
 
+function renderOptimizedElectricityPage(content) {
+  const introMatch = content.match(/^---[\s\S]*?^- 本地字幕（transcript）：[^\n]+\n/m);
+  if (!introMatch) {
+    throw new Error('01 video page does not contain the expected metadata block');
+  }
+
+  return `${introMatch[0]}
+> 本页依据本地已拉取的 YouTube 字幕、中文笔记和术语表整理。完整字幕保留在本地学习资料目录，可用于个人复习和按时间戳回看。
+
+## Why：为什么要学这一集
+这一集是整个电工学习的地基。后面你会学插座、开关、断路器、GFCI、120/240V、三相、马达和仪表测量，但这些内容最后都会回到同一个问题：**电流有没有正确路径，负载有没有正常工作，故障电流会不会走到危险位置**。
+
+如果不懂这一集，新手很容易犯三类错误：看到有电压就以为设备一定正常；把 ground 当成普通回流线；看到 breaker 没跳就以为没有危险。真实现场里，这些误判会影响排故、安全判断和接线理解。
+
+学这一集的目的，不是为了背“电是什么”，而是为了建立一个能反复使用的判断框架。你要能看着一个简单回路说清楚：电源在哪里，负载在哪里，正常电流怎么回去，故障时保护装置为什么可能动作。
+
+## How：怎么理解这一集
+用一个固定顺序理解：**找电源 → 找负载 → 找正常回流路径 → 找可能的故障路径 → 看保护装置**。这个顺序比死记 hot、neutral、ground 的定义更可靠，因为它逼你把每根导线和每个设备放回完整电路。
+
+第一步先找电源。电源的作用是建立 voltage，也就是两点之间的电势差。第二步找负载，负载把电能转换成光、热、运动或控制信号。第三步找回流路径，住宅 120V 支路里通常是 neutral 承担正常回流。第四步再看 ground，它不是正常回流线，而是故障保护路径。
+
+最后用故障反推理解：open circuit 是正常路径断了；short circuit 是电流绕过负载走了低阻路径；overload 是正常路径上电流太大；ground fault 是 hot 接触到不该载流的金属外壳、金属盒或 grounding path。
+
+## What：本集核心知识点
+### 电路必须有完整路径
+电路不是一根线，也不是一个单独设备，而是一条闭合路径。电源、导体、负载、回流路径缺一不可。开关断开、导线断开、neutral 丢失、负载内部断路，都会让正常工作电流无法持续流动。
+
+### 电源建立电压，负载转换能量
+电源的作用是维持两点之间的电势差，也就是 voltage。负载不是“电的终点”，而是能量转换的位置：灯把电能变成光和热，马达把电能变成运动，加热器把电能变成热。现场看负载时，要问它需要什么电压、会拉多少电流、由哪个保护装置保护。
+
+### 电压和电流不是一回事
+电压是两点之间的差值，是推动条件；电流是电荷沿路径流动的结果。你可能在开关两端量到电压，但因为回路没闭合，灯并不会亮。也可能因为短路形成低阻抗路径，电流突然变得很大，导致断路器动作或产生电弧风险。
+
+### 电阻限制电流，故障会改变路径
+电阻或阻抗决定电流有多容易通过。正常负载会限制电流并完成能量转换；短路则绕过负载形成低阻抗路径；过载是在正常路径上拉了太多电流；接地故障是 hot 接触到不该载流的金属外壳、金属盒或 grounding path。
+
+### Ground 不是正常回流线
+在美国住宅 120V 支路里，hot 通常把电压送到负载，neutral 承担正常工作电流的回流。ground 的职责是故障保护，正常情况下不应该承载工作电流。把 ground 当 neutral 用，是新手必须避免的危险错误。
+
+## 现场怎么用
+看一个插座、开关盒或灯具时，先不要只看颜色。更可靠的思路是按路径问问题：line 从哪里来，load 接到哪里，hot 是否被开关控制，neutral 是否完整，ground 是否只用于故障保护，breaker 或 GFCI 在什么条件下会动作。
+
+住宅现场里，很多问题都能用这一集的模型解释。灯不亮，可能是开关没闭合、hot 没到、neutral 断了、负载坏了或 breaker/GFCI 跳了；取暖器让断路器跳闸，可能是回路过载；hot 碰到金属盒，则可能形成 ground fault。
+
+商业现场更复杂，会出现多相供电、控制变压器、马达控制回路、配电盘和更高故障能量。但入门判断顺序仍然一样：先找电源、负载、正常回流路径、故障路径和保护装置，再决定能不能测量或操作。
+
+## 常见误区
+- 以为电从一根线流出去就“用完了”，忘记必须有完整回路。
+- 看到有电压就以为负载一定能正常工作，忽略回流路径和连接质量。
+- 以为开关关掉就代表盒内所有导体都安全。
+- 只凭颜色判断 hot、neutral、ground，不验电、不查图、不追踪路径。
+- 把 ground 当作 neutral 使用。
+- 把 breaker 没跳当成“没有触电风险”的证明。
+
+## 术语速查
+| 英文 | 中文 |
+|---|---|
+| electricity | 电/电现象 |
+| electron | 电子 |
+| conductor | 导体 |
+| insulator | 绝缘体 |
+| circuit | 电路 |
+| load | 负载 |
+| power source | 电源 |
+| closed loop | 闭合回路 |
+| voltage | 电压 |
+| current | 电流 |
+| resistance | 电阻 |
+| ground fault | 接地故障 |
+
+## 本集自测题
+<details>
+<summary>1. 一个简单电路至少需要哪几部分？</summary>
+
+答：需要电源、导体、负载和完整回流路径。缺少任何一部分，正常工作电流都不能持续流动。
+
+</details>
+
+<details>
+<summary>2. 为什么“有电压”不等于“负载一定工作”？</summary>
+
+答：电压只是两点之间的差值。负载要工作，还需要完整回路、正确连接、合适负载和足够的电流路径。
+
+</details>
+
+<details>
+<summary>3. 短路和正常负载有什么区别？</summary>
+
+答：正常负载会限制电流并转换能量；短路通常绕过负载形成低阻抗路径，让电流快速增大，带来发热、电弧和保护装置动作风险。
+
+</details>
+
+<details>
+<summary>4. ground 为什么不能当 neutral 用？</summary>
+
+答：neutral 是正常工作电流回流路径；ground 是故障保护路径。让 ground 承载正常工作电流会让设备外壳、金属盒或接地系统产生危险。
+
+</details>
+
+<details>
+<summary>5. 灯不亮时，应该怎样按路径思考？</summary>
+
+答：先看 breaker/GFCI 是否动作，再看开关是否送出 hot，灯具处 hot-to-neutral 是否有电压，neutral 是否完整，最后判断灯泡或灯具本身是否损坏。
+
+</details>
+
+<details>
+<summary>6. 真实电路中想验证这一集现象，第一步是什么？</summary>
+
+答：先断电并验电。涉及带电测试、配电箱、240V/三相系统或故障排查时，必须遵守 NEC、local code、PPE 要求和持证人员指导。
+
+</details>
+
+## 学习检查清单
+- 我能不能画出一个从 hot 到 load 再回 neutral 的完整路径？
+- 我能不能解释 voltage 和 current 的区别？
+- 我能不能说出 load 在电路里的作用？
+- 我能不能区分 open circuit、short circuit、overload、ground fault？
+- 我能不能说明 ground 为什么不是正常回流线？
+
+## 安全提醒
+:::warning
+本页用于学习电路概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。真实作业前先断电、验电，并确认仪表、PPE 和许可范围。
+:::
+`;
+}
+
+const sourceRoot = path.resolve(rootDir, '..', 'Electrical_Engineering_Basics_学习资料');
+
+function frontMatterAndMeta(content) {
+  const introMatch = content.match(/^---[\s\S]*?^- 本地字幕（transcript）：[^\n]+\n/m);
+  if (!introMatch) {
+    throw new Error('video page does not contain the expected metadata block');
+  }
+  return introMatch[0].trimEnd();
+}
+
+function rawSection(content, heading) {
+  const escaped = heading.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const match = content.match(new RegExp(`\\n## ${escaped}\\n([\\s\\S]*?)(?=\\n## |$)`));
+  return match ? match[1].trim() : '';
+}
+
+async function localSourceFor(position) {
+  const prefix = `${String(position).padStart(2, '0')}_`;
+  const entries = await readdir(sourceRoot, {withFileTypes: true});
+  const sourceDir = entries.find((entry) => entry.isDirectory() && entry.name.startsWith(prefix));
+
+  if (!sourceDir) {
+    throw new Error(`Missing local YouTube source folder for video ${position}`);
+  }
+
+  const dir = path.join(sourceRoot, sourceDir.name);
+  const [metadataRaw, notes, vocabulary, transcript] = await Promise.all([
+    readFile(path.join(dir, 'metadata.json'), 'utf8'),
+    readFile(path.join(dir, 'notes_zh.md'), 'utf8'),
+    readFile(path.join(dir, 'vocabulary.md'), 'utf8'),
+    readFile(path.join(dir, 'transcript_en_plain.txt'), 'utf8'),
+  ]);
+
+  if (transcript.trim().length < 200) {
+    throw new Error(`Local transcript for video ${position} is missing or too short`);
+  }
+
+  return {
+    dir,
+    metadata: JSON.parse(metadataRaw),
+    notes,
+    vocabulary,
+    transcript,
+  };
+}
+
+function termsFromAnyTable(markdown) {
+  return markdown
+    .split('\n')
+    .map((line) => line.trim())
+    .filter((line) => line.startsWith('|') && !line.includes('---') && !/English|英文/u.test(line))
+    .map((line) => line.split('|').map((cell) => cell.trim()).filter(Boolean))
+    .filter((cells) => cells.length >= 2)
+    .map(([english, chinese]) => [english, chinese])
+    .slice(0, 8);
+}
+
+function transcriptKeywords(terms, transcript) {
+  const lowerTranscript = transcript.toLowerCase();
+  return terms
+    .filter(([english]) => lowerTranscript.includes(english.toLowerCase()))
+    .slice(0, 5)
+    .map(([english, chinese]) => `${chinese}（${english}）`);
+}
+
+function sentencesFromItems(items, fallback) {
+  if (items.length === 0) {
+    return fallback;
+  }
+  return items.map((item) => cleanSentence(item)).join('；') + '。';
+}
+
+function renderGoldenTerms(terms) {
+  if (terms.length === 0) {
+    return '| 英文 | 中文 |\n|---|---|\n| circuit | 电路 |\n| load | 负载 |\n| safety | 安全 |';
+  }
+
+  return ['| 英文 | 中文 |', '|---|---|', ...terms.map(([english, chinese]) => `| ${english} | ${chinese} |`)].join('\n');
+}
+
+function commonMistakes(concepts) {
+  const first = concepts[0] ?? '本集核心概念';
+  const second = concepts[1] ?? '相关术语';
+  return [
+    `只记住“${cleanSentence(first)}”，但不能把它放回完整回路、负载和保护装置中解释。`,
+    `把“${cleanSentence(second)}”当成孤立定义，忽略现场里还要看铭牌、图纸、导线、端子和仪表读数。`,
+    '只凭导线颜色、设备外观或经验判断，不做断电、验电和回路确认。',
+    '把视频里的演示直接当成现场操作步骤，忽略 NEC、local code、PPE、许可范围和持证师傅监督。',
+  ];
+}
+
+function renderSelfTest({goal, concepts, field, terms}) {
+  const termAnswer = terms.length
+    ? terms.slice(0, 4).map(([english, chinese]) => `${chinese}（${english}）`).join('、')
+    : '先回到术语速查表，把英文、中文和现场实物对应起来。';
+  const qa = [
+    ['这一集最核心的学习目标是什么？', goal || '理解本集主题在电工基础和现场安全中的位置，并能用关键词识别相关设备或图纸。'],
+    ['复习本集时，应该先抓哪条主线？', concepts[0] ?? '先抓电源、负载、完整路径、保护装置和安全边界之间的关系。'],
+    ['这个概念在美国住宅或商业现场会落到哪里？', field[0] ?? '会落到导线、端子、负载、保护装置、仪表测量和现场安全流程上。'],
+    ['本集至少要会认哪些英文术语？', termAnswer],
+    ['新手最容易犯的一个错误是什么？', commonMistakes(concepts)[0]],
+    ['如果想在真实电路里验证相关现象，第一步是什么？', '先断电并验电；涉及带电测试、配电箱、240V/三相系统或故障排查时，必须确认 PPE、仪表等级、许可范围和持证人员指导。'],
+  ];
+
+  return qa
+    .map(
+      ([question, answer], index) => `<details>
+<summary>${index + 1}. ${question}</summary>
+
+答：${answer}
+
+</details>`,
+    )
+    .join('\n\n');
+}
+
+function renderDetails(qa) {
+  return qa
+    .slice(0, 6)
+    .map(
+      ([question, answer], index) => `<details>
+<summary>${index + 1}. ${question}</summary>
+
+答：${answer}
+
+</details>`,
+    )
+    .join('\n\n');
+}
+
+function renderChecklist(terms) {
+  const termNames = terms.slice(0, 3).map(([english, chinese]) => `${chinese}（${english}）`).join('、') || '本集关键词';
+  return [
+    '- 我能不能用自己的话说出这一集为什么重要？',
+    '- 我能不能把核心概念放回电源、负载、回路和保护装置里解释？',
+    `- 我能不能认出并解释 ${termNames}？`,
+    '- 我能不能说出它在住宅或商业电工现场对应的设备、导线、端子或测量动作？',
+    '- 我能不能指出至少一个新手误区，并说明为什么危险或不可靠？',
+  ].join('\n');
+}
+
+async function renderGoldenCirclePage(content) {
+  const position = getPosition(content);
+
+  if (position === 1) {
+    await localSourceFor(position);
+    return renderOptimizedElectricityPage(content);
+  }
+
+  const source = await localSourceFor(position);
+  const goal = extractSection(source.notes, '学习目标');
+  const concepts = listItems(extractSection(source.notes, '核心知识点')).slice(0, 6);
+  const field = listItems(extractSection(source.notes, '美国电工学习重点'));
+  const terms = termsFromAnyTable(source.vocabulary).length
+    ? termsFromAnyTable(source.vocabulary)
+    : termsFromTable(extractSection(source.notes, '术语速查'));
+  const title = getTitle(content).replace(/^\d+\.\s*/, '');
+  const keywords = transcriptKeywords(terms, source.transcript);
+  const relatedFormula = rawSection(content, '相关公式');
+  const priorityLesson = priorityLessons.get(position);
+
+  const keywordLine = keywords.length
+    ? `本地字幕中可回看这些关键词：${keywords.join('、')}。`
+    : '本页已读取本地字幕；术语以本地术语表和中文笔记为准。';
+  const conceptParagraphs = priorityLesson
+    ? priorityLesson.concepts.map(([name, body]) => `### ${name}\n${body}`).join('\n\n')
+    : concepts.length
+      ? concepts.map((item) => `### ${conceptHeading(item)}\n${explainConcept(item, terms)}`).join('\n\n')
+      : `### 本集核心判断\n${explainConcept(goal || title, terms)}`;
+  const fieldText = priorityLesson
+    ? priorityLesson.field.join('\n\n')
+    : field.length
+      ? field.map((item) => `- ${item}`).join('\n')
+      : '- 把本集概念和 hot、neutral、ground、breaker、load、meter、图纸和仪表测量联系起来。';
+  const formulasBlock = relatedFormula
+    ? `\n\n## 相关公式\n${relatedFormula}`
+    : '';
+  const whyBody = priorityLesson
+    ? priorityLesson.what.join('\n\n')
+    : `这一集围绕 **${title}** 展开。学习目标是：${goal || '理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。'}
+
+它值得学习，不只是因为它是一个单独知识点，而是因为它会影响后面看图、接线、排故、选仪表和判断风险的方式。${sentencesFromItems(field, '在美国电工学习里，它需要和 hot、neutral、ground、breaker、load、meter 等现场对象联系起来。')}
+
+如果只背结论，不理解它为什么成立，到了真实现场就容易把设备外观、导线颜色或单一读数当成答案。课程页的目标是让你即使还没看视频，也能先掌握主线，再回到视频和字幕里补细节。`;
+  const mistakes = priorityLesson ? priorityLesson.mistakes : commonMistakes(concepts);
+  const selfTest = priorityLesson
+    ? renderDetails([
+        ...priorityLesson.quiz,
+        ['这一集最核心的学习目标是什么？', goal || priorityLesson.what[0]],
+        ['这个概念在美国住宅或商业现场会落到哪里？', priorityLesson.field[0]],
+        ['如果想在真实电路里验证相关现象，第一步是什么？', '先断电并验电；涉及带电测试、配电箱、240V/三相系统或故障排查时，必须确认 PPE、仪表等级、许可范围和持证人员指导。'],
+      ])
+    : renderSelfTest({goal, concepts, field, terms});
+
+  return `${frontMatterAndMeta(content)}
+
+> 本页依据本地已拉取的 YouTube 字幕、中文笔记和术语表整理。${keywordLine}
+
+## Why：为什么要学这一集
+${whyBody}
+
+## How：怎么理解这一集
+用固定顺序读这一集：先看它讨论的对象是什么，再看这个对象连接到哪个电源、负载、导体、端子、保护装置或测量动作，最后再判断它和安全边界有什么关系。
+
+复习时可以按三个问题展开：第一，它解决什么现场问题；第二，它依赖哪些基本概念；第三，它错误理解后会造成什么误判。这样读，比把每个 bullet 当成孤立笔记更接近电工现场的思考方式。
+
+英文术语也要同时掌握。${terms.length ? `本集术语表里的 ${terms.slice(0, 4).map(([english, chinese]) => `${chinese}（${english}）`).join('、')} 会在字幕、图纸、铭牌、仪表和规范讨论里反复出现。` : '把英文、中文和现场实物对应起来，是后续读图和排故的基础。'}
+
+## What：本集核心知识点
+${conceptParagraphs}${formulasBlock}
+
+## 现场怎么用
+${fieldText}
+
+在住宅现场，先把概念落到插座、开关盒、灯具、GFCI、断路器、配电盘、设备铭牌和仪表测量点上。不要只问“这个词是什么意思”，还要问“它在这个盒子、这个面板或这个负载里对应哪一根线、哪一个端子、哪一个保护动作”。
+
+在商业或轻工业现场，同一知识点通常会进入更大的系统，例如多相供电、马达、控制柜、变压器、断开开关和更高故障能量环境。入门阶段不需要一次吃下所有复杂度，但要养成按图纸、铭牌、仪表和规范交叉确认的习惯。
+
+## 常见误区
+${mistakes.map((item) => `- ${item}`).join('\n')}
+
+## 术语速查
+${renderGoldenTerms(terms)}
+
+## 本集自测题
+${selfTest}
+
+## 学习检查清单
+${renderChecklist(terms)}
+
+## 安全提醒
+:::warning
+本页用于学习视频知识点和电工概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。真实作业前先断电、验电，并确认仪表、PPE 和许可范围；涉及带电测试、配电箱、240V/三相负载和故障排查时，不要独自操作。
+:::
+`;
+}
+
 const files = (await readdir(videosDir)).filter((file) => file.endsWith('.md')).sort();
 
 for (const file of files) {
   const fullPath = path.join(videosDir, file);
   const original = await readFile(fullPath, 'utf8');
-  const position = getPosition(original);
-  const lesson = priorityLessons.get(position) ?? genericLesson(original);
-  const content = normalizeHeadings(stripOldLesson(original));
-  const lessonBlock = renderLesson(lesson);
-  const quizBlock = renderQuiz(lesson);
-
-  if (!content.includes('\n## 本集 5 个问答')) {
-    throw new Error(`${file} does not contain the expected QA section`);
-  }
-  if (!content.includes('\n## 安全提醒')) {
-    throw new Error(`${file} does not contain the expected safety section`);
-  }
-
-  const next = content
-    .replace('\n## 本集 5 个问答', `\n${lessonBlock}\n\n## 本集 5 个问答`)
-    .replace('\n## 安全提醒', `\n${quizBlock}\n\n## 安全提醒`);
-  await writeFile(fullPath, next, 'utf8');
+  await writeFile(fullPath, await renderGoldenCirclePage(original), 'utf8');
 }

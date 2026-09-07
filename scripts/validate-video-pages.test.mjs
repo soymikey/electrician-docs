@@ -5,7 +5,7 @@ import test from 'node:test';
 
 const videosDir = new URL('../docs/videos/', import.meta.url);
 
-test('each video page has five collapsible QA entries', async () => {
+test('each video page has collapsible self-test entries', async () => {
   const files = (await readdir(videosDir))
     .filter((file) => file.endsWith('.md'))
     .sort();
@@ -14,18 +14,10 @@ test('each video page has five collapsible QA entries', async () => {
 
   for (const file of files) {
     const content = await readFile(new URL(file, videosDir), 'utf8');
-    const qaSection = content.match(/## 本集 5 个问答[\s\S]*?(?=\n## 学习检查清单|\n## 术语速查|\n## 安全提醒|\n## 相关公式|$)/);
-    assert.ok(qaSection, `${path.join('docs/videos', file)} should have a QA section`);
-    assert.equal(
-      [...qaSection[0].matchAll(/<details>/g)].length,
-      5,
-      `${path.join('docs/videos', file)} should have 5 QA details`,
-    );
-    assert.equal(
-      [...qaSection[0].matchAll(/<summary>/g)].length,
-      5,
-      `${path.join('docs/videos', file)} should have 5 QA summaries`,
-    );
+    const qaSection = content.match(/## 本集自测题[\s\S]*?(?=\n## 学习检查清单|\n## 安全提醒|$)/);
+    assert.ok(qaSection, `${path.join('docs/videos', file)} should have a self-test section`);
+    assert.equal([...qaSection[0].matchAll(/<details>/g)].length, 6, `${path.join('docs/videos', file)} should have 6 self-test details`);
+    assert.equal([...qaSection[0].matchAll(/<summary>/g)].length, 6, `${path.join('docs/videos', file)} should have 6 self-test summaries`);
   }
 });
 
@@ -38,20 +30,13 @@ test('each video page has enough self-study structure to stand alone', async () 
     const content = await readFile(new URL(file, videosDir), 'utf8');
     const pagePath = path.join('docs/videos', file);
 
-    for (const heading of [
-      '## 这集讲什么',
-      '## 核心概念详解',
-      '## 现场怎么理解',
-      '## 常见误区',
-      '## 学习检查清单',
-      '## 练习题 / 小测',
-    ]) {
+    const requiredHeadings = ['## Why：为什么要学这一集', '## How：怎么理解这一集', '## What：本集核心知识点', '## 现场怎么用', '## 常见误区', '## 术语速查', '## 本集自测题', '## 学习检查清单', '## 安全提醒'];
+
+    for (const heading of requiredHeadings) {
       assert.ok(content.includes(heading), `${pagePath} should include ${heading}`);
     }
 
-    const lessonSection = content.match(
-      /## 这集讲什么[\s\S]*?(?=\n## 本集 5 个问答|\n## 学习检查清单|\n## 术语速查|\n## 安全提醒|$)/,
-    );
+    const lessonSection = content.match(/## Why：为什么要学这一集[\s\S]*?(?=\n## 常见误区|\n## 术语速查|$)/);
     assert.ok(lessonSection, `${pagePath} should have a self-study lesson block before QA`);
     assert.ok(
       lessonSection[0].length > 900,
@@ -81,6 +66,15 @@ test('each video page has enough self-study structure to stand alone', async () 
       content.includes('## 复习问题'),
       false,
       `${pagePath} should use the clearer learning checklist heading`,
+    );
+    assert.equal(
+      content.includes('## 本集 5 个问答'),
+      false,
+      `${pagePath} should use self-test questions instead of the old QA heading`,
+    );
+    assert.ok(
+      content.includes('本地已拉取的 YouTube 字幕'),
+      `${pagePath} should explain that it is grounded in local transcript material`,
     );
   }
 });
