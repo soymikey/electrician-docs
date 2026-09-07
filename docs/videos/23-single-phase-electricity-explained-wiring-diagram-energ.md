@@ -6,45 +6,45 @@ sidebar_position: 23
 
 # 23. Single Phase Electricity Explained - wiring diagram energy meter
 
-- 视频时长：10:10
-- 原视频：[W0_1xRqT8uU](https://www.youtube.com/watch?v=W0_1xRqT8uU&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=23)
-
-:::note 字幕说明
-完整英文 transcript 保留在本地学习资料目录：`Electrical_Engineering_Basics_学习资料/23_Single Phase Electricity Explained - wiring diagram energy meter/transcript_en.txt`。文档站只放学习笔记、术语和视频链接。
-:::
-
 - 分类：美国住宅电路核心
 - 对美国电工初学者优先级：必须掌握
 - 视频时长：10:10
-- 原视频：https://www.youtube.com/watch?v=W0_1xRqT8uU&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=23
+- 原视频：[W0_1xRqT8uU](https://www.youtube.com/watch?v=W0_1xRqT8uU&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=23)
+- 本地 transcript：`Electrical_Engineering_Basics_学习资料/23_Single Phase Electricity Explained - wiring diagram energy meter/transcript_en.txt`，共 286 个字幕片段
+
+:::note 发布说明
+文档站发布的是学习笔记、术语和视频索引；完整字幕只保留在本地学习资料目录，用于个人复习和按时间戳回看。
+:::
 
 ## 学习目标
-理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
+理解 single-phase 供电、energy meter 和住宅进线图的基本读法。
 
 ## 核心知识点
-- 美国住宅常见系统围绕 hot、neutral、ground 和 120/240V 关系展开。
-- hot-to-neutral 通常约 120V，hot-to-hot 通常约 240V。
-- neutral 是正常回流导体，ground 是故障保护路径。
-- 配电箱、双极断路器和大功率负载都依赖这些概念。
-- 必须结合 NEC 和当地规范学习，不能只照视频接线。
+- single-phase 视频重点是从供电、计量到配电的路径。
+- 电表 energy meter 记录用电量，通常以 kWh 计费。
+- 住宅系统要区分 line conductor、neutral conductor 和保护接地。
+- 读 wiring diagram 时先找电源、计量、保护装置、负载路径。
+- 它补强 120/240V split-phase 之前的系统视角。
 
 ## 美国电工学习重点
-- 把概念对应到美国住宅常见 120/240V、插座、开关、配电箱和 grounding/bonding。
+- 这是美国住宅电工的核心内容，应优先掌握英文术语和现场对应关系。
 - 真实接线必须遵守 NEC、当地 code、许可范围和师傅监督。
 
 ## 复习问题
-- 这个视频最核心的概念是什么？
+- 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
+- 它和 hot、neutral、ground、breaker、GFCI、load、meter 中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
 | English | 中文 |
 |---|---|
-| electricity | 电 |
-| circuit | 电路 |
-| load | 负载 |
-| conductor | 导体 |
-| insulator | 绝缘体 |
+| single phase | 单相电 |
+| energy meter | 电表 |
+| service entrance | 入户进线 |
+| line conductor | 相线 |
+| neutral conductor | 中性线 |
+| distribution panel | 配电箱 |
 
 ## 安全提醒
 学习视频用于理解概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。涉及带电测试、配电箱、240V/三相负载和故障排查时，先断电、验电、确认 PPE 和许可范围。

@@ -6,20 +6,18 @@ sidebar_position: 28
 
 # 28. Variable Frequency Drives Explained - VFD Basics IGBT inverter
 
-- 视频时长：15:18
-- 原视频：[yEPe7RDtkgo](https://www.youtube.com/watch?v=yEPe7RDtkgo&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=28)
-
-:::note 字幕说明
-完整英文 transcript 保留在本地学习资料目录：`Electrical_Engineering_Basics_学习资料/28_Variable Frequency Drives Explained - VFD Basics IGBT inverter/transcript_en.txt`。文档站只放学习笔记、术语和视频链接。
-:::
-
 - 分类：三相、工业与商业电工
 - 对美国电工初学者优先级：进阶掌握
 - 视频时长：15:18
-- 原视频：https://www.youtube.com/watch?v=yEPe7RDtkgo&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=28
+- 原视频：[yEPe7RDtkgo](https://www.youtube.com/watch?v=yEPe7RDtkgo&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=28)
+- 本地 transcript：`Electrical_Engineering_Basics_学习资料/28_Variable Frequency Drives Explained - VFD Basics IGBT inverter/transcript_en.txt`，共 856 个字幕片段
+
+:::note 发布说明
+文档站发布的是学习笔记、术语和视频索引；完整字幕只保留在本地学习资料目录，用于个人复习和按时间戳回看。
+:::
 
 ## 学习目标
-理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
+理解 VFD 的整流、直流母线、逆变和频率控制如何调速电机。
 
 ## 核心知识点
 - VFD 通过改变输出频率和电压控制电机速度。
@@ -29,20 +27,23 @@ sidebar_position: 28
 - 安装与排故要注意接地、屏蔽、参数和电机额定值。
 
 ## 美国电工学习重点
-- 作为进阶方向学习，适合商业、工业、HVAC、泵和电机控制。
-- 三相和 VFD 风险更高，初学者不应独立操作。
+- 这是商业/工业/HVAC 方向的进阶内容，初学者先理解系统模型。
+- 三相与 VFD 风险更高，不应在无授权和监督下操作。
 
 ## 复习问题
-- 这个视频最核心的概念是什么？
+- 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
+- 它和 hot、neutral、ground、breaker、GFCI、load、meter 中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
 | English | 中文 |
 |---|---|
 | VFD | 变频器 |
-| IGBT | 绝缘栅双极晶体管 |
+| rectifier | 整流器 |
+| DC bus | 直流母线 |
 | inverter | 逆变器 |
+| IGBT | 绝缘栅双极晶体管 |
 | frequency control | 频率控制 |
 
 ## 安全提醒

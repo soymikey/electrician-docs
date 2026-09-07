@@ -97,6 +97,7 @@ const sidebars: SidebarsConfig = {
     },
     'video-index',
     'glossary',
+    'content-audit',
   ],
 };
 

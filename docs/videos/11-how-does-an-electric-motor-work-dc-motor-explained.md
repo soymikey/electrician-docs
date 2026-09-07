@@ -6,20 +6,18 @@ sidebar_position: 11
 
 # 11. How does an Electric Motor work? DC Motor explained
 
-- 视频时长：15:32
-- 原视频：[GQatiB-JHdI](https://www.youtube.com/watch?v=GQatiB-JHdI&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=11)
-
-:::note 字幕说明
-完整英文 transcript 保留在本地学习资料目录：`Electrical_Engineering_Basics_学习资料/11_How does an Electric Motor work DC Motor explained/transcript_en.txt`。文档站只放学习笔记、术语和视频链接。
-:::
-
 - 分类：电机、变压器与控制电路
 - 对美国电工初学者优先级：建议掌握
 - 视频时长：15:32
-- 原视频：https://www.youtube.com/watch?v=GQatiB-JHdI&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=11
+- 原视频：[GQatiB-JHdI](https://www.youtube.com/watch?v=GQatiB-JHdI&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=11)
+- 本地 transcript：`Electrical_Engineering_Basics_学习资料/11_How does an Electric Motor work DC Motor explained/transcript_en.txt`，共 744 个字幕片段
+
+:::note 发布说明
+文档站发布的是学习笔记、术语和视频索引；完整字幕只保留在本地学习资料目录，用于个人复习和按时间戳回看。
+:::
 
 ## 学习目标
-理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
+理解 DC motor 如何用电流、磁场和换向把电能变成旋转运动。
 
 ## 核心知识点
 - 电机和发电机都围绕磁场、导体和运动之间的关系工作。
@@ -29,20 +27,23 @@ sidebar_position: 11
 - 汽车类内容可作为低压/设备理解补充。
 
 ## 美国电工学习重点
-- 对 HVAC、控制柜、门铃变压器、电机和继电器排故很有帮助。
-- 先会读端子、铭牌和控制图，再谈更复杂的计算。
+- 这部分对 HVAC、泵、风机、控制柜、门铃变压器和设备排故很有帮助。
+- 先会读铭牌、端子、线圈、触点和控制图，再深入计算。
 
 ## 复习问题
-- 这个视频最核心的概念是什么？
+- 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
+- 它和 hot、neutral、ground、breaker、GFCI、load、meter 中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
 | English | 中文 |
 |---|---|
-| motor | 电动机 |
+| DC motor | 直流电机 |
 | stator | 定子 |
 | rotor | 转子 |
+| commutator | 换向器 |
+| brush | 电刷 |
 | torque | 转矩 |
 
 ## 安全提醒

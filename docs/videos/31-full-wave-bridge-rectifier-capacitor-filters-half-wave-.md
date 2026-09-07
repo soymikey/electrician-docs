@@ -6,20 +6,18 @@ sidebar_position: 31
 
 # 31. Full Wave Bridge Rectifier + Capacitor filters +  half wave rectifier
 
-- 视频时长：18:59
-- 原视频：[RiRyzLl4Y8U](https://www.youtube.com/watch?v=RiRyzLl4Y8U&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=31)
-
-:::note 字幕说明
-完整英文 transcript 保留在本地学习资料目录：`Electrical_Engineering_Basics_学习资料/31_Full Wave Bridge Rectifier + Capacitor filters + half wave rectifier/transcript_en.txt`。文档站只放学习笔记、术语和视频链接。
-:::
-
 - 分类：电子与低压补充
 - 对美国电工初学者优先级：了解，后面再学
 - 视频时长：18:59
-- 原视频：https://www.youtube.com/watch?v=RiRyzLl4Y8U&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=31
+- 原视频：[RiRyzLl4Y8U](https://www.youtube.com/watch?v=RiRyzLl4Y8U&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=31)
+- 本地 transcript：`Electrical_Engineering_Basics_学习资料/31_Full Wave Bridge Rectifier + Capacitor filters + half wave rectifier/transcript_en.txt`，共 996 个字幕片段
+
+:::note 发布说明
+文档站发布的是学习笔记、术语和视频索引；完整字幕只保留在本地学习资料目录，用于个人复习和按时间戳回看。
+:::
 
 ## 学习目标
-理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
+理解 half-wave/full-wave bridge rectifier 和 capacitor filter 如何把 AC 变成较平滑 DC。
 
 ## 核心知识点
 - 这类内容偏电子和低压控制。
@@ -29,25 +27,23 @@ sidebar_position: 31
 - 住宅电工初期可后置，但 HVAC/工业方向会越来越常见。
 
 ## 美国电工学习重点
-- 适合理解控制板、传感器、低压模块和电子元件，不是住宅布线第一优先。
-- 注意电容和电池可能储能，断电后仍可能有危险。
+- 适合理解控制板、传感器、低压模块和智能设备。
+- 不是住宅布线第一优先，但对 HVAC/工业控制会越来越有用。
 
 ## 复习问题
-- 这个视频最核心的概念是什么？
+- 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
+- 它和 hot、neutral、ground、breaker、GFCI、load、meter 中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
 | English | 中文 |
 |---|---|
-| diode | 二极管 |
-| PN junction | PN 结 |
-| rectifier | 整流器 |
-| forward bias | 正向偏置 |
-| capacitor | 电容器 |
-| capacitance | 电容量 |
-| microfarad / uF | 微法 |
-| discharge | 放电 |
+| half-wave rectifier | 半波整流 |
+| full-wave bridge rectifier | 全波桥式整流 |
+| capacitor filter | 电容滤波 |
+| ripple voltage | 纹波电压 |
+| DC output | 直流输出 |
 
 ## 安全提醒
 学习视频用于理解概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。涉及带电测试、配电箱、240V/三相负载和故障排查时，先断电、验电、确认 PPE 和许可范围。

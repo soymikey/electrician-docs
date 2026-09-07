@@ -6,20 +6,18 @@ sidebar_position: 16
 
 # 16. AC Basics: Learn All About Alternating Current
 
-- 视频时长：4:17
-- 原视频：[OUcKJuMSSW4](https://www.youtube.com/watch?v=OUcKJuMSSW4&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=16)
-
-:::note 字幕说明
-完整英文 transcript 保留在本地学习资料目录：`Electrical_Engineering_Basics_学习资料/16_AC Basics Learn All About Alternating Current/transcript_en.txt`。文档站只放学习笔记、术语和视频链接。
-:::
-
 - 分类：电学基础必修
 - 对美国电工初学者优先级：必须掌握
 - 视频时长：4:17
-- 原视频：https://www.youtube.com/watch?v=OUcKJuMSSW4&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=16
+- 原视频：[OUcKJuMSSW4](https://www.youtube.com/watch?v=OUcKJuMSSW4&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=16)
+- 本地 transcript：`Electrical_Engineering_Basics_学习资料/16_AC Basics Learn All About Alternating Current/transcript_en.txt`，共 234 个字幕片段
+
+:::note 发布说明
+文档站发布的是学习笔记、术语和视频索引；完整字幕只保留在本地学习资料目录，用于个人复习和按时间戳回看。
+:::
 
 ## 学习目标
-理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
+理解 AC 的周期、频率、相位和有效值，为住宅交流和三相系统做铺垫。
 
 ## 核心知识点
 - 电路需要电源、导体、负载和完整路径。
@@ -30,24 +28,23 @@ sidebar_position: 16
 
 ## 美国电工学习重点
 - 这是后面所有接线、安全和排故的基础。
-- 学习时把每个概念和 hot、neutral、ground、breaker、load、meter 联系起来。
+- 学习时把概念和 hot、neutral、ground、breaker、load、meter 联系起来。
 
 ## 复习问题
-- 这个视频最核心的概念是什么？
+- 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
+- 它和 hot、neutral、ground、breaker、GFCI、load、meter 中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
 | English | 中文 |
 |---|---|
-| current | 电流 |
-| ampere / amp | 安培 |
-| electron flow | 电子流 |
-| conventional current | 传统电流方向 |
 | AC | 交流电 |
 | frequency | 频率 |
+| hertz | 赫兹 |
 | sine wave | 正弦波 |
 | phase | 相位 |
+| RMS | 有效值 |
 
 ## 安全提醒
 学习视频用于理解概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。涉及带电测试、配电箱、240V/三相负载和故障排查时，先断电、验电、确认 PPE 和许可范围。
