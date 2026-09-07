@@ -30,6 +30,37 @@ sidebar_position: 25
 - 这是美国住宅电工的核心内容，应优先掌握英文术语和现场对应关系。
 - 真实接线必须遵守 NEC、当地规范（local code）、许可范围和师傅监督。
 
+## 这集讲什么
+这一集专门区分 hot、neutral、ground、grounding 和 bonding。hot 是带电导体，给负载提供相对 neutral 或 ground 的电压；neutral 是正常工作电流回到电源的路径；grounding conductor 通常不承载正常工作电流，而是在故障时提供低阻抗路径。
+
+grounding 和 bonding 是安全系统的一部分。grounding 把系统和大地参考、接地电极等联系起来；bonding 把可触及金属部件连接到一起，让它们保持接近同一电位，并在故障时帮助保护装置动作。它们不是为了让设备“更有电”，而是为了控制故障时的危险电压。
+
+这页是美国电工学习的高优先级内容，因为很多危险接法都来自把 neutral 和 ground 混用。新手必须形成一个硬规则：正常工作电流应该走 neutral，不应该走设备外壳、金属管、裸地线或其他可触及金属路径。
+
+## 核心概念详解
+### hot wire
+hot 是未接地导体，正常情况下相对 neutral 或 ground 有电压。接触 hot 并形成回路可能触电。
+
+### neutral wire
+neutral 是 grounded conductor，是正常工作电流回流路径。它和 ground 在系统特定位置有连接关系，但不能因此在任意位置混接。
+
+### ground wire
+equipment grounding conductor 连接设备外壳和金属部件，目标是在故障时提供低阻抗路径，使保护装置动作，并降低触电风险。
+
+### bonding
+bonding 把金属盒、管道、设备外壳等连接起来，避免故障时不同金属部件之间出现危险电位差。
+
+## 现场怎么理解
+住宅里，你会在插座盒、金属盒、设备外壳、主配电盘和子配电盘看到这些概念。尤其要理解主服务设备和 subpanel 中 neutral/ground 处理方式不同，具体接法必须按 NEC 和当地规范执行。
+
+商业现场中，金属导管、设备接地导体、机柜 bonding jumper、变压器二次侧接地等会更复杂。学习阶段先把职责分清，再去看图纸和规范条文。
+
+## 常见误区
+- 把 bare/green ground 当作 neutral 替代品。
+- 以为 neutral 永远安全可触摸，忽略它可能承载电流或因故障带电。
+- 在不该 bonding 的位置把 neutral 和 ground 连在一起。
+- 只凭颜色判断导线，不验电、不确认回路来源。
+
 ## 本集 5 个问答
 
 <details>
@@ -67,7 +98,7 @@ sidebar_position: 25
 
 </details>
 
-## 复习问题
+## 学习检查清单
 - 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
 - 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter）中的哪些概念有关？
@@ -83,6 +114,28 @@ sidebar_position: 25
 | grounding | 接地 |
 | bonding | 等电位连接 |
 | fault path | 故障路径 |
+
+## 练习题 / 小测
+<details>
+<summary>1. 正常工作电流应该走 ground 吗？</summary>
+
+答：不应该。正常工作电流通常走 hot 和 neutral；ground 用于故障保护。
+
+</details>
+
+<details>
+<summary>2. bonding 的目的是什么？</summary>
+
+答：让可触及金属部件保持接近同一电位，并帮助故障电流回到电源使保护装置动作。
+
+</details>
+
+<details>
+<summary>3. neutral 可以随便和 ground 接在一起吗？</summary>
+
+答：不可以。连接位置和方式受规范严格限制，错误混接会制造危险。
+
+</details>
 
 ## 安全提醒
 学习视频用于理解概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。涉及带电测试、配电箱、240V/三相负载和故障排查时，先断电、验电、确认 PPE 和许可范围。
