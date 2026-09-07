@@ -27,6 +27,13 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
   clientModules: [require.resolve('./src/clientModules/firebaseAnalytics.ts')],
+  scripts: [
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3534156575856999',
+      async: true,
+      crossorigin: 'anonymous',
+    },
+  ],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
