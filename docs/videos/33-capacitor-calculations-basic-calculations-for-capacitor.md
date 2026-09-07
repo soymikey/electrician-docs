@@ -47,5 +47,9 @@ sidebar_position: 33
 | parallel capacitors | 并联电容 |
 | discharge | 放电 |
 
+## 相关公式
+
+- [电容串并联与储能公式](../formula-reference.md#电容入门)
+
 ## 安全提醒
 学习视频用于理解概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。涉及带电测试、配电箱、240V/三相负载和故障排查时，先断电、验电、确认 PPE 和许可范围。

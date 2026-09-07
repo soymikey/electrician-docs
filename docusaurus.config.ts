@@ -78,6 +78,7 @@ const config: Config = {
           label: '文档',
         },
         {to: '/docs/video-index', label: '视频索引', position: 'left'},
+        {to: '/docs/formula-reference', label: '公式速查', position: 'left'},
         {to: '/docs/glossary', label: '术语表', position: 'left'},
         {
           href: 'https://www.youtube.com/playlist?list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K',
@@ -103,6 +104,10 @@ const config: Config = {
             {
               label: '术语表',
               to: '/docs/glossary',
+            },
+            {
+              label: '公式速查',
+              to: '/docs/formula-reference',
             },
           ],
         },

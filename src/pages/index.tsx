@@ -27,6 +27,11 @@ const paths = [
     href: '/docs/quizzes/core-concepts',
   },
   {
+    title: '公式速查',
+    description: '集中查看欧姆定律、功率、kWh、电费、三相和电容计算。',
+    href: '/docs/formula-reference',
+  },
+  {
     title: '术语表',
     description: '把现场、考试和视频里的英文术语变成可查询的中文术语索引。',
     href: '/docs/glossary',

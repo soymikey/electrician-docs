@@ -107,6 +107,7 @@ const sidebars: SidebarsConfig = {
         'quizzes/low-voltage-electronics',
       ],
     },
+    'formula-reference',
     'video-index',
     'glossary',
     'content-audit',

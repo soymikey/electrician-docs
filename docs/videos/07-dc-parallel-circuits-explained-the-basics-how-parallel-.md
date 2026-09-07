@@ -45,5 +45,9 @@ sidebar_position: 7
 | equivalent resistance | 等效电阻 |
 | node | 节点 |
 
+## 相关公式
+
+- [并联总电阻与支路计算](../formula-reference.md#基础电路)
+
 ## 安全提醒
 学习视频用于理解概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。涉及带电测试、配电箱、240V/三相负载和故障排查时，先断电、验电、确认 PPE 和许可范围。
