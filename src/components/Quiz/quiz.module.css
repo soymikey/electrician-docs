@@ -1,0 +1,124 @@
+.quiz {
+  margin-top: 1.5rem;
+}
+
+.summary {
+  align-items: flex-start;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.summary h2 {
+  font-size: 1.25rem;
+  margin: 0 0 0.35rem;
+}
+
+.summary p {
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+}
+
+.progress {
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 999px;
+  color: var(--ifm-color-emphasis-800);
+  flex: 0 0 auto;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.35rem 0.65rem;
+}
+
+.result {
+  background: rgba(15, 118, 110, 0.1);
+  border: 1px solid rgba(15, 118, 110, 0.25);
+  border-radius: 8px;
+  color: var(--ifm-color-primary-darkest);
+  font-size: 1.1rem;
+  font-weight: 750;
+  margin-bottom: 1rem;
+  padding: 0.85rem 1rem;
+}
+
+[data-theme='dark'] .result {
+  color: var(--ifm-color-primary-lightest);
+}
+
+.questions {
+  display: grid;
+  gap: 1rem;
+  padding-left: 1.4rem;
+}
+
+.question {
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  padding-bottom: 1rem;
+}
+
+.prompt {
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.options {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.option {
+  align-items: flex-start;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  gap: 0.65rem;
+  line-height: 1.5;
+  padding: 0.7rem 0.8rem;
+}
+
+.option:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+.option input {
+  margin-top: 0.32rem;
+}
+
+.correct {
+  background: rgba(15, 118, 110, 0.1);
+  border-color: var(--ifm-color-primary);
+}
+
+.incorrect {
+  background: rgba(220, 38, 38, 0.08);
+  border-color: #dc2626;
+}
+
+.explanation {
+  color: var(--ifm-color-emphasis-800);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin-top: 0.75rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 640px) {
+  .summary {
+    display: block;
+  }
+
+  .progress {
+    display: inline-block;
+    margin-top: 0.75rem;
+  }
+}

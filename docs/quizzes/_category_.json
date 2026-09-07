@@ -1,0 +1,8 @@
+{
+  "label": "Quizzes",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "按学习阶段自测，每个阶段 20 题。先学概念，再用题目检查自己是否真的能解释和应用。"
+  }
+}

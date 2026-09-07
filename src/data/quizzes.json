@@ -1,0 +1,1466 @@
+[
+  {
+    "id": "core-concepts",
+    "title": "Core Concepts Quiz",
+    "description": "测试电压、电流、电阻、功率、串联、并联和用电量。",
+    "questions": [
+      {
+        "prompt": "电压 voltage 最准确的理解是哪一个？",
+        "options": [
+          "两个点之间的电势差",
+          "流过导线的电子数量",
+          "电器消耗的总能量",
+          "断路器的额定容量"
+        ],
+        "answerIndex": 0,
+        "explanation": "电压是两点之间的 potential difference；测电压时必须有两个参考点。",
+        "related": "/docs/core-concepts/mental-model"
+      },
+      {
+        "prompt": "电流 current 的单位是什么？",
+        "options": [
+          "Ampere",
+          "Volt",
+          "Ohm",
+          "Watt-hour"
+        ],
+        "answerIndex": 0,
+        "explanation": "电流单位是 ampere，常写作 A 或 amp。",
+        "related": "/docs/videos/02-electrical-current-explained-ac-dc-fuses-circuit-breake"
+      },
+      {
+        "prompt": "欧姆定律的基本形式是？",
+        "options": [
+          "V = I x R",
+          "P = V / I",
+          "R = V x I",
+          "I = R / V"
+        ],
+        "answerIndex": 0,
+        "explanation": "Ohm's Law 描述电压、电流、电阻关系：V = I x R。",
+        "related": "/docs/videos/04-ohms-law-explained-the-basics-circuit-theory"
+      },
+      {
+        "prompt": "开路 open circuit 的典型特征是什么？",
+        "options": [
+          "回路断开，正常负载电流不能流动",
+          "电流无限大",
+          "所有负载自动变成并联",
+          "断路器一定跳闸"
+        ],
+        "answerIndex": 0,
+        "explanation": "开路意味着路径不完整，可能测到电压，但没有正常负载电流。",
+        "related": "/docs/videos/01-how-electricity-works-working-principle"
+      },
+      {
+        "prompt": "短路 short circuit 通常意味着什么？",
+        "options": [
+          "电流绕过正常负载走低阻抗路径",
+          "电流完全停止",
+          "电压一定变成 0V 且安全",
+          "负载阻值变大"
+        ],
+        "answerIndex": 0,
+        "explanation": "短路是异常低阻抗路径，可能产生很大的故障电流。",
+        "related": "/docs/safety/electrical-safety"
+      },
+      {
+        "prompt": "串联电路中，下列哪个说法正确？",
+        "options": [
+          "所有元件流过的电流相同",
+          "所有元件两端电压一定相同",
+          "总电阻一定小于任一电阻",
+          "任一支路断开不影响其它支路"
+        ],
+        "answerIndex": 0,
+        "explanation": "串联只有一条路径，所以各元件电流相同。",
+        "related": "/docs/videos/06-dc-series-circuits-explained-the-basics-working-princip"
+      },
+      {
+        "prompt": "并联电路中，下列哪个说法正确？",
+        "options": [
+          "各支路两端电压相同",
+          "各支路电流一定相同",
+          "总电阻等于各电阻直接相加",
+          "只有一条电流路径"
+        ],
+        "answerIndex": 0,
+        "explanation": "并联支路共享同两个节点，所以支路电压相同。",
+        "related": "/docs/videos/07-dc-parallel-circuits-explained-the-basics-how-parallel-"
+      },
+      {
+        "prompt": "power 功率的常用单位是什么？",
+        "options": [
+          "Watt",
+          "Volt",
+          "Ohm",
+          "Hertz"
+        ],
+        "answerIndex": 0,
+        "explanation": "功率单位是 watt，表示单位时间能量转换速率。",
+        "related": "/docs/videos/19-what-is-a-kwh-kilowatt-hour-calculations-energy-bill"
+      },
+      {
+        "prompt": "kWh 表示什么？",
+        "options": [
+          "能量用量",
+          "瞬时电压",
+          "导线电阻",
+          "交流频率"
+        ],
+        "answerIndex": 0,
+        "explanation": "kilowatt-hour 是能量单位，电费账单常按 kWh 计费。",
+        "related": "/docs/videos/19-what-is-a-kwh-kilowatt-hour-calculations-energy-bill"
+      },
+      {
+        "prompt": "1200W 设备运行 2 小时大约消耗多少电能？",
+        "options": [
+          "2.4 kWh",
+          "0.6 kWh",
+          "1200 kWh",
+          "240 kWh"
+        ],
+        "answerIndex": 0,
+        "explanation": "1200W = 1.2kW，运行 2 小时消耗 1.2 x 2 = 2.4 kWh。",
+        "related": "/docs/videos/19-what-is-a-kwh-kilowatt-hour-calculations-energy-bill"
+      },
+      {
+        "prompt": "传统电流方向 conventional current 通常是？",
+        "options": [
+          "从正极到负极",
+          "从负极到正极",
+          "只在 AC 中存在",
+          "只在 ground 中存在"
+        ],
+        "answerIndex": 0,
+        "explanation": "电路图通常使用传统电流方向，从正到负；电子流方向通常相反。",
+        "related": "/docs/videos/05-conventional-current-v-electron-flow-electricity-explai"
+      },
+      {
+        "prompt": "电子实际流动方向在普通金属导体中通常是？",
+        "options": [
+          "从负向正",
+          "从正向负",
+          "永远不移动",
+          "只沿 ground 移动"
+        ],
+        "answerIndex": 0,
+        "explanation": "电子带负电，在 DC 解释中通常从负端向正端移动。",
+        "related": "/docs/videos/05-conventional-current-v-electron-flow-electricity-explai"
+      },
+      {
+        "prompt": "电阻 resistance 变大，在电压不变时电流通常会怎样？",
+        "options": [
+          "变小",
+          "变大",
+          "不变",
+          "变成频率"
+        ],
+        "answerIndex": 0,
+        "explanation": "由 I = V / R，电压固定时电阻越大电流越小。",
+        "related": "/docs/videos/04-ohms-law-explained-the-basics-circuit-theory"
+      },
+      {
+        "prompt": "负载 load 的作用是什么？",
+        "options": [
+          "把电能转换成光、热、运动等",
+          "专门保护人体触电",
+          "只负责接地",
+          "让所有电流消失"
+        ],
+        "answerIndex": 0,
+        "explanation": "负载是消耗或转换电能的设备，比如灯、加热器、电机。",
+        "related": "/docs/core-concepts/mental-model"
+      },
+      {
+        "prompt": "为什么不能只说“这根线有 120V”？",
+        "options": [
+          "电压必须相对另一个点测量",
+          "120V 只能在电池上出现",
+          "导线永远没有电压",
+          "万用表不能测电压"
+        ],
+        "answerIndex": 0,
+        "explanation": "电压是两个点之间的差值，必须说明相对 neutral、ground 或另一个 hot。",
+        "related": "/docs/videos/03-voltage-explained-what-is-voltage-basic-electricity-pot"
+      },
+      {
+        "prompt": "并联支路增加时，总电流通常会怎样？",
+        "options": [
+          "增加",
+          "一定减少",
+          "一定不变",
+          "变成 DC"
+        ],
+        "answerIndex": 0,
+        "explanation": "更多并联负载会提供更多电流路径，总电流通常增加。",
+        "related": "/docs/videos/07-dc-parallel-circuits-explained-the-basics-how-parallel-"
+      },
+      {
+        "prompt": "串联中一个元件断开，结果通常是？",
+        "options": [
+          "整个回路停止工作",
+          "只有这个元件电流变大",
+          "其它元件仍正常工作",
+          "电压消失所以绝对安全"
+        ],
+        "answerIndex": 0,
+        "explanation": "串联只有一条路径，任一点断开都会打断整个回路。",
+        "related": "/docs/videos/06-dc-series-circuits-explained-the-basics-working-princip"
+      },
+      {
+        "prompt": "电流过大会主要带来什么风险？",
+        "options": [
+          "导线和设备过热、火灾或伤害",
+          "电费一定降低",
+          "电压自动变安全",
+          "GFCI 永远不会动作"
+        ],
+        "answerIndex": 0,
+        "explanation": "过大电流会产生热，可能损坏导线绝缘、设备并造成火灾。",
+        "related": "/docs/safety/electrical-safety"
+      },
+      {
+        "prompt": "学习电工概念时最重要的第一张图应该包含什么？",
+        "options": [
+          "电源、路径、负载、保护装置",
+          "只包含插座外观",
+          "只包含电费价格",
+          "只包含工具品牌"
+        ],
+        "answerIndex": 0,
+        "explanation": "建立系统模型时先找电源、导体路径、负载和保护装置。",
+        "related": "/docs/core-concepts/mental-model"
+      },
+      {
+        "prompt": "判断题：有电压一定有正常负载电流。",
+        "options": [
+          "错",
+          "对"
+        ],
+        "answerIndex": 0,
+        "explanation": "开路时可能测到电压，但因为路径不完整，没有正常负载电流。",
+        "related": "/docs/core-concepts/mental-model"
+      }
+    ]
+  },
+  {
+    "id": "us-residential",
+    "title": "US Residential Quiz",
+    "description": "测试美国住宅 120/240V、hot、neutral、ground、插座和多控开关。",
+    "questions": [
+      {
+        "prompt": "美国住宅 split-phase 中，hot-to-neutral 通常约为？",
+        "options": [
+          "120V",
+          "240V",
+          "12V",
+          "480V"
+        ],
+        "answerIndex": 0,
+        "explanation": "任一 hot leg 到 neutral 通常约 120V。",
+        "related": "/docs/us-residential/split-phase"
+      },
+      {
+        "prompt": "两个 hot legs 之间通常约为？",
+        "options": [
+          "240V",
+          "120V",
+          "24V",
+          "0V"
+        ],
+        "answerIndex": 0,
+        "explanation": "两个相反相位的 hot legs 之间通常约 240V。",
+        "related": "/docs/videos/24-120v-240v-electricity-explained-split-phase-3-wire-elec"
+      },
+      {
+        "prompt": "neutral 的主要功能是？",
+        "options": [
+          "正常工作电流的回流路径",
+          "故障时唯一保护人体的装置",
+          "所有金属盒子的装饰线",
+          "只用于三相系统"
+        ],
+        "answerIndex": 0,
+        "explanation": "neutral 是正常回流导体。",
+        "related": "/docs/videos/25-ground-neutral-and-hot-wires-explained-electrical-engin"
+      },
+      {
+        "prompt": "equipment grounding conductor 通常用于？",
+        "options": [
+          "故障保护路径",
+          "正常负载回流路径",
+          "增加灯的亮度",
+          "降低电费"
+        ],
+        "answerIndex": 0,
+        "explanation": "接地导体通常不承载正常电流，故障时提供低阻抗路径。",
+        "related": "/docs/us-residential/split-phase"
+      },
+      {
+        "prompt": "黄铜色插座端子通常接什么？",
+        "options": [
+          "Hot",
+          "Neutral",
+          "Ground",
+          "Traveler"
+        ],
+        "answerIndex": 0,
+        "explanation": "北美插座里 brass terminal 通常接 hot。",
+        "related": "/docs/wiring-patterns/switches-and-receptacles"
+      },
+      {
+        "prompt": "银色插座端子通常接什么？",
+        "options": [
+          "Neutral",
+          "Hot",
+          "Ground",
+          "Common"
+        ],
+        "answerIndex": 0,
+        "explanation": "silver terminal 通常接 neutral。",
+        "related": "/docs/videos/35-how-do-power-outlets-work"
+      },
+      {
+        "prompt": "绿色插座端子通常接什么？",
+        "options": [
+          "Ground",
+          "Hot",
+          "Neutral",
+          "Switched leg"
+        ],
+        "answerIndex": 0,
+        "explanation": "green terminal 通常用于 equipment grounding conductor。",
+        "related": "/docs/videos/17-how-receptacles-work-the-basic-working-principle-explai"
+      },
+      {
+        "prompt": "break-off tab 的作用是什么？",
+        "options": [
+          "连接或分离同侧上下插孔端子",
+          "保护人体触电",
+          "检测漏电",
+          "改变电源频率"
+        ],
+        "answerIndex": 0,
+        "explanation": "插座同侧上下端子常由 tab 相连，拆掉可实现分控或不同供电配置。",
+        "related": "/docs/videos/35-how-do-power-outlets-work"
+      },
+      {
+        "prompt": "three-way switch 最关键的端子之一是？",
+        "options": [
+          "Common",
+          "Neutral sensor",
+          "VFD bus",
+          "Cathode"
+        ],
+        "answerIndex": 0,
+        "explanation": "三路开关要识别 common 和 travelers。",
+        "related": "/docs/videos/15-3-way-switches-explained-how-to-wire-3-way-light-switch"
+      },
+      {
+        "prompt": "traveler wires 出现在什么场景最常见？",
+        "options": [
+          "三路/四路照明控制",
+          "普通单插座接地",
+          "电池串联",
+          "二极管整流"
+        ],
+        "answerIndex": 0,
+        "explanation": "traveler 用于多位置开关之间切换电流路径。",
+        "related": "/docs/wiring-patterns/switches-and-receptacles"
+      },
+      {
+        "prompt": "four-way switch 通常放在哪里？",
+        "options": [
+          "两个 three-way switch 之间",
+          "service transformer 内部",
+          "GFCI 内部按钮旁",
+          "电池正负极之间"
+        ],
+        "answerIndex": 0,
+        "explanation": "四路开关插在两个三路开关之间，用于三个或更多位置控制。",
+        "related": "/docs/videos/18-four-way-switching-explained-how-to-wire-4-way-intermed"
+      },
+      {
+        "prompt": "判断题：旧房里只靠线色就能安全判断导线功能。",
+        "options": [
+          "错",
+          "对"
+        ],
+        "answerIndex": 0,
+        "explanation": "旧线路或改线可能不规范，要结合端子、测试、图纸和师傅判断。",
+        "related": "/docs/wiring-patterns/switches-and-receptacles"
+      },
+      {
+        "prompt": "120V 普通插座负载通常连接在哪两者之间？",
+        "options": [
+          "Hot 和 neutral",
+          "两个 grounds",
+          "Neutral 和 ground",
+          "两个 travelers"
+        ],
+        "answerIndex": 0,
+        "explanation": "普通 120V 负载通过 hot 与 neutral 完成正常工作回路。",
+        "related": "/docs/us-residential/split-phase"
+      },
+      {
+        "prompt": "240V 大功率负载通常连接在哪两者之间？",
+        "options": [
+          "两个 hot legs",
+          "hot 和 ground",
+          "neutral 和 ground",
+          "两个 neutrals"
+        ],
+        "answerIndex": 0,
+        "explanation": "许多 240V 负载连接两个 hot legs。",
+        "related": "/docs/videos/24-120v-240v-electricity-explained-split-phase-3-wire-elec"
+      },
+      {
+        "prompt": "two-pole breaker 的重要作用之一是？",
+        "options": [
+          "同时断开两个 hot legs",
+          "把 neutral 变成 ground",
+          "把 AC 变 DC",
+          "测量 kWh"
+        ],
+        "answerIndex": 0,
+        "explanation": "双极断路器用于需要两个 hot legs 的电路，通常联动断开。",
+        "related": "/docs/us-residential/split-phase"
+      },
+      {
+        "prompt": "line 和 load 在现场语境中常表示什么？",
+        "options": [
+          "电源侧和负载侧",
+          "红线和黑线",
+          "高压和低压品牌",
+          "串联和并联公式"
+        ],
+        "answerIndex": 0,
+        "explanation": "line 常指供电来源侧，load 常指被供电设备或下游侧。",
+        "related": "/docs/wiring-patterns/switches-and-receptacles"
+      },
+      {
+        "prompt": "single-phase energy meter 主要记录什么？",
+        "options": [
+          "用电量",
+          "接地电阻颜色",
+          "灯泡品牌",
+          "导线长度"
+        ],
+        "answerIndex": 0,
+        "explanation": "电表记录 energy consumption，账单常按 kWh。",
+        "related": "/docs/videos/23-single-phase-electricity-explained-wiring-diagram-energ"
+      },
+      {
+        "prompt": "判断题：neutral 和 ground 可以在任意盒子里随意接一起。",
+        "options": [
+          "错",
+          "对"
+        ],
+        "answerIndex": 0,
+        "explanation": "neutral-ground bonding 的位置受 code 限制，不能随意混接。",
+        "related": "/docs/us-residential/split-phase"
+      },
+      {
+        "prompt": "多控开关排查时，优先识别什么？",
+        "options": [
+          "common、travelers、line/load",
+          "电容微法数",
+          "VFD 参数",
+          "电池电解液"
+        ],
+        "answerIndex": 0,
+        "explanation": "三路/四路开关逻辑依赖 common、traveler 和 line/load 路径。",
+        "related": "/docs/wiring-patterns/switches-and-receptacles"
+      },
+      {
+        "prompt": "美国住宅电路学习最应该优先关联哪个规范边界？",
+        "options": [
+          "NEC 和 local code",
+          "CSS reset",
+          "NPM semver",
+          "HTTP cache"
+        ],
+        "answerIndex": 0,
+        "explanation": "实际施工必须遵守 NEC、当地 code、许可和持证人员要求。",
+        "related": "/docs/us-residential/split-phase"
+      }
+    ]
+  },
+  {
+    "id": "safety-tools",
+    "title": "Safety & Tools Quiz",
+    "description": "测试 breaker、GFCI、故障路径、万用表、钳形表和安全边界。",
+    "questions": [
+      {
+        "prompt": "普通 circuit breaker 主要保护什么？",
+        "options": [
+          "导线和设备免受过电流损害",
+          "保证人绝不触电",
+          "让 ground 承载正常电流",
+          "降低所有电压"
+        ],
+        "answerIndex": 0,
+        "explanation": "普通断路器的核心职责是过流保护，不等于完整人身触电保护。",
+        "related": "/docs/safety/electrical-safety"
+      },
+      {
+        "prompt": "GFCI 的基本检测逻辑是？",
+        "options": [
+          "比较 hot 和 neutral 电流是否不平衡",
+          "测量电费",
+          "检测导线颜色",
+          "增加电机转速"
+        ],
+        "answerIndex": 0,
+        "explanation": "GFCI 通过电流差判断是否有漏电路径。",
+        "related": "/docs/videos/02-electrical-current-explained-ac-dc-fuses-circuit-breake"
+      },
+      {
+        "prompt": "人体触电时普通 breaker 可能不跳闸，原因之一是？",
+        "options": [
+          "触电电流可能低于断路器快速动作阈值",
+          "breaker 只在 DC 工作",
+          "人体没有电阻",
+          "neutral 会自动断开"
+        ],
+        "answerIndex": 0,
+        "explanation": "危险人体电流可能远小于 15A/20A 断路器的动作电流。",
+        "related": "/docs/videos/38-why-circuit-breakers-don-t-protect-people-electric-shoc"
+      },
+      {
+        "prompt": "测电压时，万用表通常怎样接？",
+        "options": [
+          "跨接两个测试点",
+          "串联断开电路",
+          "只夹住绝缘皮",
+          "接在两个 ground 上一定够用"
+        ],
+        "answerIndex": 0,
+        "explanation": "电压是两点差值，测量时表笔跨接两个点。",
+        "related": "/docs/tools/meters"
+      },
+      {
+        "prompt": "用电流档像测电压一样跨接电源可能怎样？",
+        "options": [
+          "造成短路和仪表损坏/伤害",
+          "提高测量精度",
+          "让 GFCI 变成电表",
+          "没有任何风险"
+        ],
+        "answerIndex": 0,
+        "explanation": "电流档内阻很低，跨接电源可能产生大电流。",
+        "related": "/docs/tools/meters"
+      },
+      {
+        "prompt": "钳形表测某支路电流时应该夹什么？",
+        "options": [
+          "单根导体",
+          "hot 和 neutral 一起",
+          "整根 NM cable 外皮",
+          "插座面板"
+        ],
+        "answerIndex": 0,
+        "explanation": "同时夹 hot 和 neutral 通常会磁场抵消，应夹单根导体。",
+        "related": "/docs/videos/40-clamp-meter-skills-that-make-you-look-like-a-pro"
+      },
+      {
+        "prompt": "同时夹住 hot 和 neutral，钳形表读数常接近 0 的原因是？",
+        "options": [
+          "方向相反的电流磁场抵消",
+          "电路一定没电",
+          "钳形表只能测 DC",
+          "breaker 已经坏了"
+        ],
+        "answerIndex": 0,
+        "explanation": "同一回路出入电流大小相近方向相反，磁场抵消。",
+        "related": "/docs/tools/meters"
+      },
+      {
+        "prompt": "hot-to-ground 故障的危险是什么？",
+        "options": [
+          "可能产生大故障电流、火花和热",
+          "一定安全，因为 ground 存在",
+          "只影响电费",
+          "只会让 LED 变亮"
+        ],
+        "answerIndex": 0,
+        "explanation": "故障路径可能让保护装置动作，但动作前仍很危险。",
+        "related": "/docs/videos/41-i-touched-a-hot-wire-to-ground-here-s-what-happened"
+      },
+      {
+        "prompt": "断电后第一件事应该是什么？",
+        "options": [
+          "验电确认",
+          "直接触摸导体",
+          "换大 breaker",
+          "拆掉 ground"
+        ],
+        "answerIndex": 0,
+        "explanation": "开关或断路器位置不能替代验电确认。",
+        "related": "/docs/safety/electrical-safety"
+      },
+      {
+        "prompt": "PPE 指什么？",
+        "options": [
+          "个人防护装备",
+          "功率因数误差",
+          "并联保护端子",
+          "插座品牌"
+        ],
+        "answerIndex": 0,
+        "explanation": "PPE 是 personal protective equipment，现场安全的一部分。",
+        "related": "/docs/content-audit"
+      },
+      {
+        "prompt": "判断题：GFCI 和 breaker 的保护对象完全一样。",
+        "options": [
+          "错",
+          "对"
+        ],
+        "answerIndex": 0,
+        "explanation": "breaker 主要是过流保护，GFCI 关注漏电不平衡和人员保护。",
+        "related": "/docs/safety/electrical-safety"
+      },
+      {
+        "prompt": "为什么不能模仿视频里的故障实验？",
+        "options": [
+          "真实故障可能产生电弧、火灾和触电风险",
+          "因为视频一定是假的",
+          "因为故障实验没有知识价值",
+          "因为只能在 DC 做"
+        ],
+        "answerIndex": 0,
+        "explanation": "学习目标是理解，不是复现危险。",
+        "related": "/docs/videos/41-i-touched-a-hot-wire-to-ground-here-s-what-happened"
+      },
+      {
+        "prompt": "AFCI 主要关注什么风险？",
+        "options": [
+          "电弧故障",
+          "电费计算",
+          "LED 颜色",
+          "电池容量"
+        ],
+        "answerIndex": 0,
+        "explanation": "AFCI 是 arc-fault circuit interrupter，关注电弧故障风险。",
+        "related": "/docs/glossary"
+      },
+      {
+        "prompt": "仪表 CAT 等级用来帮助判断什么？",
+        "options": [
+          "仪表适用的测量环境和瞬态风险",
+          "电线颜色",
+          "电池容量",
+          "网站构建速度"
+        ],
+        "answerIndex": 0,
+        "explanation": "CAT rating 是仪表安全边界的一部分。",
+        "related": "/docs/tools/meters"
+      },
+      {
+        "prompt": "验电时为什么要用已知带电源验证测试器？",
+        "options": [
+          "确认测试器本身工作正常",
+          "让 breaker 更快跳闸",
+          "改变电压等级",
+          "让 neutral 接地"
+        ],
+        "answerIndex": 0,
+        "explanation": "测试工具失效会带来假安全感，应验证工具有效。",
+        "related": "/docs/safety/electrical-safety"
+      },
+      {
+        "prompt": "判断题：白线 neutral 永远安全，可以直接触摸。",
+        "options": [
+          "错",
+          "对"
+        ],
+        "answerIndex": 0,
+        "explanation": "neutral 是正常回流导体，异常或接错时可能危险。",
+        "related": "/docs/videos/25-ground-neutral-and-hot-wires-explained-electrical-engin"
+      },
+      {
+        "prompt": "短路和过载的区别大致是？",
+        "options": [
+          "短路是异常低阻路径，过载是负载电流超过电路能力",
+          "二者完全一样",
+          "过载只发生在电池",
+          "短路只发生在三相"
+        ],
+        "answerIndex": 0,
+        "explanation": "两者都可能触发过流保护，但机理不同。",
+        "related": "/docs/safety/electrical-safety"
+      },
+      {
+        "prompt": "为什么 breaker 不能替代 lockout/tagout 思维？",
+        "options": [
+          "有人可能误合闸或电路来源不止一个",
+          "breaker 永远不能断电",
+          "lockout 只用于软件",
+          "GFCI 会自动上锁"
+        ],
+        "answerIndex": 0,
+        "explanation": "安全要控制能量来源并确认状态，不能只相信一个开关位置。",
+        "related": "/docs/safety/electrical-safety"
+      },
+      {
+        "prompt": "判断题：低压系统一定没有危险。",
+        "options": [
+          "错",
+          "对"
+        ],
+        "answerIndex": 0,
+        "explanation": "低压电池可输出极大短路电流，电容也可能储能。",
+        "related": "/docs/low-voltage-electronics/electronics-primer"
+      },
+      {
+        "prompt": "安全学习里最重要的习惯是什么？",
+        "options": [
+          "停下来确认边界：断电、验电、工具、PPE、资格",
+          "看到教程就照做",
+          "用更大的 breaker 解决跳闸",
+          "把 ground 当 neutral 用"
+        ],
+        "answerIndex": 0,
+        "explanation": "电工里好的调试习惯必须先有安全边界。",
+        "related": "/docs/safety/electrical-safety"
+      }
+    ]
+  },
+  {
+    "id": "motors-transformers",
+    "title": "Motors & Transformers Quiz",
+    "description": "测试 AC、发电机、变压器、电池、汽车电源和电机。",
+    "questions": [
+      {
+        "prompt": "AC 的核心特征是什么？",
+        "options": [
+          "电压/电流方向周期性变化",
+          "永远只有 12V",
+          "只能存在于电池",
+          "没有频率"
+        ],
+        "answerIndex": 0,
+        "explanation": "Alternating current 会周期性改变方向，通常用频率描述。",
+        "related": "/docs/videos/16-ac-basics-learn-all-about-alternating-current"
+      },
+      {
+        "prompt": "美国电网常见频率是？",
+        "options": [
+          "60 Hz",
+          "50 V",
+          "120 A",
+          "240 Ohm"
+        ],
+        "answerIndex": 0,
+        "explanation": "美国常见交流频率是 60Hz。",
+        "related": "/docs/videos/16-ac-basics-learn-all-about-alternating-current"
+      },
+      {
+        "prompt": "transformer 的基本作用是？",
+        "options": [
+          "通过交流磁场升压或降压",
+          "把 AC 永久变成电池",
+          "只保护人体触电",
+          "测 kWh"
+        ],
+        "answerIndex": 0,
+        "explanation": "变压器通过一次/二次绕组和磁耦合改变电压。",
+        "related": "/docs/motors-transformers/overview"
+      },
+      {
+        "prompt": "变压器为什么需要交流或变化电流？",
+        "options": [
+          "变化磁场才能在二次侧感应电压",
+          "因为 DC 没有电子",
+          "因为 neutral 必须接地",
+          "因为 breaker 要跳闸"
+        ],
+        "answerIndex": 0,
+        "explanation": "电磁感应依赖变化磁场。",
+        "related": "/docs/videos/14-transformers-explained-how-transformers-work"
+      },
+      {
+        "prompt": "step-down transformer 是指？",
+        "options": [
+          "降压变压器",
+          "升压变压器",
+          "漏电保护器",
+          "钳形表"
+        ],
+        "answerIndex": 0,
+        "explanation": "step-down 表示二次侧电压低于一次侧。",
+        "related": "/docs/videos/14-transformers-explained-how-transformers-work"
+      },
+      {
+        "prompt": "电机 motor 的本质是？",
+        "options": [
+          "把电能转换为机械运动",
+          "把电费转换为电压",
+          "只用于 DC",
+          "只用于插座接地"
+        ],
+        "answerIndex": 0,
+        "explanation": "电机通过电流和磁场产生力与转矩。",
+        "related": "/docs/motors-transformers/overview"
+      },
+      {
+        "prompt": "generator 的本质是？",
+        "options": [
+          "把机械能转换为电能",
+          "把 neutral 转换成 ground",
+          "把 breaker 变成 GFCI",
+          "只测电流"
+        ],
+        "answerIndex": 0,
+        "explanation": "发电机利用运动导体和磁场产生感应电压。",
+        "related": "/docs/videos/34-ac-electrical-generator-basics-how-electricity-is-gener"
+      },
+      {
+        "prompt": "DC motor 中 commutator 的作用之一是？",
+        "options": [
+          "帮助换向使转矩持续同方向",
+          "检测 GFCI",
+          "储存电费",
+          "连接 ground 和 neutral"
+        ],
+        "answerIndex": 0,
+        "explanation": "换向器让线圈电流方向随转动切换，保持旋转。",
+        "related": "/docs/videos/11-how-does-an-electric-motor-work-dc-motor-explained"
+      },
+      {
+        "prompt": "三相感应电机依赖什么磁场？",
+        "options": [
+          "旋转磁场",
+          "静止电场",
+          "电池化学场",
+          "网页渲染场"
+        ],
+        "answerIndex": 0,
+        "explanation": "三相定子电流产生旋转磁场，带动转子。",
+        "related": "/docs/videos/13-how-electric-motors-work-3-phase-ac-induction-motors-ac"
+      },
+      {
+        "prompt": "car battery 通常是哪类电池？",
+        "options": [
+          "lead-acid battery",
+          "alkaline AA only",
+          "capacitor bank only",
+          "solar cell only"
+        ],
+        "answerIndex": 0,
+        "explanation": "汽车启动电池通常是铅酸电池。",
+        "related": "/docs/videos/21-how-a-car-battery-works-basic-working-principle"
+      },
+      {
+        "prompt": "汽车启动电机需要什么特点的电源输出？",
+        "options": [
+          "短时间大电流",
+          "极低电流高阻抗",
+          "只要 1mA",
+          "只能 AC 三相"
+        ],
+        "answerIndex": 0,
+        "explanation": "启动电机需要很大的短时电流。",
+        "related": "/docs/videos/21-how-a-car-battery-works-basic-working-principle"
+      },
+      {
+        "prompt": "alternator 产生的电通常要经过什么处理给电池充电？",
+        "options": [
+          "整流和电压调节",
+          "直接接到人体",
+          "变成 ground",
+          "降低到 0V"
+        ],
+        "answerIndex": 0,
+        "explanation": "汽车 alternator 输出 AC，通常经整流和调压后给 DC 系统使用。",
+        "related": "/docs/videos/20-how-alternators-work-automotive-electricity-generator"
+      },
+      {
+        "prompt": "电池串联的主要效果是？",
+        "options": [
+          "提高总电压",
+          "降低所有电压到 0",
+          "只增加频率",
+          "把 DC 变成三相"
+        ],
+        "answerIndex": 0,
+        "explanation": "串联电池电压相加。",
+        "related": "/docs/videos/10-how-batteries-work-battery-electricity-working-principl"
+      },
+      {
+        "prompt": "电池并联通常用于？",
+        "options": [
+          "增加容量/可供电时间",
+          "增加频率",
+          "制造三相",
+          "替代接地"
+        ],
+        "answerIndex": 0,
+        "explanation": "并联电池电压大致相同，容量能力增加。",
+        "related": "/docs/videos/10-how-batteries-work-battery-electricity-working-principl"
+      },
+      {
+        "prompt": "inductor 和这些主题的共同基础是什么？",
+        "options": [
+          "线圈和磁场",
+          "HTML 标签",
+          "电费账单",
+          "插座颜色"
+        ],
+        "answerIndex": 0,
+        "explanation": "电感、继电器线圈、电机绕组、变压器绕组都离不开磁场。",
+        "related": "/docs/videos/09-inductors-explained-the-basics-how-inductors-work-worki"
+      },
+      {
+        "prompt": "back EMF 常和什么有关？",
+        "options": [
+          "线圈电流变化和反向电压",
+          "电费折扣",
+          "GFCI 测试按钮",
+          "插座面板颜色"
+        ],
+        "answerIndex": 0,
+        "explanation": "线圈电流变化时磁场塌陷可能产生反向电压。",
+        "related": "/docs/videos/09-inductors-explained-the-basics-how-inductors-work-worki"
+      },
+      {
+        "prompt": "电机启动电流通常相对运行电流怎样？",
+        "options": [
+          "更大",
+          "永远更小",
+          "完全相同",
+          "不存在"
+        ],
+        "answerIndex": 0,
+        "explanation": "很多电机启动瞬间电流较大，因此保护和启动方式很重要。",
+        "related": "/docs/motors-transformers/overview"
+      },
+      {
+        "prompt": "读设备铭牌 nameplate 时通常要关注？",
+        "options": [
+          "电压、电流、功率/HP、相数、频率",
+          "网页标题",
+          "插座颜色偏好",
+          "YouTube 点赞数"
+        ],
+        "answerIndex": 0,
+        "explanation": "铭牌给出安全接线和保护配置所需的关键额定值。",
+        "related": "/docs/motors-transformers/overview"
+      },
+      {
+        "prompt": "判断题：变压器二次侧一定和一次侧直接电连接。",
+        "options": [
+          "错",
+          "对"
+        ],
+        "answerIndex": 0,
+        "explanation": "很多变压器通过磁耦合传能，一次二次可以电气隔离，具体看设计。",
+        "related": "/docs/videos/14-transformers-explained-how-transformers-work"
+      },
+      {
+        "prompt": "这一阶段对美国电工新手的主要价值是？",
+        "options": [
+          "看懂设备、电机、变压器和低压电源的基础语言",
+          "马上独立维修三相设备",
+          "替代 NEC",
+          "不用再验电"
+        ],
+        "answerIndex": 0,
+        "explanation": "目标是建立系统理解，真实操作仍需资质和监督。",
+        "related": "/docs/motors-transformers/overview"
+      }
+    ]
+  },
+  {
+    "id": "three-phase-industrial",
+    "title": "Three Phase & Industrial Quiz",
+    "description": "测试三相、电压关系、功率因数、VFD、星三角和三相变压器。",
+    "questions": [
+      {
+        "prompt": "三相电 three phase 的三个相位通常相差多少电角度？",
+        "options": [
+          "120 度",
+          "90 度",
+          "180 度",
+          "360 度"
+        ],
+        "answerIndex": 0,
+        "explanation": "三相系统的三个相位彼此相隔约 120 度。",
+        "related": "/docs/three-phase/industrial-basics"
+      },
+      {
+        "prompt": "三相系统常用于？",
+        "options": [
+          "商业/工业大功率负载和电机",
+          "只给手机充电",
+          "只给单节电池充电",
+          "只做 GFCI 测试"
+        ],
+        "answerIndex": 0,
+        "explanation": "三相适合高效率供电和大功率电机。",
+        "related": "/docs/videos/26-how-three-phase-electricity-works-the-basics-explained"
+      },
+      {
+        "prompt": "line voltage 指什么？",
+        "options": [
+          "两条线导体之间的电压",
+          "相线到同一相内部的电阻",
+          "电费价格",
+          "工具品牌"
+        ],
+        "answerIndex": 0,
+        "explanation": "线电压通常是 line-to-line voltage。",
+        "related": "/docs/videos/27-three-phase-electricity-basics-and-calculations-electri"
+      },
+      {
+        "prompt": "phase voltage 指什么？",
+        "options": [
+          "单相绕组/相与中性点之间的电压，取决于连接方式",
+          "三相总电费",
+          "钳形表颜色",
+          "断路器品牌"
+        ],
+        "answerIndex": 0,
+        "explanation": "相电压与绕组或相有关，星形/三角形关系不同。",
+        "related": "/docs/videos/27-three-phase-electricity-basics-and-calculations-electri"
+      },
+      {
+        "prompt": "power factor 描述什么？",
+        "options": [
+          "有功功率与视在功率的关系",
+          "导线颜色准确率",
+          "断路器尺寸",
+          "电池容量"
+        ],
+        "answerIndex": 0,
+        "explanation": "功率因数反映 real power 相对 apparent power 的比例。",
+        "related": "/docs/videos/22-power-factor-explained-the-basics-what-is-power-factor-"
+      },
+      {
+        "prompt": "感性负载常导致什么现象？",
+        "options": [
+          "电压和电流有相位差",
+          "所有电流变成 0",
+          "GFCI 永远失效",
+          "电池自动充电"
+        ],
+        "answerIndex": 0,
+        "explanation": "电机、变压器等感性负载会引入相位差和无功功率。",
+        "related": "/docs/videos/22-power-factor-explained-the-basics-what-is-power-factor-"
+      },
+      {
+        "prompt": "VFD 的主要用途是？",
+        "options": [
+          "控制交流电机速度",
+          "替代所有接地线",
+          "测量 kWh",
+          "把插座变成四路开关"
+        ],
+        "answerIndex": 0,
+        "explanation": "VFD 改变输出频率和电压来控制电机速度。",
+        "related": "/docs/videos/28-variable-frequency-drives-explained-vfd-basics-igbt-inv"
+      },
+      {
+        "prompt": "VFD 内部常见结构顺序是？",
+        "options": [
+          "整流、DC bus、逆变",
+          "GFCI、插座、灯泡",
+          "电池、电解液、开关",
+          "钳形表、breaker、账单"
+        ],
+        "answerIndex": 0,
+        "explanation": "VFD 通常先整流成 DC，再通过逆变输出可控频率。",
+        "related": "/docs/videos/28-variable-frequency-drives-explained-vfd-basics-igbt-inv"
+      },
+      {
+        "prompt": "IGBT 在 VFD 中常做什么？",
+        "options": [
+          "功率开关",
+          "插座接地端",
+          "电费计量",
+          "手动开关面板"
+        ],
+        "answerIndex": 0,
+        "explanation": "IGBT 等功率器件高速开关形成逆变输出。",
+        "related": "/docs/videos/28-variable-frequency-drives-explained-vfd-basics-igbt-inv"
+      },
+      {
+        "prompt": "star-delta starter 的目的之一是？",
+        "options": [
+          "降低三相电机启动电流",
+          "提高人体触电保护",
+          "测量 voltage",
+          "替代所有 breaker"
+        ],
+        "answerIndex": 0,
+        "explanation": "星形启动降低每相电压，从而降低启动电流。",
+        "related": "/docs/videos/29-star-delta-starter-explained-working-principle"
+      },
+      {
+        "prompt": "star-delta 中互锁 interlock 的目的是什么？",
+        "options": [
+          "防止不该同时闭合的接触器同时闭合",
+          "提高网页速度",
+          "增加电池容量",
+          "改变电费单位"
+        ],
+        "answerIndex": 0,
+        "explanation": "互锁可防止星形和三角形接触器错误同时动作。",
+        "related": "/docs/videos/29-star-delta-starter-explained-working-principle"
+      },
+      {
+        "prompt": "三相变压器常见连接方式包括？",
+        "options": [
+          "Wye 和 Delta",
+          "Hot 和 GFCI",
+          "HTML 和 CSS",
+          "Amp 和 kWh"
+        ],
+        "answerIndex": 0,
+        "explanation": "三相变压器常见星形和三角形连接。",
+        "related": "/docs/videos/39-how-3-phase-transformers-work-why-we-need-them"
+      },
+      {
+        "prompt": "balanced load 是指？",
+        "options": [
+          "三相负载大致均衡",
+          "只有一个负载",
+          "电池满电",
+          "所有导线同色"
+        ],
+        "answerIndex": 0,
+        "explanation": "平衡负载让三相电流更均匀，有利于系统运行。",
+        "related": "/docs/videos/26-how-three-phase-electricity-works-the-basics-explained"
+      },
+      {
+        "prompt": "三相内容对住宅新手的优先级通常是？",
+        "options": [
+          "进阶，先理解模型，不独立操作",
+          "第一天必须独立施工",
+          "完全无关永远不用学",
+          "只需要背颜色"
+        ],
+        "answerIndex": 0,
+        "explanation": "三相常见于商业/工业/HVAC，风险更高，属于进阶。",
+        "related": "/docs/three-phase/industrial-basics"
+      },
+      {
+        "prompt": "reactive power 的常用单位是？",
+        "options": [
+          "VAR",
+          "kWh",
+          "Ohm",
+          "Hz only"
+        ],
+        "answerIndex": 0,
+        "explanation": "无功功率常用 VAR 表示。",
+        "related": "/docs/videos/22-power-factor-explained-the-basics-what-is-power-factor-"
+      },
+      {
+        "prompt": "apparent power 常用单位是？",
+        "options": [
+          "VA",
+          "kWh",
+          "Ohm",
+          "GFCI"
+        ],
+        "answerIndex": 0,
+        "explanation": "视在功率常用 volt-ampere，VA。",
+        "related": "/docs/videos/22-power-factor-explained-the-basics-what-is-power-factor-"
+      },
+      {
+        "prompt": "三相电机方向可能通过什么改变？",
+        "options": [
+          "调换任意两相",
+          "把 ground 拆掉",
+          "加大 breaker",
+          "同时夹 hot neutral"
+        ],
+        "answerIndex": 0,
+        "explanation": "许多三相电机可通过调换任意两相改变旋转方向，实际操作需资质。",
+        "related": "/docs/three-phase/industrial-basics"
+      },
+      {
+        "prompt": "为什么三相供电适合大电机？",
+        "options": [
+          "输出功率更平稳，效率高",
+          "因为没有危险",
+          "因为不需要保护",
+          "因为没有磁场"
+        ],
+        "answerIndex": 0,
+        "explanation": "三相系统能提供更平稳的旋转磁场和功率传递。",
+        "related": "/docs/videos/13-how-electric-motors-work-3-phase-ac-induction-motors-ac"
+      },
+      {
+        "prompt": "判断题：VFD 输出端可以随意接任何普通负载。",
+        "options": [
+          "错",
+          "对"
+        ],
+        "answerIndex": 0,
+        "explanation": "VFD 输出是为匹配电机和参数设计，不能随意当普通电源用。",
+        "related": "/docs/videos/28-variable-frequency-drives-explained-vfd-basics-igbt-inv"
+      },
+      {
+        "prompt": "这一阶段最重要的安全态度是？",
+        "options": [
+          "先学模型和术语，不在无授权监督下操作三相/VFD",
+          "看完视频就能独立接 VFD",
+          "用住宅插座练三相",
+          "把 neutral 当第三相"
+        ],
+        "answerIndex": 0,
+        "explanation": "三相和工业控制风险高，需要正规训练和现场监督。",
+        "related": "/docs/three-phase/industrial-basics"
+      }
+    ]
+  },
+  {
+    "id": "low-voltage-electronics",
+    "title": "Low Voltage & Electronics Quiz",
+    "description": "测试二极管、整流、电容、LED、晶体管、光耦、电位器和控制元件。",
+    "questions": [
+      {
+        "prompt": "diode 的基本作用是？",
+        "options": [
+          "主要允许电流单方向通过",
+          "储存大量电费",
+          "保护所有人体触电",
+          "测量频率"
+        ],
+        "answerIndex": 0,
+        "explanation": "二极管具有单向导通特性。",
+        "related": "/docs/videos/08-diodes-explained-the-basics-how-diodes-work-working-pri"
+      },
+      {
+        "prompt": "PN junction 指什么？",
+        "options": [
+          "P 型和 N 型半导体形成的结",
+          "插座和插头连接处",
+          "火线和地线短路点",
+          "电表读数"
+        ],
+        "answerIndex": 0,
+        "explanation": "二极管的核心是 P-N 结。",
+        "related": "/docs/videos/08-diodes-explained-the-basics-how-diodes-work-working-pri"
+      },
+      {
+        "prompt": "rectifier 的作用是？",
+        "options": [
+          "把 AC 整流成脉动 DC",
+          "把 breaker 变 GFCI",
+          "把电费变低",
+          "把 ground 变 neutral"
+        ],
+        "answerIndex": 0,
+        "explanation": "整流器利用二极管控制电流方向。",
+        "related": "/docs/videos/31-full-wave-bridge-rectifier-capacitor-filters-half-wave-"
+      },
+      {
+        "prompt": "capacitor filter 常用于？",
+        "options": [
+          "降低整流后的纹波，使 DC 更平滑",
+          "提高插座电压到 480V",
+          "替代所有保护装置",
+          "控制三路开关"
+        ],
+        "answerIndex": 0,
+        "explanation": "电容滤波利用充放电平滑电压。",
+        "related": "/docs/videos/31-full-wave-bridge-rectifier-capacitor-filters-half-wave-"
+      },
+      {
+        "prompt": "电容 capacitor 储存能量在哪里？",
+        "options": [
+          "电场中",
+          "永久磁铁里",
+          "电费账单里",
+          "绝缘皮颜色里"
+        ],
+        "answerIndex": 0,
+        "explanation": "电容把能量储存在电场中。",
+        "related": "/docs/videos/33-capacitor-calculations-basic-calculations-for-capacitor"
+      },
+      {
+        "prompt": "并联电容的总电容怎样计算？",
+        "options": [
+          "相加",
+          "倒数相加再取倒数",
+          "永远为 0",
+          "等于最大那个"
+        ],
+        "answerIndex": 0,
+        "explanation": "电容并联时容量相加。",
+        "related": "/docs/videos/33-capacitor-calculations-basic-calculations-for-capacitor"
+      },
+      {
+        "prompt": "串联电容的总电容通常会怎样？",
+        "options": [
+          "小于任一单个电容",
+          "大于所有电容总和",
+          "不变",
+          "变成电阻"
+        ],
+        "answerIndex": 0,
+        "explanation": "电容串联总容量会降低，类似电阻并联公式。",
+        "related": "/docs/videos/33-capacitor-calculations-basic-calculations-for-capacitor"
+      },
+      {
+        "prompt": "LED 使用时通常需要注意什么？",
+        "options": [
+          "极性和限流",
+          "只接 240V",
+          "随意短接",
+          "当 breaker 用"
+        ],
+        "answerIndex": 0,
+        "explanation": "LED 有极性并需要限制电流。",
+        "related": "/docs/videos/36-how-led-works-unravel-the-mysteries-of-how-leds-work"
+      },
+      {
+        "prompt": "LED forward voltage 是什么？",
+        "options": [
+          "正向导通时大致的压降",
+          "电费单总额",
+          "断路器脱扣电流",
+          "接地电阻"
+        ],
+        "answerIndex": 0,
+        "explanation": "LED 正向导通时会有特定电压降。",
+        "related": "/docs/videos/36-how-led-works-unravel-the-mysteries-of-how-leds-work"
+      },
+      {
+        "prompt": "current limiting resistor 的作用是？",
+        "options": [
+          "限制 LED 电流避免损坏",
+          "把 AC 变三相",
+          "检测漏电",
+          "给电池充电"
+        ],
+        "answerIndex": 0,
+        "explanation": "限流电阻保护 LED 不被过大电流损坏。",
+        "related": "/docs/videos/36-how-led-works-unravel-the-mysteries-of-how-leds-work"
+      },
+      {
+        "prompt": "transistor 常可作为？",
+        "options": [
+          "电子开关或放大器",
+          "普通插座外壳",
+          "电费单位",
+          "地线颜色"
+        ],
+        "answerIndex": 0,
+        "explanation": "晶体管可用小信号控制较大电流。",
+        "related": "/docs/videos/42-the-strange-discovery-that-made-computers-possible"
+      },
+      {
+        "prompt": "Edison effect 和哪类器件历史有关？",
+        "options": [
+          "真空管/热电子发射",
+          "GFCI 按钮",
+          "三路开关 traveler",
+          "电池并联"
+        ],
+        "answerIndex": 0,
+        "explanation": "Edison effect 与热电子发射和早期真空管有关。",
+        "related": "/docs/videos/42-the-strange-discovery-that-made-computers-possible"
+      },
+      {
+        "prompt": "optocoupler 的主要价值是？",
+        "options": [
+          "用光实现电气隔离",
+          "提高电费",
+          "增加插座孔数",
+          "替代所有导线"
+        ],
+        "answerIndex": 0,
+        "explanation": "光耦让输入输出通过光传递信号，同时电气隔离。",
+        "related": "/docs/videos/32-how-optocouplers-work-opto-isolator-solid-state-relays-"
+      },
+      {
+        "prompt": "solid state relay 和机械继电器相比，常见特点是？",
+        "options": [
+          "用半导体开关，无机械触点",
+          "只能用手拨动",
+          "没有隔离概念",
+          "只用于水管"
+        ],
+        "answerIndex": 0,
+        "explanation": "SSR 使用电子器件切换负载。",
+        "related": "/docs/videos/32-how-optocouplers-work-opto-isolator-solid-state-relays-"
+      },
+      {
+        "prompt": "potentiometer 可以作为？",
+        "options": [
+          "可变电阻或分压器",
+          "漏电保护器",
+          "断路器",
+          "电池电解液"
+        ],
+        "answerIndex": 0,
+        "explanation": "电位器有滑动端，可改变阻值或输出分压。",
+        "related": "/docs/videos/37-how-potentiometer-works-unravel-the-mysteries-of-how-po"
+      },
+      {
+        "prompt": "wiper 是电位器的什么部分？",
+        "options": [
+          "滑动端",
+          "接地导体",
+          "保险丝",
+          "电机转子"
+        ],
+        "answerIndex": 0,
+        "explanation": "wiper 在电阻轨道上移动，改变输出。",
+        "related": "/docs/videos/37-how-potentiometer-works-unravel-the-mysteries-of-how-po"
+      },
+      {
+        "prompt": "relay 的 coil 通电后通常会怎样？",
+        "options": [
+          "产生磁场并改变触点状态",
+          "直接降低电费",
+          "让 LED 不需限流",
+          "让 neutral 变 hot"
+        ],
+        "answerIndex": 0,
+        "explanation": "继电器线圈产生磁场，吸合或释放触点。",
+        "related": "/docs/videos/12-how-relays-work-basic-working-principle-electronics-eng"
+      },
+      {
+        "prompt": "time delay relay 的 on-delay 是？",
+        "options": [
+          "触发后等待设定时间再动作",
+          "断电后永远不复位",
+          "立即把 AC 变 DC",
+          "测量 kWh"
+        ],
+        "answerIndex": 0,
+        "explanation": "on-delay 是通电/触发后延迟动作。",
+        "related": "/docs/videos/30-time-delay-relays-explained-how-timing-relays-work-hvac"
+      },
+      {
+        "prompt": "电子/低压章节对住宅电工新手的定位是？",
+        "options": [
+          "补充理解控制板、传感器和低压模块",
+          "第一优先替代安全章节",
+          "完全可以忽略所有安全",
+          "用来跳过 NEC"
+        ],
+        "answerIndex": 0,
+        "explanation": "它是补充知识，适合后置学习。",
+        "related": "/docs/low-voltage-electronics/electronics-primer"
+      },
+      {
+        "prompt": "判断题：电容断电后一定立刻安全。",
+        "options": [
+          "错",
+          "对"
+        ],
+        "answerIndex": 0,
+        "explanation": "电容可能保留电荷，接触前需要按规范安全放电。",
+        "related": "/docs/low-voltage-electronics/electronics-primer"
+      }
+    ]
+  }
+]

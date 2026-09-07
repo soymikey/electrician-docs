@@ -17,6 +17,7 @@ slug: /
 - 想建立概念：读 [Core Concepts](core-concepts/mental-model.md)
 - 想学美国住宅：读 [US Residential](us-residential/split-phase.md)
 - 想避免危险：读 [Safety](safety/electrical-safety.md)
+- 想自测掌握度：做 [Quizzes](quizzes/core-concepts.mdx)
 - 想查视频：读 [Video Index](video-index.md)
 - 想查英文词：读 [Glossary](glossary.md)
 

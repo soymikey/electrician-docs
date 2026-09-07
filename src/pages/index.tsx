@@ -22,6 +22,11 @@ const paths = [
     href: '/docs/safety/electrical-safety',
   },
   {
+    title: 'Quizzes',
+    description: '每个学习阶段 20 题，提交后显示解释和相关文档链接。',
+    href: '/docs/quizzes/core-concepts',
+  },
+  {
     title: 'Glossary',
     description: '把现场、考试和视频里的英文术语变成可查询的 API reference。',
     href: '/docs/glossary',

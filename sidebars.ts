@@ -95,6 +95,18 @@ const sidebars: SidebarsConfig = {
         'videos/30-time-delay-relays-explained-how-timing-relays-work-hvac',
       ],
     },
+    {
+      type: 'category',
+      label: 'Quizzes',
+      items: [
+        'quizzes/core-concepts',
+        'quizzes/us-residential',
+        'quizzes/safety-tools',
+        'quizzes/motors-transformers',
+        'quizzes/three-phase-industrial',
+        'quizzes/low-voltage-electronics',
+      ],
+    },
     'video-index',
     'glossary',
     'content-audit',
