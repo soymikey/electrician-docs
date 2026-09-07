@@ -1,0 +1,103 @@
+import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
+
+const sidebars: SidebarsConfig = {
+  tutorialSidebar: [
+    'intro',
+    {
+      type: 'category',
+      label: 'Getting Started',
+      items: ['getting-started/quick-start'],
+    },
+    {
+      type: 'category',
+      label: 'Core Concepts',
+      items: [
+        'core-concepts/mental-model',
+        'videos/01-how-electricity-works-working-principle',
+        'videos/03-voltage-explained-what-is-voltage-basic-electricity-pot',
+        'videos/05-conventional-current-v-electron-flow-electricity-explai',
+        'videos/04-ohms-law-explained-the-basics-circuit-theory',
+        'videos/06-dc-series-circuits-explained-the-basics-working-princip',
+        'videos/07-dc-parallel-circuits-explained-the-basics-how-parallel-',
+        'videos/19-what-is-a-kwh-kilowatt-hour-calculations-energy-bill',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'US Residential',
+      items: [
+        'us-residential/split-phase',
+        'wiring-patterns/switches-and-receptacles',
+        'videos/24-120v-240v-electricity-explained-split-phase-3-wire-elec',
+        'videos/25-ground-neutral-and-hot-wires-explained-electrical-engin',
+        'videos/23-single-phase-electricity-explained-wiring-diagram-energ',
+        'videos/17-how-receptacles-work-the-basic-working-principle-explai',
+        'videos/35-how-do-power-outlets-work',
+        'videos/15-3-way-switches-explained-how-to-wire-3-way-light-switch',
+        'videos/18-four-way-switching-explained-how-to-wire-4-way-intermed',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Safety & Tools',
+      items: [
+        'safety/electrical-safety',
+        'tools/meters',
+        'videos/02-electrical-current-explained-ac-dc-fuses-circuit-breake',
+        'videos/38-why-circuit-breakers-don-t-protect-people-electric-shoc',
+        'videos/41-i-touched-a-hot-wire-to-ground-here-s-what-happened',
+        'videos/43-why-this-doesn-t-keep-you-safe',
+        'videos/40-clamp-meter-skills-that-make-you-look-like-a-pro',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Motors & Transformers',
+      items: [
+        'motors-transformers/overview',
+        'videos/16-ac-basics-learn-all-about-alternating-current',
+        'videos/34-ac-electrical-generator-basics-how-electricity-is-gener',
+        'videos/14-transformers-explained-how-transformers-work',
+        'videos/10-how-batteries-work-battery-electricity-working-principl',
+        'videos/21-how-a-car-battery-works-basic-working-principle',
+        'videos/20-how-alternators-work-automotive-electricity-generator',
+        'videos/11-how-does-an-electric-motor-work-dc-motor-explained',
+        'videos/13-how-electric-motors-work-3-phase-ac-induction-motors-ac',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Three Phase & Industrial',
+      items: [
+        'three-phase/industrial-basics',
+        'videos/26-how-three-phase-electricity-works-the-basics-explained',
+        'videos/27-three-phase-electricity-basics-and-calculations-electri',
+        'videos/22-power-factor-explained-the-basics-what-is-power-factor-',
+        'videos/39-how-3-phase-transformers-work-why-we-need-them',
+        'videos/28-variable-frequency-drives-explained-vfd-basics-igbt-inv',
+        'videos/29-star-delta-starter-explained-working-principle',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Low Voltage & Electronics',
+      items: [
+        'low-voltage-electronics/electronics-primer',
+        'videos/08-diodes-explained-the-basics-how-diodes-work-working-pri',
+        'videos/31-full-wave-bridge-rectifier-capacitor-filters-half-wave-',
+        'videos/33-capacitor-calculations-basic-calculations-for-capacitor',
+        'videos/36-how-led-works-unravel-the-mysteries-of-how-leds-work',
+        'videos/42-the-strange-discovery-that-made-computers-possible',
+        'videos/32-how-optocouplers-work-opto-isolator-solid-state-relays-',
+        'videos/37-how-potentiometer-works-unravel-the-mysteries-of-how-po',
+        'videos/09-inductors-explained-the-basics-how-inductors-work-worki',
+        'videos/12-how-relays-work-basic-working-principle-electronics-eng',
+        'videos/30-time-delay-relays-explained-how-timing-relays-work-hvac',
+      ],
+    },
+    'video-index',
+    'glossary',
+  ],
+};
+
+export default sidebars;

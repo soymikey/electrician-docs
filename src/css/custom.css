@@ -1,0 +1,39 @@
+:root {
+  --ifm-color-primary: #0f766e;
+  --ifm-color-primary-dark: #0d665f;
+  --ifm-color-primary-darker: #0b5c56;
+  --ifm-color-primary-darkest: #084a45;
+  --ifm-color-primary-light: #12867d;
+  --ifm-color-primary-lighter: #17968c;
+  --ifm-color-primary-lightest: #22aaa0;
+  --ifm-code-font-size: 92%;
+  --ifm-font-family-base:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', sans-serif;
+  --ifm-heading-font-weight: 750;
+  --docusaurus-highlighted-code-line-bg: rgba(15, 118, 110, 0.12);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #2dd4bf;
+  --ifm-color-primary-dark: #14b8a6;
+  --ifm-color-primary-darker: #0d9488;
+  --ifm-color-primary-darkest: #0f766e;
+  --ifm-color-primary-light: #5eead4;
+  --ifm-color-primary-lighter: #99f6e4;
+  --ifm-color-primary-lightest: #ccfbf1;
+  --docusaurus-highlighted-code-line-bg: rgba(45, 212, 191, 0.16);
+}
+
+.markdown h1 {
+  letter-spacing: 0;
+}
+
+.markdown table {
+  display: table;
+  width: 100%;
+}
+
+.theme-admonition {
+  border-radius: 8px;
+}
