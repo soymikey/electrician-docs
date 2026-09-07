@@ -1,16 +1,16 @@
 ---
 id: 21-how-a-car-battery-works-basic-working-principle
-title: "21. How A Car Battery Works - basic working principle"
+title: "21. 汽车电池如何工作（Car Battery）"
 sidebar_position: 21
 ---
 
-# 21. How A Car Battery Works - basic working principle
+# 21. 汽车电池如何工作（Car Battery）
 
 - 分类：低压与电源补充
 - 对美国电工初学者优先级：了解，故障排查有用
 - 视频时长：16:01
 - 原视频：[VnPRX5zQWLw](https://www.youtube.com/watch?v=VnPRX5zQWLw&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=21)
-- 本地 transcript：`Electrical_Engineering_Basics_学习资料/21_How A Car Battery Works - basic working principle/transcript_en.txt`，共 870 个字幕片段
+- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
 
 :::note 发布说明
 文档站发布的是学习笔记、术语和视频索引；完整字幕只保留在本地学习资料目录，用于个人复习和按时间戳回看。
@@ -33,11 +33,11 @@ sidebar_position: 21
 ## 复习问题
 - 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
-- 它和 hot、neutral、ground、breaker、GFCI、load、meter 中的哪些概念有关？
+- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter） 中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
-| English | 中文 |
+| 英文 | 中文 |
 |---|---|
 | car battery | 汽车电池 |
 | lead-acid battery | 铅酸电池 |

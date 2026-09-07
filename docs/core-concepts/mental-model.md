@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# Mental Model
+# 核心概念思维模型（Mental Model）
 
 电工入门先不要背零散结论，先建立一张图：电源建立电压，导体提供路径，负载消耗能量，保护装置在异常时切断危险。
 
 ## 核心概念
 
-| English | 中文 | 新手理解 |
+| 英文 | 中文 | 新手理解 |
 |---|---|---|
 | voltage | 电压 | 两点之间的电势差，推动电流的条件 |
 | current | 电流 | 电荷实际流动的速率 |
@@ -25,8 +25,8 @@ sidebar_position: 1
 
 ## 相关视频
 
-- [01. How ELECTRICITY works](../videos/01-how-electricity-works-working-principle.md)
-- [03. Voltage Explained](../videos/03-voltage-explained-what-is-voltage-basic-electricity-pot.md)
-- [04. Ohms Law Explained](../videos/04-ohms-law-explained-the-basics-circuit-theory.md)
-- [06. DC Series circuits](../videos/06-dc-series-circuits-explained-the-basics-working-princip.md)
-- [07. DC parallel circuits](../videos/07-dc-parallel-circuits-explained-the-basics-how-parallel-.md)
+- [01. 电是如何工作的](../videos/01-how-electricity-works-working-principle.md)
+- [03. 电压是什么](../videos/03-voltage-explained-what-is-voltage-basic-electricity-pot.md)
+- [04. 欧姆定律](../videos/04-ohms-law-explained-the-basics-circuit-theory.md)
+- [06. 直流串联电路](../videos/06-dc-series-circuits-explained-the-basics-working-princip.md)
+- [07. 直流并联电路](../videos/07-dc-parallel-circuits-explained-the-basics-how-parallel-.md)

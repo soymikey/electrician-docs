@@ -1,16 +1,16 @@
 ---
 id: 05-conventional-current-v-electron-flow-electricity-explai
-title: "05. Conventional Current v Electron Flow - Electricity explained"
+title: "05. 传统电流方向与电子流方向（Conventional Current vs Electron Flow）"
 sidebar_position: 5
 ---
 
-# 05. Conventional Current v Electron Flow - Electricity explained
+# 05. 传统电流方向与电子流方向（Conventional Current vs Electron Flow）
 
 - 分类：电学基础必修
 - 对美国电工初学者优先级：必须掌握
 - 视频时长：3:23
 - 原视频：[MUh_dOcqgVw](https://www.youtube.com/watch?v=MUh_dOcqgVw&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=5)
-- 本地 transcript：`Electrical_Engineering_Basics_学习资料/05_Conventional Current v Electron Flow - Electricity explained/transcript_en.txt`，共 196 个字幕片段
+- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
 
 :::note 发布说明
 文档站发布的是学习笔记、术语和视频索引；完整字幕只保留在本地学习资料目录，用于个人复习和按时间戳回看。
@@ -28,16 +28,16 @@ sidebar_position: 5
 
 ## 美国电工学习重点
 - 这是后面所有接线、安全和排故的基础。
-- 学习时把概念和 hot、neutral、ground、breaker、load、meter 联系起来。
+- 学习时把概念和 火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、负载（load）、电表/测量仪表（meter） 联系起来。
 
 ## 复习问题
 - 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
-- 它和 hot、neutral、ground、breaker、GFCI、load、meter 中的哪些概念有关？
+- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter） 中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
-| English | 中文 |
+| 英文 | 中文 |
 |---|---|
 | conventional current | 传统电流方向 |
 | electron flow | 电子流 |

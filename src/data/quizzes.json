@@ -1,8 +1,8 @@
 [
   {
     "id": "core-concepts",
-    "title": "Core Concepts Quiz",
-    "description": "测试电压、电流、电阻、功率、串联、并联和用电量。",
+    "title": "核心概念测验",
+    "description": "测试电压（voltage）、电流（current）、电阻（resistance）、功率（power）、串联（series）和并联（parallel）。",
     "questions": [
       {
         "prompt": "电压 voltage 最准确的理解是哪一个？",
@@ -246,8 +246,8 @@
   },
   {
     "id": "us-residential",
-    "title": "US Residential Quiz",
-    "description": "测试美国住宅 120/240V、hot、neutral、ground、插座和多控开关。",
+    "title": "美国住宅电路测验",
+    "description": "测试美国住宅 120/240V 分相供电（split-phase）、火线（hot）、零线（neutral）、地线（ground）、插座和多控开关。",
     "questions": [
       {
         "prompt": "美国住宅 split-phase 中，hot-to-neutral 通常约为？",
@@ -476,7 +476,7 @@
       {
         "prompt": "美国住宅电路学习最应该优先关联哪个规范边界？",
         "options": [
-          "NEC 和 local code",
+          "NEC 和当地规范（local code）",
           "CSS reset",
           "NPM semver",
           "HTTP cache"
@@ -489,8 +489,8 @@
   },
   {
     "id": "safety-tools",
-    "title": "Safety & Tools Quiz",
-    "description": "测试 breaker、GFCI、故障路径、万用表、钳形表和安全边界。",
+    "title": "安全与工具测验",
+    "description": "测试断路器（breaker）、漏电保护（GFCI）、故障路径、万用表（multimeter）、钳形表（clamp meter）和安全边界。",
     "questions": [
       {
         "prompt": "普通 circuit breaker 主要保护什么？",
@@ -730,8 +730,8 @@
   },
   {
     "id": "motors-transformers",
-    "title": "Motors & Transformers Quiz",
-    "description": "测试 AC、发电机、变压器、电池、汽车电源和电机。",
+    "title": "电机与变压器测验",
+    "description": "测试交流电（AC）、发电机（generator）、变压器（transformer）、电池（battery）、汽车电源和电机（motor）。",
     "questions": [
       {
         "prompt": "AC 的核心特征是什么？",
@@ -975,8 +975,8 @@
   },
   {
     "id": "three-phase-industrial",
-    "title": "Three Phase & Industrial Quiz",
-    "description": "测试三相、电压关系、功率因数、VFD、星三角和三相变压器。",
+    "title": "三相与工业电测验",
+    "description": "测试三相电（three-phase）、电压关系、功率因数（power factor）、变频器（VFD）、星三角启动和三相变压器。",
     "questions": [
       {
         "prompt": "三相电 three phase 的三个相位通常相差多少电角度？",
@@ -1220,8 +1220,8 @@
   },
   {
     "id": "low-voltage-electronics",
-    "title": "Low Voltage & Electronics Quiz",
-    "description": "测试二极管、整流、电容、LED、晶体管、光耦、电位器和控制元件。",
+    "title": "低压与电子元件测验",
+    "description": "测试二极管（diode）、整流（rectification）、电容（capacitor）、LED、晶体管（transistor）、光耦（optocoupler）、电位器和控制元件。",
     "questions": [
       {
         "prompt": "diode 的基本作用是？",

@@ -1,16 +1,16 @@
 ---
 id: 31-full-wave-bridge-rectifier-capacitor-filters-half-wave-
-title: "31. Full Wave Bridge Rectifier + Capacitor filters +  half wave rectifier"
+title: "31. 桥式整流、电容滤波与半波整流（Rectifiers）"
 sidebar_position: 31
 ---
 
-# 31. Full Wave Bridge Rectifier + Capacitor filters +  half wave rectifier
+# 31. 桥式整流、电容滤波与半波整流（Rectifiers）
 
 - 分类：电子与低压补充
 - 对美国电工初学者优先级：了解，后面再学
 - 视频时长：18:59
 - 原视频：[RiRyzLl4Y8U](https://www.youtube.com/watch?v=RiRyzLl4Y8U&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=31)
-- 本地 transcript：`Electrical_Engineering_Basics_学习资料/31_Full Wave Bridge Rectifier + Capacitor filters + half wave rectifier/transcript_en.txt`，共 996 个字幕片段
+- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
 
 :::note 发布说明
 文档站发布的是学习笔记、术语和视频索引；完整字幕只保留在本地学习资料目录，用于个人复习和按时间戳回看。
@@ -33,11 +33,11 @@ sidebar_position: 31
 ## 复习问题
 - 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
-- 它和 hot、neutral、ground、breaker、GFCI、load、meter 中的哪些概念有关？
+- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter） 中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
-| English | 中文 |
+| 英文 | 中文 |
 |---|---|
 | half-wave rectifier | 半波整流 |
 | full-wave bridge rectifier | 全波桥式整流 |

@@ -1,26 +1,26 @@
 ---
 id: 41-i-touched-a-hot-wire-to-ground-here-s-what-happened
-title: "41. I Touched a Hot Wire to Ground… Here’s What Happened"
+title: "41. 火线碰地会发生什么（Hot Wire to Ground）"
 sidebar_position: 41
 ---
 
-# 41. I Touched a Hot Wire to Ground… Here’s What Happened
+# 41. 火线碰地会发生什么（Hot Wire to Ground）
 
 - 分类：安全、保护与工具
 - 对美国电工初学者优先级：必须掌握
 - 视频时长：12:54
 - 原视频：[Qi0ynSQw-wc](https://www.youtube.com/watch?v=Qi0ynSQw-wc&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=41)
-- 本地 transcript：`Electrical_Engineering_Basics_学习资料/41_I Touched a Hot Wire to Ground… Here’s What Happened/transcript_en.txt`，共 602 个字幕片段
+- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
 
 :::note 发布说明
 文档站发布的是学习笔记、术语和视频索引；完整字幕只保留在本地学习资料目录，用于个人复习和按时间戳回看。
 :::
 
 ## 学习目标
-通过 hot-to-ground 故障案例理解故障电流路径、保护动作和不要模仿实验的原因。
+通过 火线（hot）-to-地线（ground） 故障案例理解故障电流路径、保护动作和不要模仿实验的原因。
 
 ## 核心知识点
-- hot 接触 ground 会形成故障电流路径。
+- 火线（hot） 接触 地线（ground） 会形成故障电流路径。
 - 故障电流大小取决于电源阻抗、导线阻抗和保护装置。
 - 断路器可能跳闸，但跳闸前仍可能出现火花、热和电弧风险。
 - 设备接地导体的目的不是正常载流，而是故障时帮助快速清除故障。
@@ -33,11 +33,11 @@ sidebar_position: 41
 ## 复习问题
 - 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
-- 它和 hot、neutral、ground、breaker、GFCI、load、meter 中的哪些概念有关？
+- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter） 中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
-| English | 中文 |
+| 英文 | 中文 |
 |---|---|
 | hot-to-ground fault | 火线对地故障 |
 | short circuit | 短路 |

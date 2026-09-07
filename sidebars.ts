@@ -5,12 +5,12 @@ const sidebars: SidebarsConfig = {
     'intro',
     {
       type: 'category',
-      label: 'Getting Started',
+      label: '入门指南',
       items: ['getting-started/quick-start'],
     },
     {
       type: 'category',
-      label: 'Core Concepts',
+      label: '核心概念',
       items: [
         'core-concepts/mental-model',
         'videos/01-how-electricity-works-working-principle',
@@ -24,7 +24,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'US Residential',
+      label: '美国住宅电路',
       items: [
         'us-residential/split-phase',
         'wiring-patterns/switches-and-receptacles',
@@ -39,7 +39,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Safety & Tools',
+      label: '安全与工具',
       items: [
         'safety/electrical-safety',
         'tools/meters',
@@ -52,7 +52,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Motors & Transformers',
+      label: '电机与变压器',
       items: [
         'motors-transformers/overview',
         'videos/16-ac-basics-learn-all-about-alternating-current',
@@ -67,7 +67,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Three Phase & Industrial',
+      label: '三相与工业电',
       items: [
         'three-phase/industrial-basics',
         'videos/26-how-three-phase-electricity-works-the-basics-explained',
@@ -80,7 +80,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Low Voltage & Electronics',
+      label: '低压与电子元件',
       items: [
         'low-voltage-electronics/electronics-primer',
         'videos/08-diodes-explained-the-basics-how-diodes-work-working-pri',
@@ -97,7 +97,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Quizzes',
+      label: '阶段测验',
       items: [
         'quizzes/core-concepts',
         'quizzes/us-residential',

@@ -1,16 +1,16 @@
 ---
 id: 34-ac-electrical-generator-basics-how-electricity-is-gener
-title: "34. AC Electrical Generator Basics - How electricity is generated"
+title: "34. 交流发电机基础：电如何产生（AC Generator）"
 sidebar_position: 34
 ---
 
-# 34. AC Electrical Generator Basics - How electricity is generated
+# 34. 交流发电机基础：电如何产生（AC Generator）
 
 - 分类：电机、变压器与控制电路
 - 对美国电工初学者优先级：建议掌握
 - 视频时长：5:56
 - 原视频：[WhATjUHgzxQ](https://www.youtube.com/watch?v=WhATjUHgzxQ&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=34)
-- 本地 transcript：`Electrical_Engineering_Basics_学习资料/34_AC Electrical Generator Basics - How electricity is generated/transcript_en.txt`，共 342 个字幕片段
+- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
 
 :::note 发布说明
 文档站发布的是学习笔记、术语和视频索引；完整字幕只保留在本地学习资料目录，用于个人复习和按时间戳回看。
@@ -33,11 +33,11 @@ sidebar_position: 34
 ## 复习问题
 - 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
-- 它和 hot、neutral、ground、breaker、GFCI、load、meter 中的哪些概念有关？
+- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter） 中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
-| English | 中文 |
+| 英文 | 中文 |
 |---|---|
 | AC generator | 交流发电机 |
 | electromagnetic induction | 电磁感应 |

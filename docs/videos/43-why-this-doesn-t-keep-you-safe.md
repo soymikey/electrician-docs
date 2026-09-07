@@ -1,16 +1,16 @@
 ---
 id: 43-why-this-doesn-t-keep-you-safe
-title: "43. Why This Doesn’t Keep You Safe"
+title: "43. 为什么这不能保证安全（Electrical Safety）"
 sidebar_position: 43
 ---
 
-# 43. Why This Doesn’t Keep You Safe
+# 43. 为什么这不能保证安全（Electrical Safety）
 
 - 分类：安全、保护与工具
 - 对美国电工初学者优先级：必须掌握
 - 视频时长：17:18
 - 原视频：[TUno2IT-KZY](https://www.youtube.com/watch?v=TUno2IT-KZY&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=43)
-- 本地 transcript：`Electrical_Engineering_Basics_学习资料/43_Why This Doesn’t Keep You Safe/transcript_en.txt`，共 830 个字幕片段
+- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
 
 :::note 发布说明
 文档站发布的是学习笔记、术语和视频索引；完整字幕只保留在本地学习资料目录，用于个人复习和按时间戳回看。
@@ -22,7 +22,7 @@ sidebar_position: 43
 ## 核心知识点
 - 视频主题是某种单一保护或接法并不能自动等于安全。
 - 安全必须同时看电压、故障路径、保护装置动作条件和人体可能接触路径。
-- grounding、bonding、GFCI、breaker 各有职责，不能互相替代。
+- 接地（grounding）、等电位连接（bonding）、漏电保护插座/断路器（GFCI）、断路器（breaker） 各有职责，不能互相替代。
 - 新手要把“看起来没电”和“已经验电确认安全”分开。
 - 遇到不确定接线或保护逻辑时，停止操作并查 code 或问持证师傅。
 
@@ -33,11 +33,11 @@ sidebar_position: 43
 ## 复习问题
 - 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
-- 它和 hot、neutral、ground、breaker、GFCI、load、meter 中的哪些概念有关？
+- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter） 中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
-| English | 中文 |
+| 英文 | 中文 |
 |---|---|
 | electrical safety | 电气安全 |
 | grounding | 接地 |

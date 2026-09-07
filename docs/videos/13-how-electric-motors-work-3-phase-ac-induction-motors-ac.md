@@ -1,16 +1,16 @@
 ---
 id: 13-how-electric-motors-work-3-phase-ac-induction-motors-ac
-title: "13. How Electric Motors Work - 3 phase AC induction motors  ac motor"
+title: "13. 三相交流感应电机如何工作（3 Phase AC Induction Motor）"
 sidebar_position: 13
 ---
 
-# 13. How Electric Motors Work - 3 phase AC induction motors  ac motor
+# 13. 三相交流感应电机如何工作（3 Phase AC Induction Motor）
 
 - 分类：三相、工业与商业电工
 - 对美国电工初学者优先级：进阶掌握
 - 视频时长：15:34
 - 原视频：[59HBoIXzX_c](https://www.youtube.com/watch?v=59HBoIXzX_c&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=13)
-- 本地 transcript：`Electrical_Engineering_Basics_学习资料/13_How Electric Motors Work - 3 phase AC induction motors ac motor/transcript_en.txt`，共 674 个字幕片段
+- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
 
 :::note 发布说明
 文档站发布的是学习笔记、术语和视频索引；完整字幕只保留在本地学习资料目录，用于个人复习和按时间戳回看。
@@ -33,11 +33,11 @@ sidebar_position: 13
 ## 复习问题
 - 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
-- 它和 hot、neutral、ground、breaker、GFCI、load、meter 中的哪些概念有关？
+- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter） 中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
-| English | 中文 |
+| 英文 | 中文 |
 |---|---|
 | AC induction motor | 交流感应电机 |
 | three phase | 三相电 |

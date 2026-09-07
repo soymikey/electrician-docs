@@ -1,43 +1,43 @@
 ---
 id: 25-ground-neutral-and-hot-wires-explained-electrical-engin
-title: "25. Ground Neutral and Hot wires explained - electrical engineering grounding ground fault"
+title: "25. 地线、零线与火线（Ground, Neutral, Hot）"
 sidebar_position: 25
 ---
 
-# 25. Ground Neutral and Hot wires explained - electrical engineering grounding ground fault
+# 25. 地线、零线与火线（Ground, Neutral, Hot）
 
 - 分类：美国住宅电路核心
 - 对美国电工初学者优先级：必须掌握
 - 视频时长：11:13
 - 原视频：[P-W42tk-fWc](https://www.youtube.com/watch?v=P-W42tk-fWc&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=25)
-- 本地 transcript：`Electrical_Engineering_Basics_学习资料/25_Ground Neutral and Hot wires explained - electrical engineering grounding ground fault/transcript_en.txt`，共 278 个字幕片段
+- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
 
 :::note 发布说明
 文档站发布的是学习笔记、术语和视频索引；完整字幕只保留在本地学习资料目录，用于个人复习和按时间戳回看。
 :::
 
 ## 学习目标
-准确区分 hot、neutral、ground、ground fault、grounding 和 bonding。
+准确区分 火线（hot）、零线（neutral）、地线（ground）、接地故障（ground fault）、接地（grounding）和 等电位连接（bonding）。
 
 ## 核心知识点
-- hot 是带电导体，提供相对 neutral/ground 的电压。
-- neutral 是正常工作电流回流路径。
-- ground 通常不承载正常工作电流，用于故障保护。
-- ground fault 需要低阻抗故障路径帮助保护装置动作。
-- bonding 让可触及金属部件保持接近同一电位。
+- 火线（hot）是带电导体，提供相对 零线（neutral）/地线（ground） 的电压。
+- 零线（neutral）是正常工作电流回流路径。
+- 地线（ground）通常不承载正常工作电流，用于故障保护。
+- 接地故障（ground fault）需要低阻抗故障路径帮助保护装置动作。
+- 等电位连接（bonding）让可触及金属部件保持接近同一电位。
 
 ## 美国电工学习重点
 - 这是美国住宅电工的核心内容，应优先掌握英文术语和现场对应关系。
-- 真实接线必须遵守 NEC、当地 code、许可范围和师傅监督。
+- 真实接线必须遵守 NEC、当地规范（local code）、许可范围和师傅监督。
 
 ## 复习问题
 - 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
-- 它和 hot、neutral、ground、breaker、GFCI、load、meter 中的哪些概念有关？
+- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter） 中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
-| English | 中文 |
+| 英文 | 中文 |
 |---|---|
 | hot wire | 火线 |
 | neutral wire | 中性线 |

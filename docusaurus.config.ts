@@ -75,13 +75,13 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: '文档',
         },
-        {to: '/docs/video-index', label: 'Videos', position: 'left'},
-        {to: '/docs/glossary', label: 'Glossary', position: 'left'},
+        {to: '/docs/video-index', label: '视频索引', position: 'left'},
+        {to: '/docs/glossary', label: '术语表', position: 'left'},
         {
           href: 'https://www.youtube.com/playlist?list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K',
-          label: 'YouTube Playlist',
+          label: 'YouTube 播放列表',
           position: 'right',
         },
       ],
@@ -90,46 +90,46 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '文档',
           items: [
             {
-              label: 'Getting Started',
+              label: '入门指南',
               to: '/docs/getting-started/quick-start',
             },
             {
-              label: 'Safety',
+              label: '安全',
               to: '/docs/safety/electrical-safety',
             },
             {
-              label: 'Glossary',
+              label: '术语表',
               to: '/docs/glossary',
             },
           ],
         },
         {
-          title: 'Reference',
+          title: '参考',
           items: [
             {
-              label: 'Video Index',
+              label: '视频索引',
               to: '/docs/video-index',
             },
             {
-              label: 'Original Playlist',
+              label: '原始播放列表',
               href: 'https://www.youtube.com/playlist?list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K',
             },
           ],
         },
         {
-          title: 'More',
+          title: '更多',
           items: [
             {
-              label: 'Built with Docusaurus',
+              label: '使用 Docusaurus 构建',
               href: 'https://docusaurus.io/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Personal learning docs. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 个人学习文档。使用 Docusaurus 构建。`,
     },
     prism: {
       theme: prismThemes.github,

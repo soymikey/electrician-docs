@@ -1,23 +1,23 @@
 ---
 id: 02-electrical-current-explained-ac-dc-fuses-circuit-breake
-title: "02. Electrical Current Explained - AC DC, fuses, circuit breakers, multimeter, GFCI, ampere"
+title: "02. 电流基础：交流、直流、保险丝、断路器与 GFCI（Electrical Current）"
 sidebar_position: 2
 ---
 
-# 02. Electrical Current Explained - AC DC, fuses, circuit breakers, multimeter, GFCI, ampere
+# 02. 电流基础：交流、直流、保险丝、断路器与 GFCI（Electrical Current）
 
 - 分类：安全、保护与工具
 - 对美国电工初学者优先级：必须掌握
 - 视频时长：18:45
 - 原视频：[kcL2_D33k3o](https://www.youtube.com/watch?v=kcL2_D33k3o&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=2)
-- 本地 transcript：`Electrical_Engineering_Basics_学习资料/02_Electrical Current Explained - AC DC, fuses, circuit breakers, multimeter, GFCI, ampere/transcript_en.txt`，共 1078 个字幕片段
+- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
 
 :::note 发布说明
 文档站发布的是学习笔记、术语和视频索引；完整字幕只保留在本地学习资料目录，用于个人复习和按时间戳回看。
 :::
 
 ## 学习目标
-把 AC/DC、电流、过流保护、GFCI 和万用表放到同一张安全地图里理解。
+把交流/直流（AC/DC）、电流、过流保护、漏电保护插座/断路器（GFCI）和万用表放到同一张安全地图里理解。
 
 ## 核心知识点
 - 电路需要电源、导体、负载和完整路径。
@@ -33,11 +33,11 @@ sidebar_position: 2
 ## 复习问题
 - 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
-- 它和 hot、neutral、ground、breaker、GFCI、load、meter 中的哪些概念有关？
+- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter） 中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
-| English | 中文 |
+| 英文 | 中文 |
 |---|---|
 | AC | 交流电 |
 | DC | 直流电 |
