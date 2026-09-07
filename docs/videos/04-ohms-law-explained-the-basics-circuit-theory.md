@@ -28,12 +28,49 @@ sidebar_position: 4
 
 ## 美国电工学习重点
 - 这是后面所有接线、安全和排故的基础。
-- 学习时把概念和 火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、负载（load）、电表/测量仪表（meter） 联系起来。
+- 学习时把概念和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、负载（load）、电表/测量仪表（meter）联系起来。
+
+## 本集 5 个问答
+
+<details>
+<summary>1. 这集最重要的概念是什么？</summary>
+
+答：掌握 Ohm’s Law 的 V、I、R 关系，并能用它解释负载电流、压降和发热风险。
+
+</details>
+
+<details>
+<summary>2. 它在现场对应什么？</summary>
+
+答：这是后面所有接线、安全和排故的基础。
+
+</details>
+
+<details>
+<summary>3. 新手最容易误解什么？</summary>
+
+答：不要只背这一集的结论，要把它放回完整回路里看。电路需要电源、导体、负载和完整路径。
+
+</details>
+
+<details>
+<summary>4. 安全边界是什么？</summary>
+
+答：这集内容只能帮助理解和判断风险。真实接线、带电测试、配电箱、240V/三相系统或故障排查，必须先断电、验电，并遵守 NEC、当地规范（local code）和持证人员指导。
+
+</details>
+
+<details>
+<summary>5. 必须记住哪些英文术语？</summary>
+
+答：优先记住 欧姆定律（Ohm’s Law）、电压（voltage）、电流（current）、电阻（resistance）。以后看工具说明、美国规范、视频和现场标签时，这些英文词会反复出现。
+
+</details>
 
 ## 复习问题
 - 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
-- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter） 中的哪些概念有关？
+- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter）中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查

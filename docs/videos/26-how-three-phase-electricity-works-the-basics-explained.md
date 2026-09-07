@@ -30,10 +30,47 @@ sidebar_position: 26
 - 这是商业/工业/HVAC 方向的进阶内容，初学者先理解系统模型。
 - 三相与 VFD 风险更高，不应在无授权和监督下操作。
 
+## 本集 5 个问答
+
+<details>
+<summary>1. 这集最重要的概念是什么？</summary>
+
+答：理解三相电由三个相位组成，以及为什么适合输电和大功率电机。
+
+</details>
+
+<details>
+<summary>2. 它在现场对应什么？</summary>
+
+答：这是商业/工业/HVAC 方向的进阶内容，初学者先理解系统模型。
+
+</details>
+
+<details>
+<summary>3. 新手最容易误解什么？</summary>
+
+答：不要只背这一集的结论，要把它放回完整回路里看。三相电由三个相位相隔约 120 度的交流电组成。
+
+</details>
+
+<details>
+<summary>4. 安全边界是什么？</summary>
+
+答：这集内容只能帮助理解和判断风险。真实接线、带电测试、配电箱、240V/三相系统或故障排查，必须先断电、验电，并遵守 NEC、当地规范（local code）和持证人员指导。
+
+</details>
+
+<details>
+<summary>5. 必须记住哪些英文术语？</summary>
+
+答：优先记住 三相电（three phase）、相位（phase）、线电压（line voltage）、相电压（phase voltage）。以后看工具说明、美国规范、视频和现场标签时，这些英文词会反复出现。
+
+</details>
+
 ## 复习问题
 - 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
-- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter） 中的哪些概念有关？
+- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter）中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查

@@ -20,7 +20,7 @@ sidebar_position: 25
 准确区分 火线（hot）、零线（neutral）、地线（ground）、接地故障（ground fault）、接地（grounding）和 等电位连接（bonding）。
 
 ## 核心知识点
-- 火线（hot）是带电导体，提供相对 零线（neutral）/地线（ground） 的电压。
+- 火线（hot）是带电导体，提供相对零线（neutral）/地线（ground） 的电压。
 - 零线（neutral）是正常工作电流回流路径。
 - 地线（ground）通常不承载正常工作电流，用于故障保护。
 - 接地故障（ground fault）需要低阻抗故障路径帮助保护装置动作。
@@ -30,10 +30,47 @@ sidebar_position: 25
 - 这是美国住宅电工的核心内容，应优先掌握英文术语和现场对应关系。
 - 真实接线必须遵守 NEC、当地规范（local code）、许可范围和师傅监督。
 
+## 本集 5 个问答
+
+<details>
+<summary>1. 这集最重要的概念是什么？</summary>
+
+答：准确区分 火线（hot）、零线（neutral）、地线（ground）、接地故障（ground fault）、接地（grounding）和 等电位连接（bonding）。
+
+</details>
+
+<details>
+<summary>2. 它在现场对应什么？</summary>
+
+答：这是美国住宅电工的核心内容，应优先掌握英文术语和现场对应关系。
+
+</details>
+
+<details>
+<summary>3. 新手最容易误解什么？</summary>
+
+答：不要只背这一集的结论，要把它放回完整回路里看。火线（hot）是带电导体，提供相对零线（neutral）/地线（ground） 的电压。
+
+</details>
+
+<details>
+<summary>4. 安全边界是什么？</summary>
+
+答：这集内容只能帮助理解和判断风险。真实接线、带电测试、配电箱、240V/三相系统或故障排查，必须先断电、验电，并遵守 NEC、当地规范（local code）和持证人员指导。
+
+</details>
+
+<details>
+<summary>5. 必须记住哪些英文术语？</summary>
+
+答：优先记住 火线（hot wire）、中性线（neutral wire）、接地线（ground wire）、接地故障（ground fault）。以后看工具说明、美国规范、视频和现场标签时，这些英文词会反复出现。
+
+</details>
+
 ## 复习问题
 - 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
-- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter） 中的哪些概念有关？
+- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter）中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查

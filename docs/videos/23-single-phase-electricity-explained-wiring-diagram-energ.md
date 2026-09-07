@@ -30,10 +30,47 @@ sidebar_position: 23
 - 这是美国住宅电工的核心内容，应优先掌握英文术语和现场对应关系。
 - 真实接线必须遵守 NEC、当地规范（local code）、许可范围和师傅监督。
 
+## 本集 5 个问答
+
+<details>
+<summary>1. 这集最重要的概念是什么？</summary>
+
+答：理解 single-phase 供电、energy 电表/测量仪表（meter） 和住宅进线图的基本读法。
+
+</details>
+
+<details>
+<summary>2. 它在现场对应什么？</summary>
+
+答：这是美国住宅电工的核心内容，应优先掌握英文术语和现场对应关系。
+
+</details>
+
+<details>
+<summary>3. 新手最容易误解什么？</summary>
+
+答：不要只背这一集的结论，要把它放回完整回路里看。single-phase 视频重点是从供电、计量到配电的路径。
+
+</details>
+
+<details>
+<summary>4. 安全边界是什么？</summary>
+
+答：这集内容只能帮助理解和判断风险。真实接线、带电测试、配电箱、240V/三相系统或故障排查，必须先断电、验电，并遵守 NEC、当地规范（local code）和持证人员指导。
+
+</details>
+
+<details>
+<summary>5. 必须记住哪些英文术语？</summary>
+
+答：优先记住 单相电（single phase）、电表（energy meter）、入户进线（service entrance）、相线（line conductor）。以后看工具说明、美国规范、视频和现场标签时，这些英文词会反复出现。
+
+</details>
+
 ## 复习问题
 - 我能不能用自己的话解释本集主题？
 - 它对应现场里的哪个设备、导线、保护装置或测量动作？
-- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter） 中的哪些概念有关？
+- 它和火线（hot）、零线（neutral）、地线（ground）、断路器（breaker）、漏电保护插座/断路器（GFCI）、负载（load）、电表/测量仪表（meter）中的哪些概念有关？
 - 如果要在真实电路中验证相关现象，第一步安全动作是什么？
 
 ## 术语速查
