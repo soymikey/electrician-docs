@@ -19,7 +19,7 @@ slug: /
 - 想避免危险：读 [安全](safety/electrical-safety.md)
 - 想自测掌握度：做 [阶段测验](quizzes/core-concepts.mdx)
 - 想查视频：读 [视频索引](video-index.md)
-- 想查计算：读 [公式速查](formula-reference.md)
+- 想快速复习公式、电路概念和保护装置：读 [电工速查表](formula-reference.md)
 - 想查英文词：读 [术语表](glossary.md)
 
 ## 学习原则
