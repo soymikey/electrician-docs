@@ -1,0 +1,46 @@
+{
+  "link.title.Docs": {
+    "message": "文档",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Reference": {
+    "message": "参考",
+    "description": "The title of the footer links column with title=Reference in the footer"
+  },
+  "link.title.More": {
+    "message": "更多",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Quick Start": {
+    "message": "入门指南",
+    "description": "The label of footer link with label=Quick Start linking to /docs/getting-started/quick-start"
+  },
+  "link.item.label.Safety": {
+    "message": "安全",
+    "description": "The label of footer link with label=Safety linking to /docs/safety/electrical-safety"
+  },
+  "link.item.label.Glossary": {
+    "message": "术语表",
+    "description": "The label of footer link with label=Glossary linking to /docs/glossary"
+  },
+  "link.item.label.Cheatsheet": {
+    "message": "速查表",
+    "description": "The label of footer link with label=Cheatsheet linking to /docs/formula-reference"
+  },
+  "link.item.label.Video Index": {
+    "message": "视频索引",
+    "description": "The label of footer link with label=Video Index linking to /docs/video-index"
+  },
+  "link.item.label.Original Playlist": {
+    "message": "原始播放列表",
+    "description": "The label of footer link with label=Original Playlist linking to https://www.youtube.com/playlist?list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K"
+  },
+  "link.item.label.Built with Docusaurus": {
+    "message": "使用 Docusaurus 构建",
+    "description": "The label of footer link with label=Built with Docusaurus linking to https://docusaurus.io/"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 个人学习文档。使用 Docusaurus 构建。",
+    "description": "The footer copyright"
+  }
+}

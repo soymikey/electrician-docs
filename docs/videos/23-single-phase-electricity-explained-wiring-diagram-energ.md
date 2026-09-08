@@ -1,65 +1,34 @@
 ---
 id: 23-single-phase-electricity-explained-wiring-diagram-energ
-title: "23. 单相供电与电表接线基础（Single Phase Electricity）"
+title: "23. Single Phase Electricity"
 sidebar_position: 23
 ---
 
-# 23. 单相供电与电表接线基础（Single Phase Electricity）
+# 23. Single Phase Electricity
 
-- 分类：美国住宅电路核心
-- 对美国电工初学者优先级：必须掌握
-- 视频时长：10:10
-- 原视频：[W0_1xRqT8uU](https://www.youtube.com/watch?v=W0_1xRqT8uU&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=23)
-- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
+- Stage: Electrical Engineering Basics
+- Beginner priority: Use this lesson to build practical vocabulary and circuit judgment.
+- Video duration: 10:10
+- Source video: [W0_1xRqT8uU](https://www.youtube.com/watch?v=W0_1xRqT8uU&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=23)
 
-> 本页依据本地已拉取的 YouTube 字幕、中文笔记和术语表整理。本地字幕中可回看这些关键词：电（electricity）、电路（circuit）、负载（load）、导体（conductor）。
+:::danger Safety boundary
+This page is for study notes only. It does not replace NEC requirements, local code, licensing rules, PPE, lockout/tagout, equipment instructions, or qualified supervision.
+:::
 
-## Why：为什么要学这一集
-这一集围绕 **单相供电与电表接线基础（Single Phase Electricity）** 展开。学习目标是：理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
+## Why this lesson matters
 
-它值得学习，不只是因为它是一个单独知识点，而是因为它会影响后面看图、接线、排故、选仪表和判断风险的方式。把概念对应到美国住宅常见 120/240V、插座、开关、配电箱和 grounding/bonding；真实接线必须遵守 NEC、当地 code、许可范围和师傅监督。
+This lesson is part of a beginner path for understanding electricity as a working system: source, conductors, load, return path, fault path, and protection. Keep asking what the circuit is supposed to do, what path current can take, and what device is expected to respond when something goes wrong.
 
-如果只背结论，不理解它为什么成立，到了真实现场就容易把设备外观、导线颜色或单一读数当成答案。课程页的目标是让你即使还没看视频，也能先掌握主线，再回到视频和字幕里补细节。
+## What to focus on
 
-## How：怎么理解这一集
-用固定顺序读这一集：先看它讨论的对象是什么，再看这个对象连接到哪个电源、负载、导体、端子、保护装置或测量动作，最后再判断它和安全边界有什么关系。
+- Identify the source, load, normal current path, and possible fault path.
+- Connect each term to a real field object: receptacle, switch, conductor, breaker, meter, motor, transformer, or control device.
+- Separate concept learning from field permission. Understanding a diagram is not the same as being qualified to work on the equipment.
+- Use the [Cheatsheet](../formula-reference.md) when formulas, protection devices, or measurement tools appear.
 
-复习时可以按三个问题展开：第一，它解决什么现场问题；第二，它依赖哪些基本概念；第三，它错误理解后会造成什么误判。这样读，比把每个 bullet 当成孤立笔记更接近电工现场的思考方式。
+## Vocabulary
 
-英文术语也要同时掌握。本集术语表里的 电（electricity）、电路（circuit）、负载（load）、导体（conductor） 会在字幕、图纸、铭牌、仪表和规范讨论里反复出现。
-
-## What：本集核心知识点
-### Hot 与 Neutral 供电路径
-美国住宅常见系统围绕 hot、neutral、ground 和 120/240V 关系展开。 这类内容的重点是故障时电流能不能沿低阻抗路径回到电源，让保护装置动作。把它和 电（electricity）、电路（circuit）、负载（load） 对上号，不要把接地导体当作正常工作回流线，也不要只看有没有绿色或裸铜线。
-
-### Hot 与 Neutral 供电路径
-hot-to-neutral 通常约 120V，hot-to-hot 通常约 240V。 复习时不要停在定义层面。把它和 电（electricity）、电路（circuit）、负载（load） 对上号，试着用一句话说明它为什么成立、影响哪个部件、现场读图或测量时会改变什么判断。
-
-### Ground 只用于故障保护
-neutral 是正常回流导体，ground 是故障保护路径。 这类内容的重点是故障时电流能不能沿低阻抗路径回到电源，让保护装置动作。把它和 电（electricity）、电路（circuit）、负载（load） 对上号，不要把接地导体当作正常工作回流线，也不要只看有没有绿色或裸铜线。
-
-### 保护装置的动作边界
-配电箱、双极断路器和大功率负载都依赖这些概念。 学习时要分清它对应的风险边界：过电流、漏电差流、接地故障路径或设备失效并不是同一种问题。把它和 电（electricity）、电路（circuit）、负载（load） 对上号，不要把一个保护装置理解成能覆盖所有风险。
-
-### 现场安全前置条件
-必须结合 NEC 和当地规范学习，不能只照视频接线。 这是一条作业边界，不只是学习提醒。把它和 电（electricity）、电路（circuit）、负载（load） 对上号，现场要先确认电源是否隔离、仪表是否合适、自己是否有许可范围，再决定能不能继续。
-
-## 现场怎么用
-- 把概念对应到美国住宅常见 120/240V、插座、开关、配电箱和 grounding/bonding。
-- 真实接线必须遵守 NEC、当地 code、许可范围和师傅监督。
-
-在住宅现场，先把概念落到插座、开关盒、灯具、GFCI、断路器、配电盘、设备铭牌和仪表测量点上。不要只问“这个词是什么意思”，还要问“它在这个盒子、这个面板或这个负载里对应哪一根线、哪一个端子、哪一个保护动作”。
-
-在商业或轻工业现场，同一知识点通常会进入更大的系统，例如多相供电、马达、控制柜、变压器、断开开关和更高故障能量环境。入门阶段不需要一次吃下所有复杂度，但要养成按图纸、铭牌、仪表和规范交叉确认的习惯。
-
-## 常见误区
-- 只记住“美国住宅常见系统围绕 hot、neutral、ground 和 120/240V 关系展开”，但不能把它放回完整回路、负载和保护装置中解释。
-- 把“hot-to-neutral 通常约 120V，hot-to-hot 通常约 240V”当成孤立定义，忽略现场里还要看铭牌、图纸、导线、端子和仪表读数。
-- 只凭导线颜色、设备外观或经验判断，不做断电、验电和回路确认。
-- 把视频里的演示直接当成现场操作步骤，忽略 NEC、local code、PPE、许可范围和持证师傅监督。
-
-## 术语速查
-| 英文 | 中文 |
+| English | Chinese |
 |---|---|
 | electricity | 电 |
 | circuit | 电路 |
@@ -67,57 +36,13 @@ neutral 是正常回流导体，ground 是故障保护路径。 这类内容的�
 | conductor | 导体 |
 | insulator | 绝缘体 |
 
-## 本集自测题
-<details>
-<summary>1. 这一集最核心的学习目标是什么？</summary>
+## Review prompts
 
-答：理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
+1. What is the main object or circuit behavior in this lesson?
+2. Which conductors or components carry normal current?
+3. What could become dangerous if the circuit is miswired, overloaded, or measured incorrectly?
+4. Which protection device or safe-work habit applies here?
 
-</details>
+## Chinese version
 
-<details>
-<summary>2. 复习本集时，应该先抓哪条主线？</summary>
-
-答：美国住宅常见系统围绕 hot、neutral、ground 和 120/240V 关系展开。
-
-</details>
-
-<details>
-<summary>3. 这个概念在美国住宅或商业现场会落到哪里？</summary>
-
-答：把概念对应到美国住宅常见 120/240V、插座、开关、配电箱和 grounding/bonding。
-
-</details>
-
-<details>
-<summary>4. 本集至少要会认哪些英文术语？</summary>
-
-答：电（electricity）、电路（circuit）、负载（load）、导体（conductor）
-
-</details>
-
-<details>
-<summary>5. 新手最容易犯的一个错误是什么？</summary>
-
-答：只记住“美国住宅常见系统围绕 hot、neutral、ground 和 120/240V 关系展开”，但不能把它放回完整回路、负载和保护装置中解释。
-
-</details>
-
-<details>
-<summary>6. 如果想在真实电路里验证相关现象，第一步是什么？</summary>
-
-答：先断电并验电；涉及带电测试、配电箱、240V/三相系统或故障排查时，必须确认 PPE、仪表等级、许可范围和持证人员指导。
-
-</details>
-
-## 学习检查清单
-- 我能不能用自己的话说出这一集为什么重要？
-- 我能不能把核心概念放回电源、负载、回路和保护装置里解释？
-- 我能不能认出并解释 电（electricity）、电路（circuit）、负载（load）？
-- 我能不能说出它在住宅或商业电工现场对应的设备、导线、端子或测量动作？
-- 我能不能指出至少一个新手误区，并说明为什么危险或不可靠？
-
-## 安全提醒
-:::warning
-本页用于学习视频知识点和电工概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。真实作业前先断电、验电，并确认仪表、PPE 和许可范围；涉及带电测试、配电箱、240V/三相负载和故障排查时，不要独自操作。
-:::
+Use the language switcher to open the full Chinese notes for this lesson.

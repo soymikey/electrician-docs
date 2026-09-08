@@ -2,31 +2,31 @@
 sidebar_position: 1
 ---
 
-# 核心概念思维模型（Mental Model）
+# Core Concepts Mental Model
 
-电工入门先不要背零散结论，先建立一张图：电源建立电压，导体提供路径，负载消耗能量，保护装置在异常时切断危险。
+Start with the model before memorizing details: a source establishes voltage, conductors provide paths, loads convert energy, and protection devices respond when current takes a dangerous path or becomes too large.
 
-## 核心概念
+## Core terms
 
-| 英文 | 中文 | 新手理解 |
-|---|---|---|
-| voltage | 电压 | 两点之间的电势差，推动电流的条件 |
-| current | 电流 | 电荷实际流动的速率 |
-| resistance | 电阻 | 限制电流的因素 |
-| power | 功率 | 单位时间消耗或转换的能量 |
-| circuit | 电路 | 电流能走完的闭合路径 |
-| load | 负载 | 把电能转换成光、热、机械运动等的设备 |
+| Term | Beginner meaning |
+|---|---|
+| voltage | Difference in electric potential between two points |
+| current | Actual flow of charge through a path |
+| resistance | Opposition that limits current |
+| power | Rate of energy conversion or consumption |
+| circuit | A complete path that current can travel |
+| load | A device that converts electrical energy into light, heat, motion, or control action |
 
-## 常见错误
+## Common mistakes
 
-- 以为一根线“自己有 120V”。电压永远是两个点之间的测量。
-- 以为有电压就一定有负载电流。开路也可能测到电压。
-- 以为 breaker 跳闸只是麻烦。它是系统告诉你有异常。
+- Thinking one wire “has 120V” by itself. Voltage is always measured between two points.
+- Thinking voltage automatically means useful load current. An open circuit can still show voltage.
+- Treating ground as a normal return conductor. In normal operation, neutral and equipment ground have different jobs.
 
-## 相关视频
+## Related lessons
 
-- [01. 电是如何工作的](../videos/01-how-electricity-works-working-principle.md)
-- [03. 电压是什么](../videos/03-voltage-explained-what-is-voltage-basic-electricity-pot.md)
-- [04. 欧姆定律](../videos/04-ohms-law-explained-the-basics-circuit-theory.md)
-- [06. 直流串联电路](../videos/06-dc-series-circuits-explained-the-basics-working-princip.md)
-- [07. 直流并联电路](../videos/07-dc-parallel-circuits-explained-the-basics-how-parallel-.md)
+- [01. How Electricity Works](../videos/01-how-electricity-works-working-principle.md)
+- [03. Voltage Explained](../videos/03-voltage-explained-what-is-voltage-basic-electricity-pot.md)
+- [04. Ohm's Law](../videos/04-ohms-law-explained-the-basics-circuit-theory.md)
+- [06. DC Series Circuits](../videos/06-dc-series-circuits-explained-the-basics-working-princip.md)
+- [07. DC Parallel Circuits](../videos/07-dc-parallel-circuits-explained-the-basics-how-parallel-.md)

@@ -1,65 +1,34 @@
 ---
 id: 32-how-optocouplers-work-opto-isolator-solid-state-relays-
-title: "32. 光耦、光隔离与固态继电器（Optocouplers）"
+title: "32. Optocouplers"
 sidebar_position: 32
 ---
 
-# 32. 光耦、光隔离与固态继电器（Optocouplers）
+# 32. Optocouplers
 
-- 分类：电机、变压器与控制电路
-- 对美国电工初学者优先级：建议掌握
-- 视频时长：18:07
-- 原视频：[3AVHqV_xASQ](https://www.youtube.com/watch?v=3AVHqV_xASQ&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=32)
-- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
+- Stage: Electrical Engineering Basics
+- Beginner priority: Use this lesson to build practical vocabulary and circuit judgment.
+- Video duration: 18:07
+- Source video: [3AVHqV_xASQ](https://www.youtube.com/watch?v=3AVHqV_xASQ&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=32)
 
-> 本页依据本地已拉取的 YouTube 字幕、中文笔记和术语表整理。本地字幕中可回看这些关键词：继电器（relay）。
+:::danger Safety boundary
+This page is for study notes only. It does not replace NEC requirements, local code, licensing rules, PPE, lockout/tagout, equipment instructions, or qualified supervision.
+:::
 
-## Why：为什么要学这一集
-这一集围绕 **光耦、光隔离与固态继电器（Optocouplers）** 展开。学习目标是：理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
+## Why this lesson matters
 
-它值得学习，不只是因为它是一个单独知识点，而是因为它会影响后面看图、接线、排故、选仪表和判断风险的方式。对 HVAC、控制柜、门铃变压器、电机和继电器排故很有帮助；先会读端子、铭牌和控制图，再谈更复杂的计算。
+This lesson is part of a beginner path for understanding electricity as a working system: source, conductors, load, return path, fault path, and protection. Keep asking what the circuit is supposed to do, what path current can take, and what device is expected to respond when something goes wrong.
 
-如果只背结论，不理解它为什么成立，到了真实现场就容易把设备外观、导线颜色或单一读数当成答案。课程页的目标是让你即使还没看视频，也能先掌握主线，再回到视频和字幕里补细节。
+## What to focus on
 
-## How：怎么理解这一集
-用固定顺序读这一集：先看它讨论的对象是什么，再看这个对象连接到哪个电源、负载、导体、端子、保护装置或测量动作，最后再判断它和安全边界有什么关系。
+- Identify the source, load, normal current path, and possible fault path.
+- Connect each term to a real field object: receptacle, switch, conductor, breaker, meter, motor, transformer, or control device.
+- Separate concept learning from field permission. Understanding a diagram is not the same as being qualified to work on the equipment.
+- Use the [Cheatsheet](../formula-reference.md) when formulas, protection devices, or measurement tools appear.
 
-复习时可以按三个问题展开：第一，它解决什么现场问题；第二，它依赖哪些基本概念；第三，它错误理解后会造成什么误判。这样读，比把每个 bullet 当成孤立笔记更接近电工现场的思考方式。
+## Vocabulary
 
-英文术语也要同时掌握。本集术语表里的 继电器（relay）、线圈（coil）、常开（NO / normally open）、常闭（NC / normally closed） 会在字幕、图纸、铭牌、仪表和规范讨论里反复出现。
-
-## What：本集核心知识点
-### 继电器的线圈与触点
-继电器用线圈控制触点动作。 这类内容要把控制回路和负载回路分开看。把它和 继电器（relay）、线圈（coil）、常开（NO / normally open） 对上号，先判断线圈由什么电压驱动，再看触点控制哪一路负载，这样排故时不会把控制问题误判成负载问题。
-
-### 继电器的线圈与触点
-NO、NC、COM 是读继电器图的关键。 这类内容要把控制回路和负载回路分开看。把它和 继电器（relay）、线圈（coil）、常开（NO / normally open） 对上号，先判断线圈由什么电压驱动，再看触点控制哪一路负载，这样排故时不会把控制问题误判成负载问题。
-
-### 一次侧与二次侧隔离
-控制电路和负载电路可以隔离。 这类内容要把控制回路和负载回路分开看。把它和 继电器（relay）、线圈（coil）、常开（NO / normally open） 对上号，先判断线圈由什么电压驱动，再看触点控制哪一路负载，这样排故时不会把控制问题误判成负载问题。
-
-### 现场安全前置条件
-线圈断电可能产生反向电压。 这类内容要把控制回路和负载回路分开看。把它和 继电器（relay）、线圈（coil）、常开（NO / normally open） 对上号，先判断线圈由什么电压驱动，再看触点控制哪一路负载，这样排故时不会把控制问题误判成负载问题。
-
-### 继电器的线圈与触点
-HVAC、控制柜、泵和风机系统常见继电器。 这类内容要把控制回路和负载回路分开看。把它和 继电器（relay）、线圈（coil）、常开（NO / normally open） 对上号，先判断线圈由什么电压驱动，再看触点控制哪一路负载，这样排故时不会把控制问题误判成负载问题。
-
-## 现场怎么用
-- 对 HVAC、控制柜、门铃变压器、电机和继电器排故很有帮助。
-- 先会读端子、铭牌和控制图，再谈更复杂的计算。
-
-在住宅现场，先把概念落到插座、开关盒、灯具、GFCI、断路器、配电盘、设备铭牌和仪表测量点上。不要只问“这个词是什么意思”，还要问“它在这个盒子、这个面板或这个负载里对应哪一根线、哪一个端子、哪一个保护动作”。
-
-在商业或轻工业现场，同一知识点通常会进入更大的系统，例如多相供电、马达、控制柜、变压器、断开开关和更高故障能量环境。入门阶段不需要一次吃下所有复杂度，但要养成按图纸、铭牌、仪表和规范交叉确认的习惯。
-
-## 常见误区
-- 只记住“继电器用线圈控制触点动作”，但不能把它放回完整回路、负载和保护装置中解释。
-- 把“NO、NC、COM 是读继电器图的关键”当成孤立定义，忽略现场里还要看铭牌、图纸、导线、端子和仪表读数。
-- 只凭导线颜色、设备外观或经验判断，不做断电、验电和回路确认。
-- 把视频里的演示直接当成现场操作步骤，忽略 NEC、local code、PPE、许可范围和持证师傅监督。
-
-## 术语速查
-| 英文 | 中文 |
+| English | Chinese |
 |---|---|
 | relay | 继电器 |
 | coil | 线圈 |
@@ -67,57 +36,13 @@ HVAC、控制柜、泵和风机系统常见继电器。 这类内容要把控制
 | NC / normally closed | 常闭 |
 | COM / common | 公共端 |
 
-## 本集自测题
-<details>
-<summary>1. 这一集最核心的学习目标是什么？</summary>
+## Review prompts
 
-答：理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
+1. What is the main object or circuit behavior in this lesson?
+2. Which conductors or components carry normal current?
+3. What could become dangerous if the circuit is miswired, overloaded, or measured incorrectly?
+4. Which protection device or safe-work habit applies here?
 
-</details>
+## Chinese version
 
-<details>
-<summary>2. 复习本集时，应该先抓哪条主线？</summary>
-
-答：继电器用线圈控制触点动作。
-
-</details>
-
-<details>
-<summary>3. 这个概念在美国住宅或商业现场会落到哪里？</summary>
-
-答：对 HVAC、控制柜、门铃变压器、电机和继电器排故很有帮助。
-
-</details>
-
-<details>
-<summary>4. 本集至少要会认哪些英文术语？</summary>
-
-答：继电器（relay）、线圈（coil）、常开（NO / normally open）、常闭（NC / normally closed）
-
-</details>
-
-<details>
-<summary>5. 新手最容易犯的一个错误是什么？</summary>
-
-答：只记住“继电器用线圈控制触点动作”，但不能把它放回完整回路、负载和保护装置中解释。
-
-</details>
-
-<details>
-<summary>6. 如果想在真实电路里验证相关现象，第一步是什么？</summary>
-
-答：先断电并验电；涉及带电测试、配电箱、240V/三相系统或故障排查时，必须确认 PPE、仪表等级、许可范围和持证人员指导。
-
-</details>
-
-## 学习检查清单
-- 我能不能用自己的话说出这一集为什么重要？
-- 我能不能把核心概念放回电源、负载、回路和保护装置里解释？
-- 我能不能认出并解释 继电器（relay）、线圈（coil）、常开（NO / normally open）？
-- 我能不能说出它在住宅或商业电工现场对应的设备、导线、端子或测量动作？
-- 我能不能指出至少一个新手误区，并说明为什么危险或不可靠？
-
-## 安全提醒
-:::warning
-本页用于学习视频知识点和电工概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。真实作业前先断电、验电，并确认仪表、PPE 和许可范围；涉及带电测试、配电箱、240V/三相负载和故障排查时，不要独自操作。
-:::
+Use the language switcher to open the full Chinese notes for this lesson.

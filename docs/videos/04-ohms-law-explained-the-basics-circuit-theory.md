@@ -1,120 +1,47 @@
 ---
 id: 04-ohms-law-explained-the-basics-circuit-theory
-title: "04. 欧姆定律与基础电路理论（Ohm's Law）"
+title: "04. Ohm's Law"
 sidebar_position: 4
 ---
 
-# 04. 欧姆定律与基础电路理论（Ohm's Law）
+# 04. Ohm's Law
 
-- 分类：电学基础必修
-- 对美国电工初学者优先级：必须掌握
-- 视频时长：10:00
-- 原视频：[HsLLq6Rm5tU](https://www.youtube.com/watch?v=HsLLq6Rm5tU&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=4)
-- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
+- Stage: Electrical Engineering Basics
+- Beginner priority: Use this lesson to build practical vocabulary and circuit judgment.
+- Video duration: 10:00
+- Source video: [HsLLq6Rm5tU](https://www.youtube.com/watch?v=HsLLq6Rm5tU&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=4)
 
-> 本页依据本地已拉取的 YouTube 字幕、中文笔记和术语表整理。本地字幕中可回看这些关键词：电阻（resistance）、功率（power）。
+:::danger Safety boundary
+This page is for study notes only. It does not replace NEC requirements, local code, licensing rules, PPE, lockout/tagout, equipment instructions, or qualified supervision.
+:::
 
-## Why：为什么要学这一集
-这一集讲欧姆定律：电压 V、电流 I、电阻 R 之间的关系。公式 V = I x R 不是考试用符号游戏，而是现场判断负载、电压降、过载和发热的基础语言。你看到一个负载，真正要问的是：它两端电压是多少，内部阻抗多大，因此会拉多少电流。
+## Why this lesson matters
 
-欧姆定律还帮你理解为什么短路危险。正常负载有一定电阻或阻抗，限制电流并把电能转换成有用输出；短路路径阻抗很低，于是在同样电压下电流会暴增，保护装置必须尽快动作。相反，如果连接松动或导线太长，额外电阻会造成压降和发热。
+This lesson is part of a beginner path for understanding electricity as a working system: source, conductors, load, return path, fault path, and protection. Keep asking what the circuit is supposed to do, what path current can take, and what device is expected to respond when something goes wrong.
 
-学习这集时，把公式和现场铭牌联系起来。设备标注 volts、amps、watts，不只是说明书信息，而是告诉你这个设备需要什么供电、会占用多少回路容量，以及导线和断路器能否匹配。
+## What to focus on
 
-## How：怎么理解这一集
-用固定顺序读这一集：先看它讨论的对象是什么，再看这个对象连接到哪个电源、负载、导体、端子、保护装置或测量动作，最后再判断它和安全边界有什么关系。
+- Identify the source, load, normal current path, and possible fault path.
+- Connect each term to a real field object: receptacle, switch, conductor, breaker, meter, motor, transformer, or control device.
+- Separate concept learning from field permission. Understanding a diagram is not the same as being qualified to work on the equipment.
+- Use the [Cheatsheet](../formula-reference.md) when formulas, protection devices, or measurement tools appear.
 
-复习时可以按三个问题展开：第一，它解决什么现场问题；第二，它依赖哪些基本概念；第三，它错误理解后会造成什么误判。这样读，比把每个 bullet 当成孤立笔记更接近电工现场的思考方式。
+## Vocabulary
 
-英文术语也要同时掌握。本集术语表里的 欧姆定律（Ohm’s Law）、电阻（resistance）、瓦特（watt）、功率（power） 会在字幕、图纸、铭牌、仪表和规范讨论里反复出现。
-
-## What：本集核心知识点
-### V = I x R
-电压等于电流乘以电阻。知道其中两个量，就能估算第三个量。现场不一定总是纯电阻负载，但这个关系仍是判断基础。比如同一台电热设备接在额定电压下才会按预期取用电流；电压、阻抗或接线状态变了，读数和发热也会跟着变。
-
-### 功率与发热
-功率表示能量转换速率。P = V x I，电流越大，导线和连接点发热风险越高；松动连接会增加接触电阻，形成局部热点。很多烧焦端子、变色插座和断路器发热，不是因为公式复杂，而是因为电流经过了不该有的高阻连接。
-
-### 电压降
-导线本身也有电阻。长距离、大电流或线径不足时，负载端电压会低于电源端，设备可能启动困难、效率下降或过热。现场听到 voltage drop，不要只想到数字，要想到导线长度、线径、负载电流、接头质量和允许范围。
-
-## 相关公式
-- [欧姆定律与功率公式](../formula-reference.md#基础电路)
-
-## 现场怎么用
-住宅里，欧姆定律会出现在空间加热器、微波炉、空调、干衣机等高功率负载上。一个 1500W 的 120V 负载大约需要 12.5A，这会直接影响 15A 或 20A 支路的容量判断。
-
-商业现场里，照明回路、马达、变压器和长距离馈线都要考虑电流和压降。即使详细计算由规范和设计文件决定，学徒也需要能看懂为什么师傅会关注线径、距离、负载电流和端子温升。
-
-在住宅现场，先把概念落到插座、开关盒、灯具、GFCI、断路器、配电盘、设备铭牌和仪表测量点上。不要只问“这个词是什么意思”，还要问“它在这个盒子、这个面板或这个负载里对应哪一根线、哪一个端子、哪一个保护动作”。
-
-在商业或轻工业现场，同一知识点通常会进入更大的系统，例如多相供电、马达、控制柜、变压器、断开开关和更高故障能量环境。入门阶段不需要一次吃下所有复杂度，但要养成按图纸、铭牌、仪表和规范交叉确认的习惯。
-
-## 常见误区
-- 只背公式，不知道每个字母对应现场哪个测量量。
-- 把 watts 和 amps 混用，忘记电压不同会改变电流。
-- 忽略松动连接产生的额外电阻和热点。
-- 用欧姆档测带电电路，这是危险且会损坏仪表的操作。
-
-## 术语速查
-| 英文 | 中文 |
+| English | Chinese |
 |---|---|
 | Ohm’s Law | 欧姆定律 |
 | resistance | 电阻 |
 | watt | 瓦特 |
 | power | 功率 |
 
-## 本集自测题
-<details>
-<summary>1. 120V、1500W 负载电流约多少？</summary>
+## Review prompts
 
-答：I = P / V = 1500 / 120，约 12.5A。
+1. What is the main object or circuit behavior in this lesson?
+2. Which conductors or components carry normal current?
+3. What could become dangerous if the circuit is miswired, overloaded, or measured incorrectly?
+4. Which protection device or safe-work habit applies here?
 
-</details>
+## Chinese version
 
-<details>
-<summary>2. 为什么连接松动会发热？</summary>
-
-答：松动会增加接触电阻，电流通过时在连接点产生额外功率损耗和热量。
-
-</details>
-
-<details>
-<summary>3. 测电阻前为什么要断电？</summary>
-
-答：欧姆档会由仪表内部供电测量，带电电路会造成错误读数并可能损坏仪表或伤人。
-
-</details>
-
-<details>
-<summary>4. 这一集最核心的学习目标是什么？</summary>
-
-答：理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
-
-</details>
-
-<details>
-<summary>5. 这个概念在美国住宅或商业现场会落到哪里？</summary>
-
-答：住宅里，欧姆定律会出现在空间加热器、微波炉、空调、干衣机等高功率负载上。一个 1500W 的 120V 负载大约需要 12.5A，这会直接影响 15A 或 20A 支路的容量判断。
-
-</details>
-
-<details>
-<summary>6. 如果想在真实电路里验证相关现象，第一步是什么？</summary>
-
-答：先断电并验电；涉及带电测试、配电箱、240V/三相系统或故障排查时，必须确认 PPE、仪表等级、许可范围和持证人员指导。
-
-</details>
-
-## 学习检查清单
-- 我能不能用自己的话说出这一集为什么重要？
-- 我能不能把核心概念放回电源、负载、回路和保护装置里解释？
-- 我能不能认出并解释 欧姆定律（Ohm’s Law）、电阻（resistance）、瓦特（watt）？
-- 我能不能说出它在住宅或商业电工现场对应的设备、导线、端子或测量动作？
-- 我能不能指出至少一个新手误区，并说明为什么危险或不可靠？
-
-## 安全提醒
-:::warning
-本页用于学习视频知识点和电工概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。真实作业前先断电、验电，并确认仪表、PPE 和许可范围；涉及带电测试、配电箱、240V/三相负载和故障排查时，不要独自操作。
-:::
+Use the language switcher to open the full Chinese notes for this lesson.

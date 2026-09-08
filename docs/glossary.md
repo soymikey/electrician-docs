@@ -2,9 +2,9 @@
 sidebar_position: 99
 ---
 
-# 术语表（Glossary）
+# Glossary
 
-| 英文 | 中文 |
+| English | Chinese |
 |---|---|
 | 240V load | 240V 负载 |
 | AC | 交流电 |

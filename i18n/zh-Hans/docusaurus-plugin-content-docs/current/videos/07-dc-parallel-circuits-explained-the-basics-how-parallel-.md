@@ -1,0 +1,122 @@
+---
+id: 07-dc-parallel-circuits-explained-the-basics-how-parallel-
+title: "07. 直流并联电路基础（DC Parallel Circuits）"
+sidebar_position: 7
+---
+
+# 07. 直流并联电路基础（DC Parallel Circuits）
+
+- 分类：电学基础必修
+- 对美国电工初学者优先级：必须掌握
+- 视频时长：16:00
+- 原视频：[5uyJezQNSHw](https://www.youtube.com/watch?v=5uyJezQNSHw&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=7)
+- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
+
+> 本页依据本地已拉取的 YouTube 字幕、中文笔记和术语表整理。本地字幕中可回看这些关键词：并联电路（parallel circuit）。
+
+## Why：为什么要学这一集
+这一集围绕 **直流并联电路基础（DC Parallel Circuits）** 展开。学习目标是：围绕“并联电路中各支路两端电压相同”建立判断框架，能说明它和“总电流等于各支路电流之和”的关系，并把并联电路（parallel circuit）、支路电流（branch current）、等效电阻（equivalent resistance）对应到现场设备、导线、端子、图纸或仪表读数。
+
+它值得学习，不只是因为它是一个单独知识点，而是因为它会影响后面看图、接线、排故、选仪表和判断风险的方式。在《直流并联电路基础（DC Parallel Circuits）》这一页，先把“并联电路中各支路两端电压相同”对应到并联电路（parallel circuit）、支路电流（branch current）、等效电阻（equivalent resistance）、节点（node）和现场测量点，再判断正常路径、异常路径和保护装置；这是后面所有接线、安全和排故的基础；学习时把每个概念和 hot、neutral、ground、breaker、load、meter 联系起来。
+
+如果只背结论，不理解它为什么成立，到了真实现场就容易把设备外观、导线颜色或单一读数当成答案。课程页的目标是让你即使还没看视频，也能先掌握主线，再回到视频和字幕里补细节。
+
+## How：怎么理解这一集
+用固定顺序读这一集：先看它讨论的对象是什么，再看这个对象连接到哪个电源、负载、导体、端子、保护装置或测量动作，最后再判断它和安全边界有什么关系。
+
+复习时可以按三个问题展开：第一，它解决什么现场问题；第二，它依赖哪些基本概念；第三，它错误理解后会造成什么误判。这样读，比把每个 bullet 当成孤立笔记更接近电工现场的思考方式。
+
+英文术语也要同时掌握。本集术语表里的 并联电路（parallel circuit）、支路电流（branch current）、等效电阻（equivalent resistance）、节点（node） 会在字幕、图纸、铭牌、仪表和规范讨论里反复出现。
+
+## What：本集核心知识点
+### 并联支路的电压与电流
+并联电路中各支路两端电压相同。 这类概念最好和测量量一起学：哪里量电压、哪里看电流、负载消耗多少功率、导线和端子会不会发热。把它和 并联电路（parallel circuit）、支路电流（branch current）、等效电阻（equivalent resistance） 对上号，能把数字和现场部件连起来，才算真正掌握。
+
+### 总电流等于各支路电流之和
+总电流等于各支路电流之和。 这类概念最好和测量量一起学：哪里量电压、哪里看电流、负载消耗多少功率、导线和端子会不会发热。把它和 并联电路（parallel circuit）、支路电流（branch current）、等效电阻（equivalent resistance） 对上号，能把数字和现场部件连起来，才算真正掌握。
+
+### 并联支路的电压与电流（2）
+并联增加支路会降低总等效电阻。 这类概念最好和测量量一起学：哪里量电压、哪里看电流、负载消耗多少功率、导线和端子会不会发热。把它和 并联电路（parallel circuit）、支路电流（branch current）、等效电阻（equivalent resistance） 对上号，能把数字和现场部件连起来，才算真正掌握。
+
+### 并联支路的电压与电流（3）
+住宅插座和照明负载通常按并联思路接到支路上。 这条知识点对应的是实际路径。把它和 并联电路（parallel circuit）、支路电流（branch current）、等效电阻（equivalent resistance） 对上号，看图或看设备时，先找电源端、负载端、回流路径和可能的断开点，再判断读数是否合理。
+
+### 故障排查时要分清主干电流和各支路电流
+故障排查时要分清主干电流和各支路电流。 这是排故和安全判断的核心。把它和 并联电路（parallel circuit）、支路电流（branch current）、等效电阻（equivalent resistance） 对上号，先判断正常电流路径和异常故障路径分别在哪里，再看保护装置是否有条件及时动作。
+
+## 相关公式
+- [并联总电阻与支路计算](../formula-reference.md#基础电路)
+
+## 现场怎么用
+- 在《直流并联电路基础（DC Parallel Circuits）》这一页，先把“并联电路中各支路两端电压相同”对应到并联电路（parallel circuit）、支路电流（branch current）、等效电阻（equivalent resistance）、节点（node）和现场测量点，再判断正常路径、异常路径和保护装置。
+- 这是后面所有接线、安全和排故的基础。
+- 学习时把每个概念和 hot、neutral、ground、breaker、load、meter 联系起来。
+
+## 常见误区
+- 只记住“并联电路中各支路两端电压相同”，但不能把它放回完整回路、负载和保护装置中解释。
+- 把“总电流等于各支路电流之和”当成孤立定义，忽略现场里还要看铭牌、图纸、导线、端子和仪表读数。
+- 只凭导线颜色、设备外观或经验判断，不做断电、验电和回路确认。
+- 把视频里的演示直接当成现场操作步骤，忽略 NEC、local code、PPE、许可范围和持证师傅监督。
+
+## 术语速查
+| 英文 | 中文 |
+|---|---|
+| parallel circuit | 并联电路 |
+| branch current | 支路电流 |
+| equivalent resistance | 等效电阻 |
+| node | 节点 |
+
+## 本集自测题
+<details>
+<summary>1. “并联电路中各支路两端电压相同”解决什么判断问题？</summary>
+
+答：它帮助你把“并联电路中各支路两端电压相同”放回电源、负载、回路、端子、保护装置和安全边界之间判断，而不是只背一句定义。
+
+</details>
+
+<details>
+<summary>2. 为什么不能把“总电流等于各支路电流之和”当成孤立口诀？</summary>
+
+答：因为现场还要同时看回路是否闭合、负载是否匹配、保护装置是否适用，以及接线和测量条件是否成立。
+
+</details>
+
+<details>
+<summary>3. 在现场看到 并联电路（parallel circuit） 时，先查什么？</summary>
+
+答：在《直流并联电路基础（DC Parallel Circuits）》这一页，先把“并联电路中各支路两端电压相同”对应到并联电路（parallel circuit）、支路电流（branch current）、等效电阻（equivalent resistance）、节点（node）和现场测量点，再判断正常路径、异常路径和保护装置。
+
+</details>
+
+<details>
+<summary>4. 本页术语至少要会对应哪几组？</summary>
+
+答：并联电路（parallel circuit）、支路电流（branch current）、等效电阻（equivalent resistance）、节点（node）
+
+</details>
+
+<details>
+<summary>5. 围绕“并联电路中各支路两端电压相同”最容易犯什么错？</summary>
+
+答：只记住“并联电路中各支路两端电压相同”，但不能把它放回完整回路、负载和保护装置中解释。
+
+</details>
+
+<details>
+<summary>6. 真实电路里验证前，安全边界是什么？</summary>
+
+答：先断电并验电；涉及带电测试、配电箱、240V/三相系统或故障排查时，必须确认 PPE、仪表等级、许可范围和持证人员指导。
+
+</details>
+
+## 学习检查清单
+- 我能不能用自己的话说出这一集为什么重要？
+- 我能不能把核心概念放回电源、负载、回路和保护装置里解释？
+- 我能不能认出并解释 并联电路（parallel circuit）、支路电流（branch current）、等效电阻（equivalent resistance）？
+- 我能不能说出它在住宅或商业电工现场对应的设备、导线、端子或测量动作？
+- 我能不能指出至少一个新手误区，并说明为什么危险或不可靠？
+
+## 安全提醒
+:::warning
+本页用于学习视频知识点和电工概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。真实作业前先断电、验电，并确认仪表、PPE 和许可范围；涉及带电测试、配电箱、240V/三相负载和故障排查时，不要独自操作。
+:::

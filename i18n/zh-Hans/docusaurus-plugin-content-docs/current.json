@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "入门指南",
+    "description": "The label for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Core Concepts": {
+    "message": "核心概念",
+    "description": "The label for category 'Core Concepts' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.US Residential Circuits": {
+    "message": "美国住宅电路",
+    "description": "The label for category 'US Residential Circuits' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Safety and Tools": {
+    "message": "安全与工具",
+    "description": "The label for category 'Safety and Tools' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Motors and Transformers": {
+    "message": "电机与变压器",
+    "description": "The label for category 'Motors and Transformers' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Three-Phase and Industrial": {
+    "message": "三相与工业电",
+    "description": "The label for category 'Three-Phase and Industrial' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Low-Voltage Electronics": {
+    "message": "低压与电子元件",
+    "description": "The label for category 'Low-Voltage Electronics' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Stage Quizzes": {
+    "message": "阶段测验",
+    "description": "The label for category 'Stage Quizzes' in sidebar 'tutorialSidebar'"
+  }
+}

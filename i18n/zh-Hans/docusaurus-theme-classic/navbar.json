@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "电工学习文档",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Electrician Docs 标志",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "文档",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Video Index": {
+    "message": "视频索引",
+    "description": "Navbar item with label Video Index"
+  },
+  "item.label.Cheatsheet": {
+    "message": "速查表",
+    "description": "Navbar item with label Cheatsheet"
+  },
+  "item.label.Glossary": {
+    "message": "术语表",
+    "description": "Navbar item with label Glossary"
+  },
+  "item.label.YouTube Playlist": {
+    "message": "YouTube 播放列表",
+    "description": "Navbar item with label YouTube Playlist"
+  }
+}

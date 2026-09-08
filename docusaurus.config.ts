@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '美国电工学习文档',
-  tagline: '给前端工程师的 Electrical Engineering Basics 学习路线',
+  title: 'Electrician Docs',
+  tagline: 'A practical Electrical Engineering Basics learning path',
   favicon: 'img/favicon.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -35,12 +35,19 @@ const config: Config = {
     },
   ],
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'en',
+    locales: ['en', 'zh-Hans'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        htmlLang: 'en-US',
+      },
+      'zh-Hans': {
+        label: '中文',
+        htmlLang: 'zh-Hans',
+      },
+    },
   },
 
   presets: [
@@ -84,7 +91,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: '电工学习文档',
+      title: 'Electrician Docs',
       logo: {
         alt: 'Electrician Docs Logo',
         src: 'img/logo.svg',
@@ -94,14 +101,18 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: '文档',
+          label: 'Docs',
         },
-        {to: '/docs/video-index', label: '视频索引', position: 'left'},
-        {to: '/docs/formula-reference', label: '公式速查', position: 'left'},
-        {to: '/docs/glossary', label: '术语表', position: 'left'},
+        {to: '/docs/video-index', label: 'Video Index', position: 'left'},
+        {to: '/docs/formula-reference', label: 'Cheatsheet', position: 'left'},
+        {to: '/docs/glossary', label: 'Glossary', position: 'left'},
         {
           href: 'https://www.youtube.com/playlist?list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K',
-          label: 'YouTube 播放列表',
+          label: 'YouTube Playlist',
+          position: 'right',
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],
@@ -110,50 +121,50 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: '文档',
+          title: 'Docs',
           items: [
             {
-              label: '入门指南',
+              label: 'Quick Start',
               to: '/docs/getting-started/quick-start',
             },
             {
-              label: '安全',
+              label: 'Safety',
               to: '/docs/safety/electrical-safety',
             },
             {
-              label: '术语表',
+              label: 'Glossary',
               to: '/docs/glossary',
             },
             {
-              label: '公式速查',
+              label: 'Cheatsheet',
               to: '/docs/formula-reference',
             },
           ],
         },
         {
-          title: '参考',
+          title: 'Reference',
           items: [
             {
-              label: '视频索引',
+              label: 'Video Index',
               to: '/docs/video-index',
             },
             {
-              label: '原始播放列表',
+              label: 'Original Playlist',
               href: 'https://www.youtube.com/playlist?list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K',
             },
           ],
         },
         {
-          title: '更多',
+          title: 'More',
           items: [
             {
-              label: '使用 Docusaurus 构建',
+              label: 'Built with Docusaurus',
               href: 'https://docusaurus.io/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} 个人学习文档。使用 Docusaurus 构建。`,
+      copyright: `Copyright © ${new Date().getFullYear()} Personal learning docs. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

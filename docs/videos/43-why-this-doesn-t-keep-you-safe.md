@@ -1,63 +1,34 @@
 ---
 id: 43-why-this-doesn-t-keep-you-safe
-title: "43. 为什么这不能保证安全（Electrical Safety）"
+title: "43. Electrical Safety"
 sidebar_position: 43
 ---
 
-# 43. 为什么这不能保证安全（Electrical Safety）
+# 43. Electrical Safety
 
-- 分类：安全、保护与工具
-- 对美国电工初学者优先级：必须掌握
-- 视频时长：17:18
-- 原视频：[TUno2IT-KZY](https://www.youtube.com/watch?v=TUno2IT-KZY&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=43)
-- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
+- Stage: Electrical Engineering Basics
+- Beginner priority: Use this lesson to build practical vocabulary and circuit judgment.
+- Video duration: 17:18
+- Source video: [TUno2IT-KZY](https://www.youtube.com/watch?v=TUno2IT-KZY&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=43)
 
-> 本页依据本地已拉取的 YouTube 字幕、中文笔记和术语表整理。本地字幕中可回看这些关键词：电路（circuit）、负载（load）、导体（conductor）。
+:::danger Safety boundary
+This page is for study notes only. It does not replace NEC requirements, local code, licensing rules, PPE, lockout/tagout, equipment instructions, or qualified supervision.
+:::
 
-## Why：为什么要学这一集
-这一集的核心是：某个单一装置、单一接法或单一读数，看起来像安全，但不能自动等于完整安全。电气安全要同时看电压、人体接触路径、故障电流路径、保护装置动作条件、接地和等电位连接。
+## Why this lesson matters
 
-新手最容易被“表面正常”骗到。例如设备能工作，不代表接地正确；breaker 没跳，不代表不会触电；非接触测电没响，不代表已经完成可靠验电；有 ground，不代表 GFCI 或正确 bonding 可以省略。
+This lesson is part of a beginner path for understanding electricity as a working system: source, conductors, load, return path, fault path, and protection. Keep asking what the circuit is supposed to do, what path current can take, and what device is expected to respond when something goes wrong.
 
-这页应该作为安全复盘页来读：每当你想说“这样应该安全吧”，就把它拆成可验证条件。电源是否断开？是否用合适仪表验过？是否可能有反送电？保护装置是否适合这个风险？接线是否符合 NEC 和 local code？
+## What to focus on
 
-## How：怎么理解这一集
-用固定顺序读这一集：先看它讨论的对象是什么，再看这个对象连接到哪个电源、负载、导体、端子、保护装置或测量动作，最后再判断它和安全边界有什么关系。
+- Identify the source, load, normal current path, and possible fault path.
+- Connect each term to a real field object: receptacle, switch, conductor, breaker, meter, motor, transformer, or control device.
+- Separate concept learning from field permission. Understanding a diagram is not the same as being qualified to work on the equipment.
+- Use the [Cheatsheet](../formula-reference.md) when formulas, protection devices, or measurement tools appear.
 
-复习时可以按三个问题展开：第一，它解决什么现场问题；第二，它依赖哪些基本概念；第三，它错误理解后会造成什么误判。这样读，比把每个 bullet 当成孤立笔记更接近电工现场的思考方式。
+## Vocabulary
 
-英文术语也要同时掌握。本集术语表里的 电（electricity）、电路（circuit）、负载（load）、导体（conductor） 会在字幕、图纸、铭牌、仪表和规范讨论里反复出现。
-
-## What：本集核心知识点
-### 单一保护的边界
-断路器、GFCI、接地、bonding、绝缘、外壳、标识都只覆盖一部分风险。真正安全来自多个条件同时成立。
-
-### 接触电压
-人能接触到的两个点之间如果存在电位差，就可能形成危险电流路径。金属外壳、潮湿地面、管道和梯子都可能改变接触路径。
-
-### 故障路径
-保护装置动作需要故障电流能回到电源。路径阻抗太高、连接错误或 bonding 缺失，都可能让危险电压停留在可触及金属上。
-
-### 验电习惯
-验电不是随便碰一下测试器，而是用合适仪表、正确档位和已知电源验证仪表可用，再确认待测点状态。
-
-## 现场怎么用
-住宅场景中，老房子、改造线路、错误 bootleg ground、共享 neutral、反接插座和失效 GFCI 都可能制造“看起来能用但不安全”的状态。商业场景中，临时电源、发电机、UPS、马达控制柜和多电源设备还会增加反送电风险。
-
-现场判断不要停在“以前一直这样用”。电工要把安全变成可验证流程：识别电源、隔离、锁定挂牌、验电、确认保护装置、按图纸和规范恢复。学习视频能帮你理解为什么，但不能替代现场授权。
-
-在住宅现场，先把概念落到插座、开关盒、灯具、GFCI、断路器、配电盘、设备铭牌和仪表测量点上。不要只问“这个词是什么意思”，还要问“它在这个盒子、这个面板或这个负载里对应哪一根线、哪一个端子、哪一个保护动作”。
-
-在商业或轻工业现场，同一知识点通常会进入更大的系统，例如多相供电、马达、控制柜、变压器、断开开关和更高故障能量环境。入门阶段不需要一次吃下所有复杂度，但要养成按图纸、铭牌、仪表和规范交叉确认的习惯。
-
-## 常见误区
-- 把“没跳闸”“能工作”“测试灯亮”当作安全证明。
-- 相信单一工具读数，不做交叉验证。
-- 忽略同一设备可能有多个电源或控制电源。
-- 看到 ground 线就以为 bonding、GFCI 和断路器都没问题。
-
-## 术语速查
-| 英文 | 中文 |
+| English | Chinese |
 |---|---|
 | electricity | 电 |
 | circuit | 电路 |
@@ -65,57 +36,13 @@ sidebar_position: 43
 | conductor | 导体 |
 | insulator | 绝缘体 |
 
-## 本集自测题
-<details>
-<summary>1. 为什么一个保护装置不能代表完整安全？</summary>
+## Review prompts
 
-答：因为每种装置只针对特定故障条件，其他触电、反送电、错误接线或高阻抗故障仍可能存在。
+1. What is the main object or circuit behavior in this lesson?
+2. Which conductors or components carry normal current?
+3. What could become dangerous if the circuit is miswired, overloaded, or measured incorrectly?
+4. Which protection device or safe-work habit applies here?
 
-</details>
+## Chinese version
 
-<details>
-<summary>2. “看起来没电”和“验电确认无电”有什么区别？</summary>
-
-答：前者是主观观察，后者是用合适仪表和流程验证后的结论。
-
-</details>
-
-<details>
-<summary>3. 遇到不确定接线时第一步是什么？</summary>
-
-答：停止操作，隔离风险，查图纸/规范，并请持证人员确认。
-
-</details>
-
-<details>
-<summary>4. 这一集最核心的学习目标是什么？</summary>
-
-答：理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
-
-</details>
-
-<details>
-<summary>5. 这个概念在美国住宅或商业现场会落到哪里？</summary>
-
-答：住宅场景中，老房子、改造线路、错误 bootleg ground、共享 neutral、反接插座和失效 GFCI 都可能制造“看起来能用但不安全”的状态。商业场景中，临时电源、发电机、UPS、马达控制柜和多电源设备还会增加反送电风险。
-
-</details>
-
-<details>
-<summary>6. 如果想在真实电路里验证相关现象，第一步是什么？</summary>
-
-答：先断电并验电；涉及带电测试、配电箱、240V/三相系统或故障排查时，必须确认 PPE、仪表等级、许可范围和持证人员指导。
-
-</details>
-
-## 学习检查清单
-- 我能不能用自己的话说出这一集为什么重要？
-- 我能不能把核心概念放回电源、负载、回路和保护装置里解释？
-- 我能不能认出并解释 电（electricity）、电路（circuit）、负载（load）？
-- 我能不能说出它在住宅或商业电工现场对应的设备、导线、端子或测量动作？
-- 我能不能指出至少一个新手误区，并说明为什么危险或不可靠？
-
-## 安全提醒
-:::warning
-本页用于学习视频知识点和电工概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。真实作业前先断电、验电，并确认仪表、PPE 和许可范围；涉及带电测试、配电箱、240V/三相负载和故障排查时，不要独自操作。
-:::
+Use the language switcher to open the full Chinese notes for this lesson.

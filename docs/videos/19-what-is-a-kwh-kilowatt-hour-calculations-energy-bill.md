@@ -1,120 +1,47 @@
 ---
 id: 19-what-is-a-kwh-kilowatt-hour-calculations-energy-bill
-title: "19. 千瓦时与电费计算（kWh）"
+title: "19. kWh"
 sidebar_position: 19
 ---
 
-# 19. 千瓦时与电费计算（kWh）
+# 19. kWh
 
-- 分类：电学基础必修
-- 对美国电工初学者优先级：必须掌握
-- 视频时长：6:02
-- 原视频：[SMPhh8gT_1E](https://www.youtube.com/watch?v=SMPhh8gT_1E&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=19)
-- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
+- Stage: Electrical Engineering Basics
+- Beginner priority: Use this lesson to build practical vocabulary and circuit judgment.
+- Video duration: 6:02
+- Source video: [SMPhh8gT_1E](https://www.youtube.com/watch?v=SMPhh8gT_1E&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=19)
 
-> 本页依据本地已拉取的 YouTube 字幕、中文笔记和术语表整理。本地字幕中可回看这些关键词：用电量（consumption）。
+:::danger Safety boundary
+This page is for study notes only. It does not replace NEC requirements, local code, licensing rules, PPE, lockout/tagout, equipment instructions, or qualified supervision.
+:::
 
-## Why：为什么要学这一集
-这一集讲 kWh，也就是千瓦时。它不是功率单位，而是能量单位：功率乘以时间。一个 1kW 的负载运行 1 小时，用电量就是 1kWh；一个 100W 的灯运行 10 小时，同样是 1kWh。
+## Why this lesson matters
 
-kWh 是电费账单的核心语言。电力公司不是按某一瞬间的 watts 收费，而是按一段时间累计消耗的能量收费。理解这一点后，你就能把设备铭牌、运行时间和账单金额连起来，估算某个负载到底花多少钱。
+This lesson is part of a beginner path for understanding electricity as a working system: source, conductors, load, return path, fault path, and protection. Keep asking what the circuit is supposed to do, what path current can take, and what device is expected to respond when something goes wrong.
 
-对电工学习来说，kWh 还能帮你区分“容量”和“消耗”。断路器和导线更关心 amps 和瞬时负载能力，电费更关心 watts 持续了多久。一个高功率设备短时间运行，和一个低功率设备长时间运行，账单影响可能接近。
+## What to focus on
 
-## How：怎么理解这一集
-用固定顺序读这一集：先看它讨论的对象是什么，再看这个对象连接到哪个电源、负载、导体、端子、保护装置或测量动作，最后再判断它和安全边界有什么关系。
+- Identify the source, load, normal current path, and possible fault path.
+- Connect each term to a real field object: receptacle, switch, conductor, breaker, meter, motor, transformer, or control device.
+- Separate concept learning from field permission. Understanding a diagram is not the same as being qualified to work on the equipment.
+- Use the [Cheatsheet](../formula-reference.md) when formulas, protection devices, or measurement tools appear.
 
-复习时可以按三个问题展开：第一，它解决什么现场问题；第二，它依赖哪些基本概念；第三，它错误理解后会造成什么误判。这样读，比把每个 bullet 当成孤立笔记更接近电工现场的思考方式。
+## Vocabulary
 
-英文术语也要同时掌握。本集术语表里的 千瓦时（kilowatt-hour / kWh）、电费账单（energy bill）、负载（load）、用电量（consumption） 会在字幕、图纸、铭牌、仪表和规范讨论里反复出现。
-
-## What：本集核心知识点
-### kW 与 kWh
-kW 是功率，表示此刻消耗或输出能量的速度；kWh 是能量，表示一段时间累计消耗多少。不要把两者混为一谈。一个设备功率高，不一定账单最高；真正的账单影响还要看它每天运行多久、是否频繁启动、是否长期待机。
-
-### 电费估算
-用电量 kWh = 功率 kW x 时间 h。再乘以电价，就能估算费用。实际账单还可能包含需求费、基本费、税费和分时电价。住宅初学阶段先会算简单用电量，商业阶段再逐步理解 demand charge 和负载管理。
-
-### 铭牌读数
-设备铭牌常写 volts、amps、watts。用 P = V x I 可以估算功率，再结合使用时间估算用电量。铭牌也能提醒你这个设备应该接什么电压、需要多大回路容量，以及是否属于连续负载或专用回路讨论范围。
-
-## 相关公式
-- [用电量与电费估算](../formula-reference.md#功率与用电量)
-
-## 现场怎么用
-住宅里，电热水器、干衣机、空调、电暖器和 EV 充电器通常是账单大户，因为它们功率高或运行时间长。向客户解释用电量时，kWh 比单说 amps 更容易让人理解费用。
-
-商业场景还可能涉及 demand charge，也就是某段时间内的最大需求功率。基础阶段先把 kW/kWh 分清，后面再理解功率因数、需量和能源管理。
-
-在住宅现场，先把概念落到插座、开关盒、灯具、GFCI、断路器、配电盘、设备铭牌和仪表测量点上。不要只问“这个词是什么意思”，还要问“它在这个盒子、这个面板或这个负载里对应哪一根线、哪一个端子、哪一个保护动作”。
-
-在商业或轻工业现场，同一知识点通常会进入更大的系统，例如多相供电、马达、控制柜、变压器、断开开关和更高故障能量环境。入门阶段不需要一次吃下所有复杂度，但要养成按图纸、铭牌、仪表和规范交叉确认的习惯。
-
-## 常见误区
-- 把 kW 当成 kWh，以为功率就是电费。
-- 忽略运行时间，只看设备瓦数。
-- 用电费逻辑判断断路器容量，忘记断路器看的是电流和保护要求。
-- 忘记 240V 负载可能功率很大，即使电流看起来不夸张。
-
-## 术语速查
-| 英文 | 中文 |
+| English | Chinese |
 |---|---|
 | kilowatt-hour / kWh | 千瓦时 |
 | energy bill | 电费账单 |
 | load | 负载 |
 | consumption | 用电量 |
 
-## 本集自测题
-<details>
-<summary>1. 500W 设备运行 4 小时是多少 kWh？</summary>
+## Review prompts
 
-答：0.5kW x 4h = 2kWh。
+1. What is the main object or circuit behavior in this lesson?
+2. Which conductors or components carry normal current?
+3. What could become dangerous if the circuit is miswired, overloaded, or measured incorrectly?
+4. Which protection device or safe-work habit applies here?
 
-</details>
+## Chinese version
 
-<details>
-<summary>2. 为什么 100W 灯泡也可能用掉很多电？</summary>
-
-答：如果运行时间很长，累计 kWh 会增加。
-
-</details>
-
-<details>
-<summary>3. 断路器容量用 kWh 判断吗？</summary>
-
-答：不用。断路器和导线主要按电流、负载类型、连续负载规则和规范要求判断。
-
-</details>
-
-<details>
-<summary>4. 这一集最核心的学习目标是什么？</summary>
-
-答：理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
-
-</details>
-
-<details>
-<summary>5. 这个概念在美国住宅或商业现场会落到哪里？</summary>
-
-答：住宅里，电热水器、干衣机、空调、电暖器和 EV 充电器通常是账单大户，因为它们功率高或运行时间长。向客户解释用电量时，kWh 比单说 amps 更容易让人理解费用。
-
-</details>
-
-<details>
-<summary>6. 如果想在真实电路里验证相关现象，第一步是什么？</summary>
-
-答：先断电并验电；涉及带电测试、配电箱、240V/三相系统或故障排查时，必须确认 PPE、仪表等级、许可范围和持证人员指导。
-
-</details>
-
-## 学习检查清单
-- 我能不能用自己的话说出这一集为什么重要？
-- 我能不能把核心概念放回电源、负载、回路和保护装置里解释？
-- 我能不能认出并解释 千瓦时（kilowatt-hour / kWh）、电费账单（energy bill）、负载（load）？
-- 我能不能说出它在住宅或商业电工现场对应的设备、导线、端子或测量动作？
-- 我能不能指出至少一个新手误区，并说明为什么危险或不可靠？
-
-## 安全提醒
-:::warning
-本页用于学习视频知识点和电工概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。真实作业前先断电、验电，并确认仪表、PPE 和许可范围；涉及带电测试、配电箱、240V/三相负载和故障排查时，不要独自操作。
-:::
+Use the language switcher to open the full Chinese notes for this lesson.

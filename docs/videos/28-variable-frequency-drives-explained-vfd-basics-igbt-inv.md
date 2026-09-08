@@ -1,122 +1,47 @@
 ---
 id: 28-variable-frequency-drives-explained-vfd-basics-igbt-inv
-title: "28. 变频器基础：IGBT 与逆变器（VFD）"
+title: "28. VFD"
 sidebar_position: 28
 ---
 
-# 28. 变频器基础：IGBT 与逆变器（VFD）
+# 28. VFD
 
-- 分类：三相、工业与商业电工
-- 对美国电工初学者优先级：进阶掌握
-- 视频时长：15:18
-- 原视频：[yEPe7RDtkgo](https://www.youtube.com/watch?v=yEPe7RDtkgo&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=28)
-- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
+- Stage: Electrical Engineering Basics
+- Beginner priority: Use this lesson to build practical vocabulary and circuit judgment.
+- Video duration: 15:18
+- Source video: [yEPe7RDtkgo](https://www.youtube.com/watch?v=yEPe7RDtkgo&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=28)
 
-> 本页依据本地已拉取的 YouTube 字幕、中文笔记和术语表整理。本地字幕中可回看这些关键词：变频器（VFD）、绝缘栅双极晶体管（IGBT）、逆变器（inverter）。
+:::danger Safety boundary
+This page is for study notes only. It does not replace NEC requirements, local code, licensing rules, PPE, lockout/tagout, equipment instructions, or qualified supervision.
+:::
 
-## Why：为什么要学这一集
-这一集围绕 **变频器基础：IGBT 与逆变器（VFD）** 展开。学习目标是：理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
+## Why this lesson matters
 
-它值得学习，不只是因为它是一个单独知识点，而是因为它会影响后面看图、接线、排故、选仪表和判断风险的方式。作为进阶方向学习，适合商业、工业、HVAC、泵和电机控制；三相和 VFD 风险更高，初学者不应独立操作。
+This lesson is part of a beginner path for understanding electricity as a working system: source, conductors, load, return path, fault path, and protection. Keep asking what the circuit is supposed to do, what path current can take, and what device is expected to respond when something goes wrong.
 
-如果只背结论，不理解它为什么成立，到了真实现场就容易把设备外观、导线颜色或单一读数当成答案。课程页的目标是让你即使还没看视频，也能先掌握主线，再回到视频和字幕里补细节。
+## What to focus on
 
-## How：怎么理解这一集
-用固定顺序读这一集：先看它讨论的对象是什么，再看这个对象连接到哪个电源、负载、导体、端子、保护装置或测量动作，最后再判断它和安全边界有什么关系。
+- Identify the source, load, normal current path, and possible fault path.
+- Connect each term to a real field object: receptacle, switch, conductor, breaker, meter, motor, transformer, or control device.
+- Separate concept learning from field permission. Understanding a diagram is not the same as being qualified to work on the equipment.
+- Use the [Cheatsheet](../formula-reference.md) when formulas, protection devices, or measurement tools appear.
 
-复习时可以按三个问题展开：第一，它解决什么现场问题；第二，它依赖哪些基本概念；第三，它错误理解后会造成什么误判。这样读，比把每个 bullet 当成孤立笔记更接近电工现场的思考方式。
+## Vocabulary
 
-英文术语也要同时掌握。本集术语表里的 变频器（VFD）、绝缘栅双极晶体管（IGBT）、逆变器（inverter）、频率控制（frequency control） 会在字幕、图纸、铭牌、仪表和规范讨论里反复出现。
-
-## What：本集核心知识点
-### 电机的电磁转矩
-VFD 通过改变输出频率和电压控制电机速度。 这类内容要把控制回路和负载回路分开看。把它和 变频器（VFD）、绝缘栅双极晶体管（IGBT）、逆变器（inverter） 对上号，先判断线圈由什么电压驱动，再看触点控制哪一路负载，这样排故时不会把控制问题误判成负载问题。
-
-### 整流把交流变成直流
-内部通常包含整流、直流母线和逆变输出。 这类元件有方向性，接反、少限流或误判极性都会改变结果。把它和 变频器（VFD）、绝缘栅双极晶体管（IGBT）、逆变器（inverter） 对上号，看电路图时先找阳极、阴极、负载和限流路径，再判断电流能不能通过。
-
-### 开关控制回路路径
-IGBT 等功率器件负责高速开关。 这类概念最好和测量量一起学：哪里量电压、哪里看电流、负载消耗多少功率、导线和端子会不会发热。把它和 变频器（VFD）、绝缘栅双极晶体管（IGBT）、逆变器（inverter） 对上号，能把数字和现场部件连起来，才算真正掌握。
-
-### 交流电的周期变化
-VFD 常用于风机、泵、输送设备和 HVAC。 三相和驱动内容的关键是相之间的关系。把它和 变频器（VFD）、绝缘栅双极晶体管（IGBT）、逆变器（inverter） 对上号，现场要关注相序、线电压、相电流、负载平衡、断开装置和设备铭牌要求。
-
-### 电机的电磁转矩
-安装与排故要注意接地、屏蔽、参数和电机额定值。 这些条件决定设备能不能安全接入系统。把它和 变频器（VFD）、绝缘栅双极晶体管（IGBT）、逆变器（inverter） 对上号，现场要同时看铭牌、图纸、导线规格、保护装置和接地/等电位连接，不能只看电压数字。
-
-## 现场怎么用
-- 作为进阶方向学习，适合商业、工业、HVAC、泵和电机控制。
-- 三相和 VFD 风险更高，初学者不应独立操作。
-
-在住宅现场，先把概念落到插座、开关盒、灯具、GFCI、断路器、配电盘、设备铭牌和仪表测量点上。不要只问“这个词是什么意思”，还要问“它在这个盒子、这个面板或这个负载里对应哪一根线、哪一个端子、哪一个保护动作”。
-
-在商业或轻工业现场，同一知识点通常会进入更大的系统，例如多相供电、马达、控制柜、变压器、断开开关和更高故障能量环境。入门阶段不需要一次吃下所有复杂度，但要养成按图纸、铭牌、仪表和规范交叉确认的习惯。
-
-## 常见误区
-- 只记住“VFD 通过改变输出频率和电压控制电机速度”，但不能把它放回完整回路、负载和保护装置中解释。
-- 把“内部通常包含整流、直流母线和逆变输出”当成孤立定义，忽略现场里还要看铭牌、图纸、导线、端子和仪表读数。
-- 只凭导线颜色、设备外观或经验判断，不做断电、验电和回路确认。
-- 把视频里的演示直接当成现场操作步骤，忽略 NEC、local code、PPE、许可范围和持证师傅监督。
-
-## 术语速查
-| 英文 | 中文 |
+| English | Chinese |
 |---|---|
 | VFD | 变频器 |
 | IGBT | 绝缘栅双极晶体管 |
 | inverter | 逆变器 |
 | frequency control | 频率控制 |
 
-## 本集自测题
-<details>
-<summary>1. 这一集最核心的学习目标是什么？</summary>
+## Review prompts
 
-答：理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
+1. What is the main object or circuit behavior in this lesson?
+2. Which conductors or components carry normal current?
+3. What could become dangerous if the circuit is miswired, overloaded, or measured incorrectly?
+4. Which protection device or safe-work habit applies here?
 
-</details>
+## Chinese version
 
-<details>
-<summary>2. 复习本集时，应该先抓哪条主线？</summary>
-
-答：VFD 通过改变输出频率和电压控制电机速度。
-
-</details>
-
-<details>
-<summary>3. 这个概念在美国住宅或商业现场会落到哪里？</summary>
-
-答：作为进阶方向学习，适合商业、工业、HVAC、泵和电机控制。
-
-</details>
-
-<details>
-<summary>4. 本集至少要会认哪些英文术语？</summary>
-
-答：变频器（VFD）、绝缘栅双极晶体管（IGBT）、逆变器（inverter）、频率控制（frequency control）
-
-</details>
-
-<details>
-<summary>5. 新手最容易犯的一个错误是什么？</summary>
-
-答：只记住“VFD 通过改变输出频率和电压控制电机速度”，但不能把它放回完整回路、负载和保护装置中解释。
-
-</details>
-
-<details>
-<summary>6. 如果想在真实电路里验证相关现象，第一步是什么？</summary>
-
-答：先断电并验电；涉及带电测试、配电箱、240V/三相系统或故障排查时，必须确认 PPE、仪表等级、许可范围和持证人员指导。
-
-</details>
-
-## 学习检查清单
-- 我能不能用自己的话说出这一集为什么重要？
-- 我能不能把核心概念放回电源、负载、回路和保护装置里解释？
-- 我能不能认出并解释 变频器（VFD）、绝缘栅双极晶体管（IGBT）、逆变器（inverter）？
-- 我能不能说出它在住宅或商业电工现场对应的设备、导线、端子或测量动作？
-- 我能不能指出至少一个新手误区，并说明为什么危险或不可靠？
-
-## 安全提醒
-:::warning
-本页用于学习视频知识点和电工概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。真实作业前先断电、验电，并确认仪表、PPE 和许可范围；涉及带电测试、配电箱、240V/三相负载和故障排查时，不要独自操作。
-:::
+Use the language switcher to open the full Chinese notes for this lesson.

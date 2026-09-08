@@ -1,120 +1,47 @@
 ---
 id: 38-why-circuit-breakers-don-t-protect-people-electric-shoc
-title: "38. 为什么断路器不能保护人免于触电（Circuit Breakers）"
+title: "38. Circuit Breakers"
 sidebar_position: 38
 ---
 
-# 38. 为什么断路器不能保护人免于触电（Circuit Breakers）
+# 38. Circuit Breakers
 
-- 分类：安全、保护与工具
-- 对美国电工初学者优先级：必须掌握
-- 视频时长：18:23
-- 原视频：[gqEu9t8HwW0](https://www.youtube.com/watch?v=gqEu9t8HwW0&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=38)
-- 本地字幕（transcript）：已保留在本地学习资料目录，可用于个人复习和按时间戳回看。
+- Stage: Electrical Engineering Basics
+- Beginner priority: Use this lesson to build practical vocabulary and circuit judgment.
+- Video duration: 18:23
+- Source video: [gqEu9t8HwW0](https://www.youtube.com/watch?v=gqEu9t8HwW0&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K&index=38)
 
-> 本页依据本地已拉取的 YouTube 字幕、中文笔记和术语表整理。本地字幕中可回看这些关键词：断路器（circuit breaker）、短路（short circuit）。
+:::danger Safety boundary
+This page is for study notes only. It does not replace NEC requirements, local code, licensing rules, PPE, lockout/tagout, equipment instructions, or qualified supervision.
+:::
 
-## Why：为什么要学这一集
-这一集纠正一个危险误解：普通 circuit breaker 不是人身触电保护装置。断路器主要保护导线和设备免受过载、短路等过电流损害；人体受到致命风险所需的电流，可能远低于让普通断路器快速跳闸的电流。
+## Why this lesson matters
 
-换句话说，一个人触电时，回路中可能只有几十毫安到几百毫安，而 15A 或 20A 断路器并不会因为这么小的电流立刻动作。断路器看到的是总电流是否超过它的脱扣条件，不是“有没有人正在被电击”。
+This lesson is part of a beginner path for understanding electricity as a working system: source, conductors, load, return path, fault path, and protection. Keep asking what the circuit is supposed to do, what path current can take, and what device is expected to respond when something goes wrong.
 
-真正的人身漏电保护通常依赖 GFCI/RCD 这类差流保护，以及断电、验电、PPE、许可范围和正确工作方法。学习这集以后，看到 breaker 没跳，不能把它解释成“所以没有危险”。
+## What to focus on
 
-## How：怎么理解这一集
-用固定顺序读这一集：先看它讨论的对象是什么，再看这个对象连接到哪个电源、负载、导体、端子、保护装置或测量动作，最后再判断它和安全边界有什么关系。
+- Identify the source, load, normal current path, and possible fault path.
+- Connect each term to a real field object: receptacle, switch, conductor, breaker, meter, motor, transformer, or control device.
+- Separate concept learning from field permission. Understanding a diagram is not the same as being qualified to work on the equipment.
+- Use the [Cheatsheet](../formula-reference.md) when formulas, protection devices, or measurement tools appear.
 
-复习时可以按三个问题展开：第一，它解决什么现场问题；第二，它依赖哪些基本概念；第三，它错误理解后会造成什么误判。这样读，比把每个 bullet 当成孤立笔记更接近电工现场的思考方式。
+## Vocabulary
 
-英文术语也要同时掌握。本集术语表里的 断路器（circuit breaker）、过电流（overcurrent）、短路（short circuit）、接地故障（ground fault） 会在字幕、图纸、铭牌、仪表和规范讨论里反复出现。
-
-## What：本集核心知识点
-### 过电流保护
-普通断路器按电流大小和持续时间动作，目标是保护导线绝缘、设备和建筑免受过热或短路损害。它关心的是回路总电流是否达到脱扣条件，而不是判断电流是不是穿过了人体。
-
-### 人体触电电流
-人体危险电流可能远小于支路断路器额定电流。电流路径经过胸部时风险尤其高，潮湿环境会进一步降低人体阻抗。也就是说，一个足以伤人的电流，对 15A 或 20A 断路器来说可能仍然“太小”。
-
-### GFCI/RCD
-GFCI/RCD 不等电流大到过载，而是检测出去和回来的电流差，因此更适合发现漏到人体或地的电流。它弥补的是普通过电流保护的盲区，但仍要依赖正确安装、测试和适用场景。
-
-### 脱扣曲线
-断路器不是超过额定值就瞬间跳闸。不同倍数的过电流对应不同动作时间，这就是为什么保护装置不能被简化成一个魔法开关。理解脱扣曲线能帮助你解释为什么短路会快速跳闸，而轻微过载可能延时动作。
-
-## 现场怎么用
-住宅里，浴室、厨房、室外、车库、地下室等位置强调 GFCI，就是因为普通 breaker 不足以覆盖这些触电场景。商业现场里，临时电源、手持工具、潮湿区域和维护作业也会特别强调漏电保护和作业程序。
-
-排查时要把“设备保护”和“人员保护”分开说。breaker、fuse、GFCI、AFCI、grounding、bonding 各有职责，任何一个单独存在都不等于可以忽略验电和锁定挂牌流程。
-
-在住宅现场，先把概念落到插座、开关盒、灯具、GFCI、断路器、配电盘、设备铭牌和仪表测量点上。不要只问“这个词是什么意思”，还要问“它在这个盒子、这个面板或这个负载里对应哪一根线、哪一个端子、哪一个保护动作”。
-
-在商业或轻工业现场，同一知识点通常会进入更大的系统，例如多相供电、马达、控制柜、变压器、断开开关和更高故障能量环境。入门阶段不需要一次吃下所有复杂度，但要养成按图纸、铭牌、仪表和规范交叉确认的习惯。
-
-## 常见误区
-- 以为 15A breaker 会在人触电时自动保护人。
-- 以为 breaker 没跳就证明设备外壳安全。
-- 把 GFCI、ground 和 breaker 的职责混在一起。
-- 模仿视频里的触电或故障演示。
-
-## 术语速查
-| 英文 | 中文 |
+| English | Chinese |
 |---|---|
 | circuit breaker | 断路器 |
 | overcurrent | 过电流 |
 | short circuit | 短路 |
 | ground fault | 接地故障 |
 
-## 本集自测题
-<details>
-<summary>1. 普通断路器主要检测什么？</summary>
+## Review prompts
 
-答：检测过电流条件，也就是电流大小和持续时间是否达到脱扣要求。
+1. What is the main object or circuit behavior in this lesson?
+2. Which conductors or components carry normal current?
+3. What could become dangerous if the circuit is miswired, overloaded, or measured incorrectly?
+4. Which protection device or safe-work habit applies here?
 
-</details>
+## Chinese version
 
-<details>
-<summary>2. 为什么人体触电可能不让 breaker 跳闸？</summary>
-
-答：因为危险人体电流可能远小于 15A 或 20A 断路器快速脱扣所需电流。
-
-</details>
-
-<details>
-<summary>3. 人员漏电保护通常看什么？</summary>
-
-答：看 hot 和 neutral 的电流差，也就是是否有电流走了异常路径。
-
-</details>
-
-<details>
-<summary>4. 这一集最核心的学习目标是什么？</summary>
-
-答：理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。
-
-</details>
-
-<details>
-<summary>5. 这个概念在美国住宅或商业现场会落到哪里？</summary>
-
-答：住宅里，浴室、厨房、室外、车库、地下室等位置强调 GFCI，就是因为普通 breaker 不足以覆盖这些触电场景。商业现场里，临时电源、手持工具、潮湿区域和维护作业也会特别强调漏电保护和作业程序。
-
-</details>
-
-<details>
-<summary>6. 如果想在真实电路里验证相关现象，第一步是什么？</summary>
-
-答：先断电并验电；涉及带电测试、配电箱、240V/三相系统或故障排查时，必须确认 PPE、仪表等级、许可范围和持证人员指导。
-
-</details>
-
-## 学习检查清单
-- 我能不能用自己的话说出这一集为什么重要？
-- 我能不能把核心概念放回电源、负载、回路和保护装置里解释？
-- 我能不能认出并解释 断路器（circuit breaker）、过电流（overcurrent）、短路（short circuit）？
-- 我能不能说出它在住宅或商业电工现场对应的设备、导线、端子或测量动作？
-- 我能不能指出至少一个新手误区，并说明为什么危险或不可靠？
-
-## 安全提醒
-:::warning
-本页用于学习视频知识点和电工概念，不能替代 NEC、当地规范、执照培训和现场师傅监督。真实作业前先断电、验电，并确认仪表、PPE 和许可范围；涉及带电测试、配电箱、240V/三相负载和故障排查时，不要独自操作。
-:::
+Use the language switcher to open the full Chinese notes for this lesson.

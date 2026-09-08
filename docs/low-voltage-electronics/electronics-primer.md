@@ -2,22 +2,26 @@
 sidebar_position: 1
 ---
 
-# 低压与电子元件入门（Low Voltage & Electronics Primer）
+# Low-Voltage Electronics Primer
 
-这部分像 npm 包里的进阶示例（advanced recipes）。它对理解控制板、传感器、智能家居、HVAC 控制模块很有用，但不应该抢在住宅电路安全基础之前。
+Low-voltage electronics explain many control and signaling ideas that also show up in electrical work: rectification, filtering, switching, isolation, timing, and sensing.
 
-## 元件角色
+## Key parts
 
-| 元件 | 主要作用 |
+| Part | What to notice |
 |---|---|
-| 二极管（diode） | 控制电流方向 |
-| 整流器（rectifier） | 把交流电（AC）整流成脉动直流电（DC） |
-| 电容（capacitor） | 储能、滤波、相位辅助 |
-| 发光二极管（LED） | 发光指示，需要限流 |
-| 晶体管（transistor） | 电子开关或放大 |
-| 光耦（optocoupler） | 光电隔离 |
-| 电位器（potentiometer） | 可变电阻或分压 |
+| Diode | Allows current more easily in one direction |
+| Rectifier | Converts AC behavior into pulsed DC |
+| Capacitor | Stores charge and can smooth voltage |
+| LED | Emits light when forward biased correctly |
+| Optocoupler | Transfers a signal while providing isolation |
+| Relay | Uses a coil to move contacts and switch another circuit |
 
-:::warning 储能元件
-电池和电容都可能在断电后仍有能量。不要把低压等同于无风险。
-:::
+## Related lessons
+
+- [08. Diodes](../videos/08-diodes-explained-the-basics-how-diodes-work-working-pri.md)
+- [31. Rectifiers](../videos/31-full-wave-bridge-rectifier-capacitor-filters-half-wave-.md)
+- [33. Capacitor Calculations](../videos/33-capacitor-calculations-basic-calculations-for-capacitor.md)
+- [36. LEDs](../videos/36-how-led-works-unravel-the-mysteries-of-how-leds-work.md)
+- [32. Optocouplers](../videos/32-how-optocouplers-work-opto-isolator-solid-state-relays-.md)
+- [12. Relays](../videos/12-how-relays-work-basic-working-principle-electronics-eng.md)

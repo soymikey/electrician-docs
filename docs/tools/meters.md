@@ -2,25 +2,20 @@
 sidebar_position: 1
 ---
 
-# 工具与测量（Tools & Measurement）
+# Meters
 
-## 万用表（Multimeter）
+Meters help you test a hypothesis about a circuit. They do not replace safe work practices, and the wrong mode or lead position can create a hazard.
 
-万用表可以测电压、电阻、导通和电流，但每一种测量方式的接法不同。测电压通常是并联跨接两个点；测电流通常需要串联或使用钳形表。
+## Quick distinctions
 
-## 钳形表（Clamp Meter）
+| Tool or mode | Use it for | Watch out for |
+|---|---|---|
+| Multimeter voltage | Measuring voltage between two points | Confirm meter rating, lead jacks, and mode first |
+| Continuity | Checking a path after power is off | Do not use continuity on an energized circuit |
+| Resistance | Measuring resistance after isolation | Other components in-circuit can affect readings |
+| Clamp meter | Measuring current without opening the circuit | Clamp one current-carrying conductor, not the whole cable |
+| Non-contact tester | Fast screening for possible voltage | Treat it as a clue, not proof of safety |
 
-钳形表测电流时通常要夹单根导体。如果同时夹火线（hot）和零线（neutral），两个方向相反的磁场通常会抵消，读数接近 0。
+## Related lessons
 
-## 新手检查
-
-- 仪表 CAT 等级是否适合现场？
-- 表笔插孔是否正确？
-- 档位是否正确？
-- 电路是否已经断电并验电？
-- 是否需要持证人员监督？
-
-## 相关视频
-
-- [40. 钳形表实用测量技巧](../videos/40-clamp-meter-skills-that-make-you-look-like-a-pro.md)
-- [02. 电流基础：交流、直流、保险丝、断路器与 GFCI](../videos/02-electrical-current-explained-ac-dc-fuses-circuit-breake.md)
+- [40. Clamp Meter Skills](../videos/40-clamp-meter-skills-that-make-you-look-like-a-pro.md)
