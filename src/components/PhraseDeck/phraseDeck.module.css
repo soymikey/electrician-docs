@@ -1,0 +1,171 @@
+.deck {
+  margin-top: 1rem;
+}
+
+.progress {
+  align-items: center;
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: 700;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  padding: 0.65rem 0.8rem;
+}
+
+.progress progress {
+  accent-color: var(--ifm-color-primary);
+  height: 0.65rem;
+  max-width: 12rem;
+  width: 45%;
+}
+
+.cards {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.category {
+  margin-top: 1.4rem;
+}
+
+.category h3 {
+  align-items: center;
+  display: flex;
+  font-size: 1.05rem;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.category h3 span {
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 999px;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.72rem;
+  padding: 0.12rem 0.45rem;
+}
+
+.card {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: background-color 150ms ease, border-color 150ms ease;
+}
+
+.mastered {
+  background: rgba(15, 118, 110, 0.07);
+  border-color: rgba(15, 118, 110, 0.45);
+}
+
+.cardHeader {
+  align-items: stretch;
+  display: flex;
+}
+
+.checkLabel {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  min-width: 2.8rem;
+}
+
+.checkLabel input {
+  accent-color: var(--ifm-color-primary);
+  cursor: pointer;
+  height: 1.05rem;
+  margin: 0;
+  width: 1.05rem;
+}
+
+.toggle {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  gap: 0.6rem;
+  min-height: 3rem;
+  padding: 0.65rem 0.75rem 0.65rem 0;
+  text-align: left;
+}
+
+.toggle:hover .phrase {
+  color: var(--ifm-color-primary);
+}
+
+.toggle:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: -3px;
+}
+
+.phrase {
+  flex: 1;
+  font-size: 1rem;
+  font-weight: 750;
+}
+
+.mastered .phrase {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.masteredLabel {
+  color: var(--ifm-color-primary-dark);
+  font-size: 0.76rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.timestamp {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.chevron {
+  color: var(--ifm-color-emphasis-600);
+  display: inline-block;
+  font-size: 1.1rem;
+  transform: rotate(0deg);
+  transition: transform 150ms ease;
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+.details {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  padding: 0.85rem 1rem 0.35rem 2.8rem;
+}
+
+.details p {
+  line-height: 1.65;
+  margin: 0 0 0.65rem;
+}
+
+.visuallyHidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+@media screen and (max-width: 640px) {
+  .masteredLabel {
+    display: none;
+  }
+
+  .details {
+    padding-left: 0.9rem;
+  }
+}

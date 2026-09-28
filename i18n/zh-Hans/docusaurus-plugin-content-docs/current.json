@@ -7,6 +7,10 @@
     "message": "入门指南",
     "description": "The label for category 'Getting Started' in sidebar 'tutorialSidebar'"
   },
+  "sidebar.tutorialSidebar.category.Jobsite English": {
+    "message": "现场口语",
+    "description": "The label for category 'Jobsite English' in sidebar 'tutorialSidebar'"
+  },
   "sidebar.tutorialSidebar.category.Core Concepts": {
     "message": "核心概念",
     "description": "The label for category 'Core Concepts' in sidebar 'tutorialSidebar'"

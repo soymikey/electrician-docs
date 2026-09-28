@@ -103,6 +103,7 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
+        {to: '/docs/nccer-core', label: 'NCCER Core 6th Edition', position: 'left'},
         {to: '/docs/video-index', label: 'Video Index', position: 'left'},
         {to: '/docs/formula-reference', label: 'Cheatsheet', position: 'left'},
         {to: '/docs/glossary', label: 'Glossary', position: 'left'},

@@ -10,6 +10,28 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'NCCER Core 6th Edition',
+      items: [
+        'nccer-core/index',
+        'nccer-core/build-your-future-in-construction',
+        'nccer-core/basic-safety',
+        'nccer-core/construction-math',
+        'nccer-core/hand-tools',
+        'nccer-core/power-tools',
+        'nccer-core/construction-drawings',
+        'nccer-core/basic-rigging',
+        'nccer-core/communication-skills',
+        'nccer-core/employability-skills',
+        'nccer-core/material-handling',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Jobsite English',
+      items: ['spoken-english/main-panel-phrases'],
+    },
+    {
+      type: 'category',
       label: 'Core Concepts',
       items: [
         'core-concepts/mental-model',

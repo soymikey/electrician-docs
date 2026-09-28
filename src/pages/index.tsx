@@ -43,6 +43,11 @@ const contentByLocale: Record<string, HomeContent> = {
         href: '/docs/getting-started/quick-start',
       },
       {
+        title: 'NCCER Core 6th Edition',
+        description: 'Follow the ten Core modules and keep structured notes for each part of the book.',
+        href: '/docs/nccer-core',
+      },
+      {
         title: 'US Residential Circuits',
         description: 'Understand 120/240V split phase, hot, neutral, ground, receptacles, and switches.',
         href: '/docs/us-residential/split-phase',

@@ -99,6 +99,41 @@ const priorityLessons = new Map([
     },
   ],
   [
+    17,
+    {
+      what: [
+        '这一集讲 North America 常见 receptacle 的内部结构和接线逻辑。重点不是“插座有三个孔”，而是 hot、neutral、ground、端子颜色、内部导电片和 jumper/tab 如何决定哪一半插座带电。',
+        '看懂 receptacle 以后，很多住宅现场问题会变得具体：为什么黄铜端子接 hot、银色端子接 neutral、绿色端子接 ground；为什么插上负载以后电流才有完整回路；为什么断开 hot side tab 后，上下半部可以被不同路径控制。',
+        '这集也把 grounding 放回真实故障场景里。ground wire 理想情况下不承载正常工作电流；当 hot 碰到金属外壳等异常路径时，它提供低阻抗故障路径，帮助 breaker 动作。学习时要把“正常工作路径”和“故障保护路径”分开。',
+      ],
+      concepts: [
+        ['端子颜色对应导体功能', '典型 receptacle 上，黄铜色端子接 hot，银色端子接 neutral，绿色端子接 equipment grounding conductor。颜色帮助识别，但现场不能只凭颜色下结论，还要验电、看图、确认回路来源。'],
+        ['内部导电片连接上下插座', '同一侧两个端子通常由金属 jumper/tab 连在一起，所以只接入一个 hot 或 neutral 端子时，同侧上下两半都会连通。理解这个结构，才能解释为什么一个插座上半部和下半部通常同时有电。'],
+        ['分离片让上下半部独立', '断开 hot side 的分离片后，上下半部可以接不同 hot 来源。例如上半部保持常电，下半部由墙壁开关控制。分离片一旦掰断通常不能复原，实际接线必须符合规范和设备说明。'],
+        ['负载插入后才形成完整回路', 'receptacle 带电并不等于电流已经通过负载。插头插入后，电流从 hot slot 进入负载，再经 neutral slot 回到 service panel 和电源侧，正常工作回路才闭合。'],
+        ['Ground 是故障路径不是工作路径', 'ground terminal 连接设备接地系统，目标是在故障时给电流一条低阻抗路径，使保护装置动作。它不应该代替 neutral 承担正常工作电流。'],
+      ],
+      field: [
+        '看 receptacle 时，先识别黄铜端子、银色端子、绿色接地端子、上下连接片以及 line/load 来源。排查半边插座没电、开关控制插座、反接或接地问题时，这些结构比单看插孔外观更关键。',
+        '在住宅现场，switched receptacle、multi-wire branch circuit、GFCI 下游保护和旧房改造都会让插座盒更复杂。不要把视频里的理论动画直接当成施工步骤；真实接线要查 NEC、local code、盒容量、线径和断路器配置。',
+      ],
+      mistakes: [
+        '以为上下两个插孔永远是一体的，忽略 hot side tab 可能被断开。',
+        '看到白色导线就一定当 neutral，忽略 switch loop 中白线可能被重新标识为 hot。',
+        '把 ground terminal 当作普通回流端子使用。',
+        '只看插座能供电就认为接线正确，忽略反接、缺地、GFCI/AFCI 和盒内连接质量。',
+      ],
+      quiz: [
+        ['黄铜、银色、绿色端子通常分别对应什么？', '黄铜端子通常接 hot，银色端子通常接 neutral，绿色端子接 equipment grounding conductor。'],
+        ['receptacle 上的 jumper/tab 有什么作用？', '它把同一侧上下两个端子连在一起；断开后，上下半部可以由不同 hot 路径或不同控制方式供电。'],
+        ['为什么插座带电时，负载不一定已经在用电？', '因为负载没有插入或没有形成完整路径时，电流不能从 hot 经负载回到 neutral。'],
+        ['switched receptacle 常见的判断重点是什么？', '要确认哪一半保持常电、哪一半由开关控制，以及 hot side tab 是否按设计断开。'],
+        ['ground terminal 的主要职责是什么？', '在故障时提供低阻抗路径帮助保护装置动作，而不是承载正常工作电流。'],
+        ['真实检查插座前最基本的安全动作是什么？', '先断电并验电；需要带电测量时必须使用合适仪表、PPE，并在许可和持证指导范围内操作。'],
+      ],
+    },
+  ],
+  [
     19,
     {
       what: [
@@ -186,6 +221,41 @@ const priorityLessons = new Map([
         ['正常工作电流应该走 ground 吗？', '不应该。正常工作电流通常走 hot 和 neutral；ground 用于故障保护。'],
         ['bonding 的目的是什么？', '让可触及金属部件保持接近同一电位，并帮助故障电流回到电源使保护装置动作。'],
         ['neutral 可以随便和 ground 接在一起吗？', '不可以。连接位置和方式受规范严格限制，错误混接会制造危险。'],
+      ],
+    },
+  ],
+  [
+    35,
+    {
+      what: [
+        '这一集更像是对 power outlet 供电路径的复盘：电从 service panel 和 breaker 来到 outlet，经插头进入灯具或设备，再从 neutral 回到电源侧。重点是把插座、插头、负载、回流路径和断路器放在同一张图里。',
+        '它和第 17 集主题接近，但侧重点不同：第 17 集更细看 receptacle 端子、内部 jumper/tab 和 grounding；这一集更适合练习“一个设备插上以后，完整回路怎样闭合，上半部和下半部为什么可能表现不同”。',
+        '学习时要抓住两个现场判断：第一，没有插入负载时，hot side 可以有电压但没有负载电流；第二，分离片或开关控制会让同一个外观的 outlet 出现一半常电、一半受控的情况。',
+      ],
+      concepts: [
+        ['Outlet 是供电点不是负载本身', 'power outlet 提供 hot、neutral 和 grounding connection。真正消耗电能的是插入的 lamp、charger、tool 或 appliance。看故障时，不要把 outlet 带电和负载正常工作混为一谈。'],
+        ['插头插入后闭合工作回路', '设备插入后，电流从 hot slot 进入设备，经负载做功，再从 neutral slot 回到 service panel 和变压器侧。任何一段断开，设备都可能不工作。'],
+        ['上半部和下半部可能不同状态', '普通 outlet 上下半部通常由 jumper 连通；如果 hot side tab 被断开，上半部可以保持常电，下半部可以由墙壁开关控制，或两半接到不同 breaker 以分担负载。'],
+        ['开关控制的是 hot 路径', 'switched outlet 的核心是让开关打开或闭合通往某一半插座的 hot 路径。排查时要确认开关前后的 hot、被重新标识的导线、以及 neutral 是否仍然完整。'],
+        ['Ground fault 会把电流引到保护路径', '当 hot 意外接触金属外壳或 grounding path，电流可能经 ground 回到电源侧并快速增大，使 breaker 动作。这个路径用于故障清除，不是正常用电路径。'],
+      ],
+      field: [
+        '遇到“插座上半部有电、下半部没电”时，不要立刻判断插座坏了。先查是否是 switched outlet、hot side tab 是否断开、墙壁开关位置、breaker/GFCI 状态，以及插入负载本身是否正常。',
+        '遇到“插上设备才跳闸”时，要区分过载、设备内部短路、ground fault 和 GFCI 差流动作。power outlet 是观察点，真正的答案通常在完整路径、负载状态和保护装置动作条件里。',
+      ],
+      mistakes: [
+        '把 power outlet 当成用电设备本身，忽略插入负载才形成工作电流。',
+        '看到一个孔有电压就认为上下两半状态一定相同。',
+        '把 switched outlet 误判为坏插座，没有检查开关和分离片。',
+        '把 breaker 跳闸简单归因于插座坏，没区分过载、短路和接地故障。',
+      ],
+      quiz: [
+        ['power outlet 和插入的负载有什么区别？', 'outlet 提供连接点和导体路径；真正消耗电能的是插入的设备或灯具。'],
+        ['设备插入后，正常电流路径怎样走？', '从 hot slot 进入设备，经负载做功，再从 neutral slot 回到 service panel 和电源侧。'],
+        ['为什么同一个 outlet 可能一半常电、一半受开关控制？', '因为 hot side tab 可以被断开，让上下半部接到不同 hot 路径，其中一半可由墙壁开关控制。'],
+        ['下半部没电时应先检查什么？', '先检查是否设计为 switched outlet、墙壁开关状态、hot side tab、breaker/GFCI 和负载本身。'],
+        ['ground fault 与正常负载电流有什么不同？', '正常电流经负载回 neutral；ground fault 是 hot 走到金属外壳或 grounding path 等异常路径。'],
+        ['真实插座排查前最基本的安全动作是什么？', '先断电并验电；带电测量必须使用合适 CAT 等级仪表、PPE，并在许可范围内进行。'],
       ],
     },
   ],
@@ -757,17 +827,71 @@ function commonMistakes(concepts) {
   ];
 }
 
-function renderSelfTest({goal, concepts, field, terms}) {
+function dedupeByHeading(entries) {
+  const counts = new Map();
+
+  return entries.map(([heading, body]) => {
+    const seen = counts.get(heading) ?? 0;
+    counts.set(heading, seen + 1);
+
+    return seen === 0 ? [heading, body] : [`${heading}（${seen + 1}）`, body];
+  });
+}
+
+function fieldApplications(title, field, concepts, terms) {
+  const termNames = terms.slice(0, 4).map(([english, chinese]) => `${chinese}（${english}）`).join('、');
+  const primaryConcept = cleanSentence(concepts[0] ?? '本集概念');
+  const secondaryConcept = cleanSentence(concepts[1] ?? '相关设备或测量动作');
+  const specificLead = `在《${title}》这一页，先把“${primaryConcept}”对应到${termNames || '本集关键词'}和现场测量点，再判断正常路径、异常路径和保护装置。`;
+
+  if (field.length > 0) {
+    return [specificLead, ...field.map((item) => {
+      const clean = cleanSentence(item);
+
+      if (clean === '把概念对应到美国住宅常见 120/240V、插座、开关、配电箱和 grounding/bonding') {
+        return `围绕“${primaryConcept}”做现场对应：先找它出现在盒内接线、设备端子、配电盘标签、铭牌还是仪表读数里，再确认 hot、neutral、ground、load 和保护装置各自承担什么角色。`;
+      }
+
+      if (clean === '真实接线必须遵守 NEC、当地 code、许可范围和师傅监督') {
+        return `把“${secondaryConcept}”落到真实作业前，必须先确认 NEC/local code、断电验电、盒内空间、导线规格、仪表等级和持证人员指导。`;
+      }
+
+      return item;
+    })];
+  }
+
+  return [
+    specificLead,
+    `再问“${primaryConcept}”对应到具体对象时，是哪根导线、哪个端子、哪个负载、哪个保护装置，还是哪一种仪表读数。`,
+    termNames
+      ? `复习 ${termNames} 时，把英文词、中文意思和现场实物放在一起看，避免只会翻译却不会判断路径或风险。`
+      : `复习时用本集核心概念反问自己：正常路径在哪里，异常路径在哪里，保护装置在什么条件下才会动作。`,
+  ];
+}
+
+function lessonGoal(title, concepts, terms) {
+  const firstConcept = cleanSentence(concepts[0] ?? title);
+  const secondConcept = cleanSentence(concepts[1] ?? '相关回路路径');
+  const termNames = terms.slice(0, 3).map(([english, chinese]) => `${chinese}（${english}）`).join('、');
+
+  return `围绕“${firstConcept}”建立判断框架，能说明它和“${secondConcept}”的关系，并把${termNames || '本集关键词'}对应到现场设备、导线、端子、图纸或仪表读数。`;
+}
+
+function renderSelfTest({title, goal, concepts, field, terms}) {
   const termAnswer = terms.length
     ? terms.slice(0, 4).map(([english, chinese]) => `${chinese}（${english}）`).join('、')
     : '先回到术语速查表，把英文、中文和现场实物对应起来。';
+  const firstConcept = cleanSentence(concepts[0] ?? goal ?? '本集核心概念');
+  const secondConcept = cleanSentence(concepts[1] ?? '正常工作路径和安全边界');
+  const firstTerm = terms[0] ? `${terms[0][1]}（${terms[0][0]}）` : '本集关键词';
+  const fieldAnswer = fieldApplications(title, field, concepts, terms)[0];
   const qa = [
-    ['这一集最核心的学习目标是什么？', goal || '理解本集主题在电工基础和现场安全中的位置，并能用关键词识别相关设备或图纸。'],
-    ['复习本集时，应该先抓哪条主线？', concepts[0] ?? '先抓电源、负载、完整路径、保护装置和安全边界之间的关系。'],
-    ['这个概念在美国住宅或商业现场会落到哪里？', field[0] ?? '会落到导线、端子、负载、保护装置、仪表测量和现场安全流程上。'],
-    ['本集至少要会认哪些英文术语？', termAnswer],
-    ['新手最容易犯的一个错误是什么？', commonMistakes(concepts)[0]],
-    ['如果想在真实电路里验证相关现象，第一步是什么？', '先断电并验电；涉及带电测试、配电箱、240V/三相系统或故障排查时，必须确认 PPE、仪表等级、许可范围和持证人员指导。'],
+    [`“${firstConcept}”解决什么判断问题？`, `它帮助你把“${firstConcept}”放回电源、负载、回路、端子、保护装置和安全边界之间判断，而不是只背一句定义。`],
+    [`为什么不能把“${secondConcept}”当成孤立口诀？`, '因为现场还要同时看回路是否闭合、负载是否匹配、保护装置是否适用，以及接线和测量条件是否成立。'],
+    [`在现场看到 ${firstTerm} 时，先查什么？`, fieldAnswer],
+    ['本页术语至少要会对应哪几组？', termAnswer],
+    [`围绕“${firstConcept}”最容易犯什么错？`, commonMistakes(concepts)[0]],
+    ['真实电路里验证前，安全边界是什么？', '先断电并验电；涉及带电测试、配电箱、240V/三相系统或故障排查时，必须确认 PPE、仪表等级、许可范围和持证人员指导。'],
   ];
 
   return qa
@@ -780,6 +904,19 @@ function renderSelfTest({goal, concepts, field, terms}) {
 </details>`,
     )
     .join('\n\n');
+}
+
+function prioritySelfTest(priorityLesson, specificGoal) {
+  if (priorityLesson.quiz.length >= 6) {
+    return renderDetails(priorityLesson.quiz);
+  }
+
+  return renderDetails([
+    ...priorityLesson.quiz,
+    ['请用一句话说出这页训练的现场判断。', specificGoal || priorityLesson.what[0]],
+    ['哪一个误区最需要避免？', priorityLesson.mistakes[0]],
+    ['真实验证相关现象前，安全边界是什么？', '先断电并验电；涉及带电测试、配电箱、240V/三相系统或故障排查时，必须确认 PPE、仪表等级、许可范围和持证人员指导。'],
+  ]);
 }
 
 function renderDetails(qa) {
@@ -823,6 +960,7 @@ async function renderGoldenCirclePage(content) {
     ? termsFromAnyTable(source.vocabulary)
     : termsFromTable(extractSection(source.notes, '术语速查'));
   const title = getTitle(content).replace(/^\d+\.\s*/, '');
+  const specificGoal = lessonGoal(title, concepts, terms);
   const keywords = transcriptKeywords(terms, source.transcript);
   const relatedFormula = rawSection(content, '相关公式');
   const priorityLesson = priorityLessons.get(position);
@@ -831,34 +969,27 @@ async function renderGoldenCirclePage(content) {
     ? `本地字幕中可回看这些关键词：${keywords.join('、')}。`
     : '本页已读取本地字幕；术语以本地术语表和中文笔记为准。';
   const conceptParagraphs = priorityLesson
-    ? priorityLesson.concepts.map(([name, body]) => `### ${name}\n${body}`).join('\n\n')
+    ? dedupeByHeading(priorityLesson.concepts).map(([name, body]) => `### ${name}\n${body}`).join('\n\n')
     : concepts.length
-      ? concepts.map((item) => `### ${conceptHeading(item)}\n${explainConcept(item, terms)}`).join('\n\n')
+      ? dedupeByHeading(concepts.map((item) => [conceptHeading(item), explainConcept(item, terms)])).map(([name, body]) => `### ${name}\n${body}`).join('\n\n')
       : `### 本集核心判断\n${explainConcept(goal || title, terms)}`;
   const fieldText = priorityLesson
     ? priorityLesson.field.join('\n\n')
-    : field.length
-      ? field.map((item) => `- ${item}`).join('\n')
-      : '- 把本集概念和 hot、neutral、ground、breaker、load、meter、图纸和仪表测量联系起来。';
+    : fieldApplications(title, field, concepts, terms).map((item) => `- ${item}`).join('\n');
   const formulasBlock = relatedFormula
     ? `\n\n## 相关公式\n${relatedFormula}`
     : '';
   const whyBody = priorityLesson
     ? priorityLesson.what.join('\n\n')
-    : `这一集围绕 **${title}** 展开。学习目标是：${goal || '理解本集主题在电工基础、美国住宅电路、现场安全或控制系统中的位置，并能用英文关键词识别相关设备和图纸。'}
+    : `这一集围绕 **${title}** 展开。学习目标是：${specificGoal}
 
-它值得学习，不只是因为它是一个单独知识点，而是因为它会影响后面看图、接线、排故、选仪表和判断风险的方式。${sentencesFromItems(field, '在美国电工学习里，它需要和 hot、neutral、ground、breaker、load、meter 等现场对象联系起来。')}
+它值得学习，不只是因为它是一个单独知识点，而是因为它会影响后面看图、接线、排故、选仪表和判断风险的方式。${sentencesFromItems(fieldApplications(title, field, concepts, terms), '在美国电工学习里，它需要和 hot、neutral、ground、breaker、load、meter 等现场对象联系起来。')}
 
 如果只背结论，不理解它为什么成立，到了真实现场就容易把设备外观、导线颜色或单一读数当成答案。课程页的目标是让你即使还没看视频，也能先掌握主线，再回到视频和字幕里补细节。`;
   const mistakes = priorityLesson ? priorityLesson.mistakes : commonMistakes(concepts);
   const selfTest = priorityLesson
-    ? renderDetails([
-        ...priorityLesson.quiz,
-        ['这一集最核心的学习目标是什么？', goal || priorityLesson.what[0]],
-        ['这个概念在美国住宅或商业现场会落到哪里？', priorityLesson.field[0]],
-        ['如果想在真实电路里验证相关现象，第一步是什么？', '先断电并验电；涉及带电测试、配电箱、240V/三相系统或故障排查时，必须确认 PPE、仪表等级、许可范围和持证人员指导。'],
-      ])
-    : renderSelfTest({goal, concepts, field, terms});
+    ? prioritySelfTest(priorityLesson, specificGoal)
+    : renderSelfTest({title, goal, concepts, field, terms});
 
   return `${frontMatterAndMeta(content)}
 
@@ -879,10 +1010,6 @@ ${conceptParagraphs}${formulasBlock}
 
 ## 现场怎么用
 ${fieldText}
-
-在住宅现场，先把概念落到插座、开关盒、灯具、GFCI、断路器、配电盘、设备铭牌和仪表测量点上。不要只问“这个词是什么意思”，还要问“它在这个盒子、这个面板或这个负载里对应哪一根线、哪一个端子、哪一个保护动作”。
-
-在商业或轻工业现场，同一知识点通常会进入更大的系统，例如多相供电、马达、控制柜、变压器、断开开关和更高故障能量环境。入门阶段不需要一次吃下所有复杂度，但要养成按图纸、铭牌、仪表和规范交叉确认的习惯。
 
 ## 常见误区
 ${mistakes.map((item) => `- ${item}`).join('\n')}
