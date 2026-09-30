@@ -4,287 +4,173 @@ sidebar_label: 00100 — Build Your Future
 sidebar_position: 2
 ---
 
-# 00100 — Build Your Future in Construction
+# Module 00100: Build Your Future in Construction（构建你在建筑业的未来）
 
-:::info[Source status]
-These review notes follow the Module 00100 outline in the learner's book. The summaries are based on NCCER's official Core Sixth Edition module description and lesson plan, plus public sources from Build Your Future, Apprenticeship.gov, BLS, EPA, and the U.S. Department of Education. They support review, but they are not a page-by-page reproduction of the textbook. Page references appear once in each heading so you can find NCCER's exact examples, figures, and wording in the learner's book.
+本模块各个章节及其子章节的具体内容如下。中文概括用于快速复习，英文标题帮助你与 NCCER Core 第六版教材目录对应。
+
+:::info[第六版课程数据快照]
+本页中的行业规模、就业比例和薪资数字按 NCCER Core 第六版 Module 00100 的课程内容整理，适合复习教材，但不代表 2026 年的实时市场数据。实际薪资会因地区、工种、经验、证照、工时和雇主而变化。
 :::
 
-## Quick review
+**课程参考：** [NCCER Core 第六版课程资料](https://www.nccer.org/media/2023/03/Core-6th-Edition.pdf) · [Build Your Future](https://www.byf.org/)
 
-### Verified module summary
+## 1.0.0 建筑行业概述 (Overview of the Construction Industry)
 
-Construction offers many career paths and needs people with different backgrounds, skills, and strengths. Module 00100 covers the industry's condition and history, career benefits and progression, common construction careers and their required skills, and four routes into the industry: CTE, craft training or apprenticeship, community college, and university.
+### 1.1.0 行业现状 (State of the Industry)
 
-**Primary sources:** [NCCER Core, Sixth Edition — Module 00100](https://www.nccer.org/craft-catalog/core/) and [official Core Sixth Edition lesson plans](https://www.nccer.org/media/2023/03/Core-6th-Edition.pdf)
+#### 1.1.1 行业现状 (State of the Industry, pp. 2–3)
 
-## How to use these notes
+建筑业具有巨大的经济规模。课程数据显示，美国每年的建筑投资超过 **1.3 万亿美元**，建筑业对国内生产总值（GDP）的贡献超过 **8,870 亿美元**。国家基础设施投资也会持续推动行业发展，并创造新的建设与维护需求。
 
-- Read the **Online-source summary** first during a quick review.
-- Answer the **Active recall** question without looking at the notes.
-- Use the page reference in each heading to find NCCER's exact examples, figures, and wording.
-- Add one example from the textbook beside each summary as you read.
+#### 1.1.2 对有技能工艺专业人员增长的需求 (Growing Demand for Skilled Craft Professionals, p. 3)
 
-## 1.0.0 Overview of the Construction Industry
+建筑业面临严重的人才短缺，课程指出约 **80% 的公司计划增加员工**。主要原因包括婴儿潮一代（Baby Boomers）逐渐退休，以及过去几十年更多年轻人选择传统四年制大学、较少进入工艺行业。
 
-### 1.1.0 What Is Construction?
+这种供需变化为新入行者带来很好的机会。许多工种可以通过学徒制或企业培训实现 **Earn as You Learn（边赚边学）**，一边领取工资，一边积累技能和工作经验。
 
-#### 1.1.1 State of the Industry (pp. 2–3)
+#### 1.1.3 常见的建筑行业误区 (Common Construction Industry Myths, p. 3)
 
-**Online-source summary:** Construction turns plans, materials, equipment, and specialized labor into buildings and infrastructure. NCCER presents it as a broad industry with many occupations and a continuing need for trained craft professionals.
+本节澄清了关于建筑业的 6 个常见误区：
 
-**Active recall:** What does construction produce, and why does it require many specialized occupations?
+- **工人缺乏技能：** 实际上，建筑工种通常需要高度专业化的培训、实践能力和资质认证。
+- **拿最低工资：** 课程数据显示，建筑从业者平均年薪超过 4 万美元，明显高于最低工资水平。
+- **不适合女性：** 建筑业对女性专业人员的需求持续上升；课程数据显示，女性薪资约为男性的 99%。
+- **不使用科技：** 现代施工已经广泛使用无人机、机器人、BIM、CAD、模拟器和物联网（IoT）设备。
+- **非常危险：** 施工仍然存在风险，但 OSHA 监管、安全培训、PPE 和新技术能够显著降低事故发生的可能性。
+- **破坏环境：** 行业正在推动绿色建筑、LEED 认证、节能系统和可再生能源项目。
 
-**Source:** [NCCER Module 00100 description](https://www.nccer.org/craft-catalog/core/) and [official lesson plan, LO1](https://www.nccer.org/media/2023/03/Core-6th-Edition.pdf).
+### 1.2.0 建筑历史 (History of Construction)
 
-#### 1.1.2 Growing Demand for Skilled Craft Professionals (p. 3)
+建筑技术经历了从早期手工作业，到机械化，再到数字化的长期演变。课程以埃及金字塔、中国长城等早期工程为起点，介绍 19 世纪蒸汽机械带来的施工革命，以及信息时代的高科技变革。
 
-**Online-source summary:** NCCER identifies a growing need for people who are prepared to learn skilled construction work. For a learner, this demand means opportunities across several crafts rather than one generic "construction worker" job.
+#### 1.2.1 著名的建筑实例 (Famous Construction Examples, pp. 4–7)
 
-**Active recall:** Why does the construction industry need more skilled craft professionals?
+本节列举埃菲尔铁塔、帝国大厦和金门大桥等开创性工程。这些项目展示了不同年代的设计、材料、施工组织和工程技术如何突破当时的限制。
 
-**Source:** [NCCER Module 00100 description](https://www.nccer.org/craft-catalog/core/).
+#### 1.2.2 重要的建筑创新与发明 (Important Construction Innovations and Inventions, pp. 7–8)
 
-#### 1.1.3 Common Construction Industry Myths (p. 3)
+本节重点介绍 4 项提升安全与效率的核心创新：
 
-**Online-source summary:** A common misconception is that construction is only unskilled labor or a fallback for people who do not attend college. Public NCCER and apprenticeship sources instead describe specialized careers with structured training, recognized credentials, paid learning, and paths into leadership.
+- **个人防护装备（PPE）：** 降低坠落、撞击、飞散物、噪声和其他施工危险造成的伤害。
+- **计算机辅助设计（CAD）：** 帮助设计人员更准确地绘制、修改和共享施工图。
+- **建筑信息模型（BIM）：** 将建筑的结构、系统、材料和施工信息整合到数字模型中，改善协调与规划。
+- **虚拟现实（VR）：** 用于安全培训、施工模拟、设计检查和作业预演。
 
-**Active recall:** Which misconception is corrected by the existence of specialized crafts, credentials, and career progression?
+## 2.0.0 从事建筑职业的好处 (Benefits of a Career in Construction)
 
-**Source:** [NCCER on apprenticeships and career mobility](https://www.nccer.org/newsroom/how-apprenticeships-empower-adult-learners-and-bridge-the-construction-workforce-gap/) and [Apprenticeship.gov career seekers](https://www.apprenticeship.gov/career-seekers).
+### 2.1.0 做出贡献 (Making a Difference)
 
-### 1.2.0 History of Construction
+建筑专业人员的工作会直接改善社区，并留下长期的社会影响。住宅、学校、医院、道路、桥梁和公共设施都依赖建筑行业的规划、建造和维护。
 
-#### 1.2.1 Famous Construction Examples (pp. 4–7)
+#### 2.1.1 提供核心服务 (Providing Essential Services, p. 10)
 
-**Online-source summary:** NCCER's official objective is to identify prominent historical contributions to construction. The featured projects show how builders solved the material, structural, transportation, and labor problems of their time; the public lesson plan does not name the book's exact examples.
+建筑工人负责建造和维护电力、水务、交通与建筑等基础设施。自然灾害发生后，他们也会参与恢复供电、供水、道路和建筑安全等核心服务，因此常被视为灾后恢复中的重要“第一响应人”。
 
-**Active recall:** For each textbook project, what problem did builders solve, and what knowledge or tools made it possible?
+#### 2.1.2 致力于环境保护 (Working to Help the Environment, p. 10)
 
-**Source:** [Official Core Sixth Edition lesson plan, LO1.3](https://www.nccer.org/media/2023/03/Core-6th-Edition.pdf).
+现代建筑人员通过高效设备、节能系统、绿色材料、废料回收和绿色施工方法减少资源消耗。绿色建筑和可再生能源项目也为工艺专业人员创造了新的工作方向。
 
-#### 1.2.2 Important Construction Innovations and Inventions (pp. 7–8)
+### 2.2.0 建筑职业的好处与机遇 (Construction Career Benefits and Opportunities)
 
-**Online-source summary:** Construction innovations change how work is designed, measured, fabricated, coordinated, or performed. Modern examples include digital design, automation, robotics, drones, and connected sensors, which can improve productivity, accuracy, and safety.
+#### 2.2.1 具有竞争力的薪资 (Competitive Salaries, p. 11)
 
-**Active recall:** Which textbook inventions changed materials, lifting, measurement, design, or jobsite safety?
+NCCER 课程中的薪资调查显示，常见建筑工种的年薪大约在 **47,000 美元至 92,000 美元**之间，而且这些数字通常不包含加班费和奖金。具体收入取决于工种、经验、地区、证照和工作安排。
 
-**Source:** [NCCER: How Technology Is Changing the Construction Industry](https://www.nccer.org/newsroom/how-technology-is-changing-the-construction-industry-a-look-at-innovations-and-trends/) and [official lesson plan, LO1.3](https://www.nccer.org/media/2023/03/Core-6th-Edition.pdf).
+#### 2.2.2 无债务起步 / 边赚边学 (Starting Out Debt-Free / Earn as You Learn, p. 11)
 
-### 1.0.0 Section Review
+课程指出，美国约 **70% 的岗位不要求四年制大学学位**。通过学徒制和工艺培训，学员可以在学习期间获得工资、接受课堂教学和现场指导，从而减少或避免高额学生贷款债务。
 
-Explain how the industry's present condition connects to its history, workforce needs, and public image.
+#### 2.2.3 职业晋升与流动性 (Career Advancement and Mobility, pp. 11–12)
 
-## 2.0.0 Benefits of a Career in Construction
+建筑职业通常具有清晰的晋升路径：从学员（Trainee）和学徒（Apprentice）开始，成长为熟练工（Journey-Level Craft Professional），再晋升为班组长（Foreman）、施工总监（Superintendent）、项目经理（Project Manager），也可以选择自主创业。
 
-### 2.1.0 Making a Difference
+建筑技能在不同地区和项目类型之间具有较高的通用性，因此从业者通常具备较强的地域流动性。
 
-#### 2.1.1 Providing Essential Services (p. 10)
+## 3.0.0 建筑工种与职业 (Construction Craft Careers)
 
-**Online-source summary:** Construction professionals build and maintain the homes, schools, hospitals, workplaces, roads, bridges, and utility facilities that communities depend on. The work matters because safe buildings and infrastructure support daily life and public services.
+### 3.1.0 建筑行业四大领域 (Construction Industry Sectors, pp. 13–16)
 
-**Active recall:** Name three essential community services that depend on constructed or maintained facilities.
+建筑业通常分为四大领域：
 
-**Source:** [Official lesson plan, LO2.1](https://www.nccer.org/media/2023/03/Core-6th-Edition.pdf) and [EPA examples of buildings and civil-engineering structures](https://www.epa.gov/smm/sustainable-management-construction-and-demolition-materials).
+- **住宅建筑（Residential）：** 独栋住宅、公寓和相关居住设施。
+- **商业建筑（Commercial）：** 办公楼、商店、酒店和其他商业设施。
+- **工业建筑（Industrial）：** 工厂、加工设施、能源设施和工业系统。
+- **重型土木 / 基础设施（Heavy Civil / Infrastructure）：** 道路、桥梁、隧道、水务和大型公共工程。
 
-#### 2.1.2 Working to Help the Environment (p. 10)
+一个项目通常涉及业主、总承包商、分包商和各工种团队。现场职业阶梯包括工艺人员、班组长（Foreman）、施工总监（Superintendent）和项目经理（Project Manager）等角色。
 
-**Online-source summary:** Construction can reduce environmental impact by using fewer materials, designing buildings for longer life and future reuse, salvaging components, and recycling construction and demolition materials. Efficient materials and building systems can also reduce resource and energy use.
+### 3.2.0 建筑职业类型 (Types of Construction Careers)
 
-**Active recall:** How can source reduction, reuse, and recycling lower a project's environmental impact?
+本节介绍常见工种的主要职责、课程薪资数据、发展前景和技能要求。
 
-**Source:** [EPA: Sustainable Management of Construction and Demolition Materials](https://www.epa.gov/smm/sustainable-management-construction-and-demolition-materials).
+#### 3.2.1 木工 (Carpentry, p. 16)
 
-### 2.2.0 Construction Career Benefits and Opportunities
+木工分为粗木工和精木工。粗木工主要负责框架、模板和隐藏结构；精木工主要完成外露装饰、柜体、线条和其他需要较高表面质量的工作。课程中的平均年薪约为 **57,000 美元**。
 
-#### 2.2.1 Competitive Salaries (p. 11)
+#### 3.2.2 电工 (Electrician, p. 17)
 
-**Online-source summary:** NCCER describes construction as a well-paying industry, but earnings vary by craft, location, experience, credentials, employer, and overtime. Treat any salary figure as dated information and check a current BLS occupation page before using it for a career decision.
+电工安装和维护电力、照明、控制与通信系统，工作范围可能包括高压电力系统和低压电子系统。有限能源集成商（Limited Energy Integrator）主要从事通信、安防、火警和数据等低压系统。课程中的平均年薪约为 **67,000 美元**。
 
-**Active recall:** What factors can make earnings differ between construction careers?
+#### 3.2.3 焊接工 (Welder, p. 18)
 
-**Source:** [NCCER Module 00100 description](https://www.nccer.org/craft-catalog/core/) and [BLS Occupational Outlook Handbook](https://www.bls.gov/ooh/).
+焊工使用高温电弧或其他工艺连接、切割和修复金属，可进一步分为管道焊工、结构焊工等专业方向。课程中的综合经验焊工平均年薪可达到 **71,067 美元**。
 
-#### 2.2.2 Starting Out Debt-Free (p. 11)
+#### 3.2.4 管道工 (Pipefitter, p. 19)
 
-**Online-source summary:** Registered apprenticeships combine paid work with classroom instruction, mentoring, progressive wage increases, and a portable credential. Because apprentices earn while learning, this route can reduce or avoid education debt, although program costs and requirements vary.
+管道工安装、测试和维修商业及工业场所中输送液体、蒸汽、化学品或气体的管道系统。课程中的平均年薪约为 **63,000 美元**。
 
-**Active recall:** Which features of apprenticeship can lower the cost of entering a construction career?
+#### 3.2.5 重型设备操作员 (Heavy Equipment Operator, pp. 20–22)
 
-**Source:** [Apprenticeship.gov career seekers](https://www.apprenticeship.gov/career-seekers) and [Build Your Future: What Is a Construction Apprenticeship?](https://www.byf.org/what-is-a-construction-apprenticeship/).
+重型设备操作员使用挖掘机、推土机、装载机和平地机等设备移动土方、材料和设备。工作要求熟悉设备检查、盲区、地下设施、手势与无线电通信。课程中的平均年薪约为 **61,000 美元**。
 
-#### 2.2.3 Career Advancement and Mobility (pp. 11–12)
+#### 3.2.6 起重机 / 吊车操作员 (Crane Operator, pp. 22–23)
 
-**Online-source summary:** A worker can build technical skill, earn credentials, take on greater responsibility, and move toward roles such as journey-level craft professional, supervisor, instructor, estimator, or manager. Advancement depends on proven skill, safety, communication, reliability, and continued learning.
+起重机操作员使用塔吊、汽车吊等设备吊运人员、材料和重型构件。他们需要理解载荷、吊装半径、角度、重心、现场条件及三角学和物理学的基本应用，并按规定取得相关资质认证。
 
-**Active recall:** What skills beyond craft technique help someone move into leadership?
+#### 3.2.7 铁工 / 钢结构工 (Ironworker, p. 23)
 
-**Source:** [NCCER on apprenticeship and upward mobility](https://www.nccer.org/newsroom/how-apprenticeships-empower-adult-learners-and-bridge-the-construction-workforce-gap/) and [official lesson plan, LO3](https://www.nccer.org/media/2023/03/Core-6th-Edition.pdf).
+铁工负责安装钢梁、钢柱、钢筋和其他金属构件，形成建筑、桥梁和道路的结构框架。课程中的平均年薪约为 **60,000 美元**。
 
-### 2.0.0 Section Review
+#### 3.2.8 暖通空调技术员 (HVAC Technician, pp. 23–24)
 
-Compare the personal, financial, and community benefits presented in this section.
+HVAC 技术员安装、维护和修理采暖、通风、空调与制冷系统，处理机械、电气、气流和制冷剂问题。课程中的平均年薪约为 **62,000 美元**。
 
-## 3.0.0 Construction Craft Careers
+#### 3.2.9 项目经理 (Project Manager, pp. 24–25)
 
-### 3.1.0 Construction Industry Sectors (pp. 13–16)
+项目经理负责项目规划、预算、进度、协调和监督，需要连接业主、设计人员、承包商与现场团队。该岗位通常要求大学学士学位，并重视现场经验。课程中的平均年薪约为 **92,000 美元**。
 
-**Online-source summary:** Construction work is commonly grouped by project type: residential, commercial, institutional, industrial, and infrastructure or civil work; service and maintenance may also be treated as a sector. A craft can appear in several sectors, but the jobsite, systems, scale, and owner requirements differ.
+#### 3.2.10 更多建筑职业 (More Construction Careers, p. 25)
 
-**Active recall:** How would an electrician's work differ across residential, commercial, industrial, and infrastructure projects?
+NCCER 提供 **45 种以上工种**的培训与认证路径。你可以在 [Build Your Future](https://www.byf.org/) 查询更多职业、训练方式和发展信息。
 
-**Source:** [NCCER construction-sector examples](https://www.nccer.org/media/2025/04/NCCER_Women-in-Construction_Report-Final-04232025.pdf) and [official lesson plan, LO3.1](https://www.nccer.org/media/2023/03/Core-6th-Edition.pdf).
+<a id="400-starting-your-construction-career"></a>
 
-### 3.2.0 Types of Construction Careers
+## 4.0.0 开启你的建筑职业生涯 (Starting Your Construction Career)
 
-NCCER's public material confirms that construction includes many distinct craft paths. The short definitions below use Build Your Future or BLS occupational descriptions. The matching textbook page appears in each heading.
+### 4.1.0 职业与技术教育 (Career and Technical Education - CTE, pp. 26–28)
 
-#### 3.2.1 Carpenter (p. 16)
+高中和技术教育中心提供的 CTE 课程强调动手实践、技术知识和非技术软技能，也帮助学生尽早探索职业方向。SkillsUSA 等竞赛可以让学生练习工艺、沟通、团队协作与职业素养。
 
-**Online-source summary:** Carpenters construct, repair, and install frameworks and structures made from wood and other materials. Their work may include reading drawings, measuring, cutting, fastening, and checking the finished work.
+### 4.2.0 工种培训与学徒计划 (Craft Training and Apprenticeships, pp. 28–29)
 
-**Active recall:** What does a carpenter build or install, and which measurements must be checked?
+学徒制通常采用 **80% 在岗实操 + 20% 课堂教学**的带薪培训模式，整个过程一般持续 **2–4 年**。课程介绍的典型要求是每年约 **2,000 小时现场实操**和 **144 小时课堂学习**。
 
-**Source:** [BLS: Carpenters](https://www.bls.gov/ooh/construction-and-extraction/carpenters.htm).
+这种模式让学员在有经验人员指导下积累真实工作经验、逐步提高工资，并在较少教育债务的情况下取得行业认可的技能和证书。
 
-#### 3.2.2 Electrician (p. 17)
+### 4.3.0 社区学院与大学 (Community Colleges and Universities)
 
-**Online-source summary:** Electricians install, maintain, and repair electrical power, communications, lighting, and control systems. The work demands code knowledge, accurate testing, and strict control of electrical hazards.
+#### 4.3.1 社区学院 (Community College, pp. 29–30)
 
-**Active recall:** What systems does an electrician work on, and why are testing and hazard control essential?
+社区学院和建筑企业合作，提供两年制副学士学位、证书和行业认证。完成课程后，学生可以进入学徒计划、直接就业，或将学分转入四年制大学继续学习。
 
-**Source:** [BLS: Electricians](https://www.bls.gov/ooh/construction-and-extraction/electricians.htm).
+#### 4.3.2 四年制大学 (Four-Year Universities, p. 30)
 
-#### 3.2.3 Welder (p. 18)
+四年制大学提供施工管理、工程等专业的学士学位（Major），有助于进入项目管理、工程设计和高级管理岗位。大学路线通常学费较高，因此学生仍应主动积累实习和现场经验，把课堂知识与实际施工连接起来。
 
-**Online-source summary:** Welders join, repair, and cut metal parts using hand-held or remotely controlled equipment. They must select the correct process and settings, prepare the joint, follow the drawing or specification, and inspect the result.
+## 快速复习
 
-**Active recall:** What must a welder control before, during, and after making a joint?
-
-**Source:** [BLS: Welders, Cutters, Solderers, and Brazers](https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm).
-
-#### 3.2.4 Pipefitter (p. 19)
-
-**Online-source summary:** Pipefitters install and maintain piping systems, especially systems that carry chemicals, acids, and gases in industrial, commercial, and manufacturing settings. Accurate layout, joining, testing, and system knowledge are central to the work.
-
-**Active recall:** What can industrial piping carry, and why must the completed system be tested?
-
-**Source:** [BLS: Plumbers, Pipefitters, and Steamfitters](https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm).
-
-#### 3.2.5 Heavy Equipment Operator (pp. 20–22)
-
-**Online-source summary:** Construction equipment operators drive, maneuver, or control heavy machinery used to build roads, buildings, and other structures and to move earth or materials. Safe operation depends on inspections, awareness of people and utilities, and clear communication.
-
-**Active recall:** What must an operator inspect and monitor before moving equipment or material?
-
-**Source:** [BLS: Construction Equipment Operators](https://www.bls.gov/ooh/construction-and-extraction/construction-equipment-operators.htm).
-
-#### 3.2.6 Crane Operator (pp. 22–23)
-
-**Online-source summary:** Crane operators use cable, tower, or mobile lifting equipment to raise and move heavy loads. They must understand load limits and site conditions and follow signals from designated workers by hand or radio.
-
-**Active recall:** Why do load limits, site conditions, and standardized communication all matter during a lift?
-
-**Source:** [BLS: Material Moving Machine Operators](https://www.bls.gov/ooh/transportation-and-material-moving/material-moving-machine-operators.htm).
-
-#### 3.2.7 Ironworker (p. 23)
-
-**Online-source summary:** Ironworkers install structural and reinforcing iron and steel that support buildings, bridges, and roads. Their work includes positioning, aligning, connecting, and securing members or reinforcement, often at height.
-
-**Active recall:** What is the difference between structural steel and reinforcing steel work?
-
-**Source:** [BLS: Ironworkers](https://www.bls.gov/ooh/construction-and-extraction/structural-iron-and-steel-workers.htm).
-
-#### 3.2.8 HVAC Technician (pp. 23–24)
-
-**Online-source summary:** HVAC technicians install, maintain, and repair heating, cooling, ventilation, and refrigeration systems that control temperature and indoor air quality. They diagnose mechanical, electrical, airflow, and refrigerant problems.
-
-**Active recall:** Which four kinds of system problems might an HVAC technician diagnose?
-
-**Source:** [BLS: Heating, Air Conditioning, and Refrigeration Mechanics and Installers](https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm).
-
-#### 3.2.9 Project Manager (pp. 24–25)
-
-**Online-source summary:** Construction managers plan, coordinate, budget, and supervise projects from start to finish. They connect owners, designers, contractors, schedules, costs, quality, and jobsite progress so the work moves toward the project requirements.
-
-**Active recall:** Which people, information, cost, and schedule responsibilities must a project manager coordinate?
-
-**Source:** [BLS: Construction Managers](https://www.bls.gov/ooh/management/construction-managers.htm).
-
-#### 3.2.10 More Construction Careers (p. 25)
-
-**Online-source summary:** Construction also includes crafts and roles such as masonry, plumbing, millwright work, instrumentation, insulation, roofing, estimating, safety, inspection, and surveying. Choose a path by comparing daily tasks, work environment, training, credentials, physical demands, and local opportunities.
-
-**Active recall:** Which additional career fits your strengths, and what evidence supports that choice?
-
-**Source:** [Build Your Future career exploration](https://www.byf.org/) and [BLS construction occupations](https://www.bls.gov/ooh/construction-and-extraction/).
-
-### 3.0.0 Section Review
-
-Choose three careers and compare their work, environment, training route, and advancement options.
-
-## 4.0.0 Starting Your Construction Career
-
-### 4.1.0 Career and Technical Education (pp. 26–28)
-
-**Online-source summary:** CTE combines academic learning with technical and employability skills and may include hands-on or work-based learning. It can prepare a student to enter employment, earn an industry credential, begin an apprenticeship, or continue into postsecondary education.
-
-**Active recall:** How can CTE connect classroom learning to a construction career?
-
-**Source:** [U.S. Department of Education: Career and Technical Education](https://ies.ed.gov/career-and-technical-education) and [official lesson plan, LO4.1](https://www.nccer.org/media/2023/03/Core-6th-Edition.pdf).
-
-### 4.2.0 Craft Training and Apprenticeships (pp. 28–29)
-
-**Online-source summary:** A registered apprenticeship combines paid on-the-job learning with classroom instruction, mentorship, progressive wage increases, and a portable credential. Craft training builds job knowledge and skill; apprenticeship adds structured supervised practice in real work.
-
-**Active recall:** How does an apprenticeship combine instruction, supervised work, wage progression, and credentials?
-
-**Source:** [Apprenticeship.gov career seekers](https://www.apprenticeship.gov/career-seekers), [construction apprenticeships](https://www.apprenticeship.gov/apprenticeship-industries/construction), and [official lesson plan, LO4.2](https://www.nccer.org/media/2023/03/Core-6th-Edition.pdf).
-
-### 4.3.0 Community Colleges and Universities
-
-#### 4.3.1 Community College (pp. 29–30)
-
-**Online-source summary:** Community and technical colleges can provide certificates, associate degrees, laboratory practice, and preparation for employment or further education. Compare programs by hands-on training, employer connections, transfer options, time, cost, and credentials earned.
-
-**Active recall:** When would a certificate or associate-degree route fit a construction career goal?
-
-**Source:** [U.S. Department of Education: CTE settings and outcomes](https://ies.ed.gov/career-and-technical-education) and [official lesson plan, LO4.3](https://www.nccer.org/media/2023/03/Core-6th-Edition.pdf).
-
-#### 4.3.2 Four-Year Universities (p. 30)
-
-**Online-source summary:** A four-year degree may be useful or required for careers centered on engineering, architecture, construction management, or other professional responsibilities. For example, BLS says construction managers typically need a bachelor's degree and also learn management techniques on the job.
-
-**Active recall:** Which construction roles emphasize design or management, and what experience is needed in addition to a degree?
-
-**Source:** [BLS: Construction Managers](https://www.bls.gov/ooh/management/construction-managers.htm) and [official lesson plan, LO4.3](https://www.nccer.org/media/2023/03/Core-6th-Edition.pdf).
-
-### 4.0.0 Section Review
-
-Compare CTE, craft training or apprenticeship, community college, and university routes by cost, learning style, time, credential, and career goal.
-
-## Module 00100 review questions
-
-- What four learning areas appear in NCCER's official Module 00100 objectives?
-- How do specialized crafts and structured training challenge common myths about construction?
-- Which three career benefits matter most to you, and what evidence supports them?
-- Choose three careers and explain how their duties, systems, and training differ.
-- Which education or training route best matches your goal, and why?
-- Which historical examples, inventions, and exact terms still need to be added from your textbook pages?
-
-## Key vocabulary
-
-**skilled craft professional**<br />
-A worker trained to perform a specialized construction craft safely and to the required standard.
-
-**apprenticeship**<br />
-A structured career path combining paid work, related instruction, mentorship, wage progression, and a recognized credential.
-
-**career and technical education (CTE)**<br />
-Education that develops academic, technical, and employability skills for work or further occupational education.
-
-**construction sector**<br />
-A broad part of the industry organized by project or facility type, such as residential, commercial, industrial, institutional, or infrastructure construction.
-
-**journey-level craft professional**<br />
-A person who has completed the required training and demonstrated competence to perform a craft with less direct supervision.
+- 建筑业规模大，而且熟练工短缺，为新入行者创造了机会。
+- 建筑职业需要专业技能、技术工具、安全训练和持续学习，不是“低技能、低工资”的工作。
+- 住宅、商业、工业和基础设施四大领域都需要多种工艺专业人员。
+- CTE、学徒制、社区学院和四年制大学是四条主要入行路线。
+- 选择路线时，应比较学习方式、时间、成本、证书、现场经验和长期职业目标。

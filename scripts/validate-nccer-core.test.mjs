@@ -39,58 +39,67 @@ test('NCCER Core callouts use Docusaurus custom-title syntax', async () => {
   }
 });
 
-test('Module 00100 includes the complete source-tracked study outline', async () => {
+test('Module 00100 includes the complete bilingual textbook study outline', async () => {
   const page = await readFile(
     projectFile('docs/nccer-core/build-your-future-in-construction.md'),
     'utf8',
   );
   const expectedHeadings = [
-    '1.0.0 Overview of the Construction Industry',
-    '1.1.1 State of the Industry',
-    '1.1.2 Growing Demand for Skilled Craft Professionals',
-    '1.1.3 Common Construction Industry Myths',
-    '1.2.1 Famous Construction Examples',
-    '1.2.2 Important Construction Innovations and Inventions',
-    '2.0.0 Benefits of a Career in Construction',
-    '2.1.1 Providing Essential Services',
-    '2.1.2 Working to Help the Environment',
-    '2.2.1 Competitive Salaries',
-    '2.2.2 Starting Out Debt-Free',
-    '2.2.3 Career Advancement and Mobility',
-    '3.0.0 Construction Craft Careers',
-    '3.1.0 Construction Industry Sectors',
-    '3.2.1 Carpenter',
-    '3.2.2 Electrician',
-    '3.2.3 Welder',
-    '3.2.4 Pipefitter',
-    '3.2.5 Heavy Equipment Operator',
-    '3.2.6 Crane Operator',
-    '3.2.7 Ironworker',
-    '3.2.8 HVAC Technician',
-    '3.2.9 Project Manager',
-    '3.2.10 More Construction Careers',
-    '4.0.0 Starting Your Construction Career',
-    '4.1.0 Career and Technical Education',
-    '4.2.0 Craft Training and Apprenticeships',
-    '4.3.1 Community College',
-    '4.3.2 Four-Year Universities',
+    '1.0.0 建筑行业概述 (Overview of the Construction Industry)',
+    '1.1.1 行业现状 (State of the Industry',
+    '1.1.2 对有技能工艺专业人员增长的需求 (Growing Demand for Skilled Craft Professionals',
+    '1.1.3 常见的建筑行业误区 (Common Construction Industry Myths',
+    '1.2.1 著名的建筑实例 (Famous Construction Examples',
+    '1.2.2 重要的建筑创新与发明 (Important Construction Innovations and Inventions',
+    '2.0.0 从事建筑职业的好处 (Benefits of a Career in Construction)',
+    '2.1.1 提供核心服务 (Providing Essential Services',
+    '2.1.2 致力于环境保护 (Working to Help the Environment',
+    '2.2.1 具有竞争力的薪资 (Competitive Salaries',
+    '2.2.2 无债务起步 / 边赚边学 (Starting Out Debt-Free / Earn as You Learn',
+    '2.2.3 职业晋升与流动性 (Career Advancement and Mobility',
+    '3.0.0 建筑工种与职业 (Construction Craft Careers)',
+    '3.1.0 建筑行业四大领域 (Construction Industry Sectors',
+    '3.2.1 木工 (Carpentry',
+    '3.2.2 电工 (Electrician',
+    '3.2.3 焊接工 (Welder',
+    '3.2.4 管道工 (Pipefitter',
+    '3.2.5 重型设备操作员 (Heavy Equipment Operator',
+    '3.2.6 起重机 / 吊车操作员 (Crane Operator',
+    '3.2.7 铁工 / 钢结构工 (Ironworker',
+    '3.2.8 暖通空调技术员 (HVAC Technician',
+    '3.2.9 项目经理 (Project Manager',
+    '3.2.10 更多建筑职业 (More Construction Careers',
+    '4.0.0 开启你的建筑职业生涯 (Starting Your Construction Career)',
+    '4.1.0 职业与技术教育 (Career and Technical Education - CTE',
+    '4.2.0 工种培训与学徒计划 (Craft Training and Apprenticeships',
+    '4.3.1 社区学院 (Community College',
+    '4.3.2 四年制大学 (Four-Year Universities',
   ];
 
   for (const heading of expectedHeadings) {
     assert.ok(page.includes(heading), `missing Module 00100 heading: ${heading}`);
   }
 
-  assert.match(page, /Verified module summary/);
-  assert.match(page, /Online-source summary/);
+  assert.match(page, /构建你在建筑业的未来/);
+  assert.match(page, /第六版课程数据快照/);
+  assert.match(page, /工人缺乏技能/);
+  assert.match(page, /拿最低工资/);
+  assert.match(page, /不适合女性/);
+  assert.match(page, /不使用科技/);
+  assert.match(page, /非常危险/);
+  assert.match(page, /破坏环境/);
+  assert.match(page, /80% 在岗实操/);
+  assert.match(page, /20% 课堂教学/);
+  assert.doesNotMatch(page, /Online-source summary/);
   assert.match(page, /Core-6th-Edition\.pdf/);
   assert.match(page, /byf\.org/);
-  assert.match(page, /apprenticeship\.gov/);
-  assert.match(page, /bls\.gov/);
   assert.doesNotMatch(page, /\*\*Core summary:\*\* Awaiting textbook page/);
-  assert.match(page, /NCCER Core, Sixth Edition.*Module 00100/);
-  assert.match(page, /#### 1\.1\.1 State of the Industry \(pp\. 2–3\)/);
-  assert.match(page, /#### 3\.2\.5 Heavy Equipment Operator \(pp\. 20–22\)/);
-  assert.match(page, /### 4\.2\.0 Craft Training and Apprenticeships \(pp\. 28–29\)/);
+  assert.match(page, /Module 00100: Build Your Future in Construction/);
+  assert.match(page, /#### 1\.1\.1 行业现状 \(State of the Industry, pp\. 2–3\)/);
+  assert.match(page, /#### 3\.2\.5 重型设备操作员 \(Heavy Equipment Operator, pp\. 20–22\)/);
+  assert.match(page, /### 4\.2\.0 工种培训与学徒计划 \(Craft Training and Apprenticeships, pp\. 28–29\)/);
+  assert.match(page, /<a id="400-starting-your-construction-career"><\/a>/);
+  assert.doesNotMatch(page, /\{#400-starting-your-construction-career\}/);
   assert.doesNotMatch(page, /Compare with textbook/i);
   assert.doesNotMatch(page, /Compare NCCER's exact/i);
   assert.doesNotMatch(page, /Exact examples require textbook/i);
