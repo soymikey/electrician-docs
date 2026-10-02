@@ -17,8 +17,6 @@ These pages organize original study notes. They do not reproduce the textbook or
 
 | Module | Title |
 | --- | --- |
-| [00100](build-your-future-in-construction.md) | Build Your Future in Construction |
-| [00101](basic-safety.md) | Basic Safety |
 | [00102](construction-math.md) | Introduction to Construction Math |
 | [00103](hand-tools.md) | Introduction to Hand Tools |
 | [00104](power-tools.md) | Introduction to Power Tools |

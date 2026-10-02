@@ -13,8 +13,6 @@ const sidebars: SidebarsConfig = {
       label: 'NCCER Core 6th Edition',
       items: [
         'nccer-core/index',
-        'nccer-core/build-your-future-in-construction',
-        'nccer-core/basic-safety',
         'nccer-core/construction-math',
         'nccer-core/hand-tools',
         'nccer-core/power-tools',
