@@ -25,6 +25,32 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'HVACR',
+      items: [
+        {
+          type: 'category',
+          label: 'HVACR Level 1 — 6th Edition',
+          items: [
+            'hvacr/level-1/03101-introduction-to-hvacr',
+            'hvacr/level-1/03102-trade-mathematics',
+            'hvacr/level-1/03107-introduction-to-cooling',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'EPA 608 Preparatory Manual',
+          items: [
+            'hvacr/epa-608/introduction',
+            'hvacr/epa-608/core',
+            'hvacr/epa-608/type-i',
+            'hvacr/epa-608/type-ii',
+            'hvacr/epa-608/type-iii',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
       label: 'Jobsite English',
       items: ['spoken-english/main-panel-phrases'],
     },

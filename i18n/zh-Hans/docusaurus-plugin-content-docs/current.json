@@ -38,5 +38,17 @@
   "sidebar.tutorialSidebar.category.Stage Quizzes": {
     "message": "阶段测验",
     "description": "The label for category 'Stage Quizzes' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.HVACR": {
+    "message": "HVACR 暖通与制冷",
+    "description": "The label for category 'HVACR' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.EPA 608 Preparatory Manual": {
+    "message": "EPA 608 备考手册",
+    "description": "The label for category 'EPA 608 Preparatory Manual' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.HVACR Level 1 — 6th Edition": {
+    "message": "HVACR Level 1 第六版学习模块",
+    "description": "The label for category 'HVACR Level 1 — 6th Edition' in sidebar 'tutorialSidebar'"
   }
 }

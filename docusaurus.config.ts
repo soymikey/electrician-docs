@@ -1,4 +1,5 @@
 import {themes as prismThemes} from 'prism-react-renderer';
+import rehypeKatex from 'rehype-katex';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
@@ -56,6 +57,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          rehypePlugins: [rehypeKatex],
         },
         blog: false,
         theme: {
