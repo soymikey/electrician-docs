@@ -51,6 +51,27 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Field Trip',
+      link: {type: 'doc', id: 'field-trip/index'},
+      items: [
+        {
+          type: 'category',
+          label: 'Government Building · HVACR',
+          link: {type: 'doc', id: 'field-trip/government-building/index'},
+          items: [
+            'field-trip/government-building/group-a',
+            'field-trip/government-building/group-b',
+            'field-trip/government-building/group-c',
+            'field-trip/government-building/group-d',
+            'field-trip/government-building/group-e',
+            'field-trip/government-building/group-f',
+            'field-trip/government-building/unassigned',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
       label: 'Jobsite English',
       items: ['spoken-english/main-panel-phrases'],
     },

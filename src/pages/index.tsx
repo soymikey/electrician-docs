@@ -38,6 +38,11 @@ const contentByLocale: Record<string, HomeContent> = {
       'These notes are for learning concepts and vocabulary. They do not replace the NEC, local code, licensing programs, PPE, lockout/tagout, equipment instructions, or qualified jobsite supervision.',
     paths: [
       {
+        title: 'Field Trip',
+        description: 'Explore six field groups with 30 HVACR and electrical-room photos, plus five photos awaiting grouping.',
+        href: '/docs/field-trip',
+      },
+      {
         title: 'Quick Start',
         description: 'Begin with the learning route, study rhythm, and core mental models.',
         href: '/docs/getting-started/quick-start',
@@ -86,6 +91,11 @@ const contentByLocale: Record<string, HomeContent> = {
     safetyText:
       '这套资料用于建立概念和术语体系，不能替代 NEC、当地规范（local code）、执照培训、PPE 或现场师傅监督。涉及带电测试、配电箱、240V/三相系统和故障排查时，先断电、验电，并确认你有资格操作。',
     paths: [
+      {
+        title: 'Field Trip 实地参观',
+        description: '按 A–F 六个现场分组浏览 30 张照片，另保留 5 张待分组照片，结合设备原理复习。',
+        href: '/docs/field-trip',
+      },
       {
         title: '入门指南',
         description: '按熟悉的文档方式开始：路线、学习节奏、核心类比。',

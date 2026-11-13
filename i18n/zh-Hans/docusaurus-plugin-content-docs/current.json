@@ -50,5 +50,13 @@
   "sidebar.tutorialSidebar.category.HVACR Level 1 — 6th Edition": {
     "message": "HVACR Level 1 第六版学习模块",
     "description": "The label for category 'HVACR Level 1 — 6th Edition' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Field Trip": {
+    "message": "Field Trip 实地参观",
+    "description": "The label for category 'Field Trip' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Government Building · HVACR": {
+    "message": "政府建筑 · HVACR 与配电室",
+    "description": "The label for category 'Government Building · HVACR' in sidebar 'tutorialSidebar'"
   }
 }
