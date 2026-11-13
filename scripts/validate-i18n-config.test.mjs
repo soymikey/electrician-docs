@@ -19,7 +19,7 @@ test('custom homepage has English default content and Chinese locale content', a
   const homePage = await readFile(homePageUrl, 'utf8');
 
   assert.match(homePage, /useDocusaurusContext/);
-  assert.match(homePage, /title:\s*'Learn US Electrical Basics'/);
+  assert.match(homePage, /title:\s*'Electrical and HVACR Course Notes'/);
   assert.match(homePage, /'zh-Hans':\s*{/);
-  assert.match(homePage, /title:\s*'美国电工基础学习路线'/);
+  assert.match(homePage, /title:\s*'电工与暖通制冷课程学习笔记'/);
 });

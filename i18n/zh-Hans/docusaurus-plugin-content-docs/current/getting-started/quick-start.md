@@ -2,31 +2,30 @@
 sidebar_position: 1
 ---
 
-# 入门指南（Quick Start）
+# 入门指南
 
-## 推荐学习顺序
+## 先找到当前上课的教材
 
-1. 核心概念（Core Concepts）：电压、电流、电阻、功率、串联、并联。完成后做 [核心概念测验](../quizzes/core-concepts.mdx)。
-2. 美国住宅电路（US Residential）：120/240V 分相供电（split-phase）、火线（hot）、零线（neutral）、地线（ground）、插座和开关。完成后做 [美国住宅电路测验](../quizzes/us-residential.mdx)。
-3. 安全（Safety）：断路器（breaker）、漏电保护（GFCI）、火线碰地（hot-to-ground）、触电风险和验电。完成后做 [安全与工具测验](../quizzes/safety-tools.mdx)。
-4. 工具（Tools）：万用表（multimeter）和钳形表（clamp meter）。并入安全与工具阶段一起自测。
-5. 电机与变压器（Motors & Transformers）：变压器、电机、发电机和交流系统。完成后做 [电机与变压器测验](../quizzes/motors-transformers.mdx)。
-6. 三相与工业电（Three Phase & Industrial）：三相、变频器（VFD）、星三角启动（star-delta）、功率因数（power factor）。完成后做 [三相与工业电测验](../quizzes/three-phase-industrial.mdx)。
-7. 低压与电子元件（Low Voltage & Electronics）：二极管、整流、电容、LED、晶体管、光耦、电位器。完成后做 [低压与电子元件测验](../quizzes/low-voltage-electronics.mdx)。
+- **NCCER Core 第6版**：施工共通基础，包括安全、数学、工具、施工图和职业技能。
+- **Electrical Level 1 第12版**：电工专业课程。按老师进度学习，目录按模块编号排列。
+- **HVACR Level 1 第6版**：暖通制冷专业课程。目录按编号排列，课本授课顺序可能不同，以老师安排为准。
+- **EPA 608 备考手册**：在 HVACR 目录下，按介绍、Core、Type I、Type II、Type III 查阅备考内容。
 
-## 每课怎么学
+[返回教材入口](/docs/)。Electrical 已整理 11 个模块及模块复习；HVACR 已整理九个模块及模块复习。Core 和 EPA 608 的具体内容范围见各自页面；不把已上传资料视为教材每一页的完整收录。
 
-- 第一遍看视频，不暂停，先获得整体感觉。
-- 第二遍读本中文文档的知识点和术语表。
-- 第三遍遇到不懂再回到原视频，用时间戳字幕定位。
-- 每课结束写三句话：它是什么、现场对应什么、危险在哪里。
-- 遇到计算时先查 [公式速查](../formula-reference.md)，确认符号、单位和适用场景。
-- 每个阶段最后做 20 题测验；低于 16/20 时，先回到相关文档补薄弱点。
+## 每个模块怎么学
 
-## 前端工程师类比
+1. 上课前看模块开头的目标和概览，确认本节要掌握什么。
+2. 上课时对照老师进度阅读正文，记录关键英文术语和不懂的地方。
+3. 课后合上笔记，用自己的话解释概念，再回正文核对。
+4. Electrical 和 HVACR 的“模块复习”用于逐条检查学习目标；它们不是整本教材的模拟考试。
 
-- 电压（voltage）：驱动力或势能差。
-- 电流（current）：真实流量。
-- 电阻（resistance）：限制流量的阻抗。
-- 电路（circuit）：必须闭合的数据流路径。
-- 断路器/漏电保护（breaker/GFCI）：保护边界，但保护对象不同。
+## 补充资料怎么用
+
+- **YouTube 补充学习**：按核心概念、美国住宅电路、安全与工具、电机与变压器、三相与工业、低压电子查找讲解。可以先看视频，再读笔记，最后回看不懂的部分。
+- **YouTube 补充学习阶段测验**：每个视频主题 20 题，仅用于视频资料自测，不代表 Core、Electrical、HVACR 或 EPA 608 的考试覆盖范围。
+- **Field Trip 实地考察**：查看现场设备照片和考察记录。
+- **现场口语**：积累课堂和工地常用英文表达。
+- **学习参考**：查公式、单位和术语，目前主要覆盖电工基础，使用时注意适用范围。
+
+现阶段教材与补充资料独立整理，课程间关联留到资料整理完成后再做。

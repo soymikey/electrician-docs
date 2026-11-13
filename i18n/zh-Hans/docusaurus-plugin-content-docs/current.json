@@ -36,7 +36,7 @@
     "description": "The label for category 'Low-Voltage Electronics' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Stage Quizzes": {
-    "message": "阶段测验",
+    "message": "YouTube 补充学习阶段测验",
     "description": "The label for category 'Stage Quizzes' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.HVACR": {

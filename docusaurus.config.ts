@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Electrician Docs',
-  tagline: 'A practical Electrical Engineering Basics learning path',
+  tagline: 'Course notes for Electrical, HVACR, NCCER Core, and EPA 608',
   favicon: 'img/favicon.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
