@@ -134,12 +134,12 @@ HVACR 要换算的量主要是这五类：
 
 圆面积只需要换算半径：
 
-```math
+\[
 A = \pi r^2
-```
+\]
 
-- <code class="language-math math-inline">\pi</code> 取 3.1416，计算里通常用 **3.14**
-- <code class="language-math math-inline">r</code> 是半径，从圆心到边上的距离
+- \(\pi\) 取 3.1416，计算里通常用 **3.14**
+- \(r\) 是半径，从圆心到边上的距离
 - 半径 = 直径 ÷ 2
 
 **例：** 半径 2 cm 的圆，换成平方英寸。
@@ -166,9 +166,9 @@ A = \pi r^2
 
 圆柱体（制冷剂钢瓶、圆罐）不能用长方体公式。把它看成圆面积乘以高度：
 
-```math
+\[
 V = \pi r^2 \times h
-```
+\]
 
 **例：半径 20 cm，高 30 cm**
 
@@ -256,9 +256,9 @@ HVACR 压力更高，公制更常用巴（bar）：
 
 多数压力表测的是系统压力和大气压的差，叫表压（psig）。系统里的总压力叫绝对压力（psia）：
 
-```math
+\[
 \text{psia} = \text{psig} + 14.7
-```
+\]
 
 绝对压力以完全真空（没有任何可测压力）为 0。
 
@@ -276,20 +276,20 @@ HVACR 压力更高，公制更常用巴（bar）：
 
 市政供水常用静压头表示压力，也就是用水点到高位水池水面的高度（英尺）。
 
-```math
+\[
 P = \frac{h \times d}{144}
-```
+\]
 
-- <code class="language-math math-inline">P</code>：压力，psig
-- <code class="language-math math-inline">h</code>：高度（压头），ft
-- <code class="language-math math-inline">d</code>：密度，水取 **62.43 lb/ft³**
+- \(P\)：压力，psig
+- \(h\)：高度（压头），ft
+- \(d\)：密度，水取 **62.43 lb/ft³**
 - 144：把平方英尺换成平方英寸
 
 **例：** 水面比用水点高 150 ft。
 
-```math
+\[
 P = \frac{150 \times 62.43}{144} = 65 \text{ psig}
-```
+\]
 
 风机、风扇的压力很小，常用英寸水柱（inH₂O）。液压机械的压力可以忽略大气压的微小变化；风机和风扇的低压不能忽略，要测当时的实际大气压。
 
@@ -322,9 +322,9 @@ P = \frac{150 \times 62.43}{144} = 65 \text{ psig}
 
 在 HVACR 里，真空是低于当地大气压的任何压力，通常用英寸汞柱（inHg）表示。算真空下的绝对压力时，必须用当时的气压计读数：
 
-```math
+\[
 \text{真空绝对压力} = \text{气压计压力} - \text{真空表读数}
-```
+\]
 
 **例：** 真空表 17.2 inHg，气压计 29.85 inHg。
 
@@ -367,13 +367,13 @@ P = \frac{150 \times 62.43}{144} = 65 \text{ psig}
 
 因为 32°F 对应 0°C，换算时要把这个起点差加减掉：
 
-```math
+\[
 °C = \frac{5}{9}(°F - 32)
-```
+\]
 
-```math
+\[
 °F = \left(\frac{9}{5} \times °C\right) + 32
-```
+\]
 
 9/5 = 1.8，5/9 ≈ 0.556。温差（不是温度读数）换算时不要加减 32，只乘 5/9 或 9/5。
 
@@ -429,73 +429,73 @@ P = \frac{150 \times 62.43}{144} = 65 \text{ psig}
 
 运算符用符号表示要做的运算：
 
-- <code class="language-math math-inline">+</code> 加
-- <code class="language-math math-inline">-</code> 减
-- <code class="language-math math-inline">\times</code> 或 <code class="language-math math-inline">\cdot</code> 乘
-- <code class="language-math math-inline">\div</code> 或 <code class="language-math math-inline">/</code> 除
+- \(+\) 加
+- \(-\) 减
+- \(\times\) 或 \(\cdot\) 乘
+- \(\div\) 或 \(/\) 除
 
 #### 2.1.2 等式
 
 等式是用等号连起来的数字、符号和运算符。例如：
 
-- <code class="language-math math-inline">2 + 3 = 5</code>
-- <code class="language-math math-inline">P = EI</code>
-- 体积 <code class="language-math math-inline">= l \times w \times h</code>
+- \(2 + 3 = 5\)
+- \(P = EI\)
+- 体积 \(= l \times w \times h\)
 
 #### 2.1.3 变量
 
 变量是等式里可以改变的量。矩形面积：
 
-```math
+\[
 \text{面积} = l \times w
-```
+\]
 
-面积是 12、长是 6 时，<code class="language-math math-inline">12 = 6 \times w</code>，宽是 2。长改成 3 时，<code class="language-math math-inline">12 = 3 \times w</code>，宽变成 4。<code class="language-math math-inline">w</code> 随 <code class="language-math math-inline">l</code> 变，所以 <code class="language-math math-inline">w</code> 是变量。
+面积是 12、长是 6 时，\(12 = 6 \times w\)，宽是 2。长改成 3 时，\(12 = 3 \times w\)，宽变成 4。\(w\) 随 \(l\) 变，所以 \(w\) 是变量。
 
 #### 2.1.4 常数
 
-常数的值不变。<code class="language-math math-inline">2 + 5 = 7</code> 里的 2、5、7 永远是这些数。也被公认、不随场合改变的数也是常数。圆里最常见的是 <code class="language-math math-inline">\pi</code>，约 **3.14**，等于圆周长除以直径。
+常数的值不变。\(2 + 5 = 7\) 里的 2、5、7 永远是这些数。也被公认、不随场合改变的数也是常数。圆里最常见的是 \(\pi\)，约 **3.14**，等于圆周长除以直径。
 
 #### 2.1.5 系数
 
 系数是乘在变量前面的数。
 
-- <code class="language-math math-inline">2L</code> 表示 2 × L，2 是 <code class="language-math math-inline">L</code> 的系数
-- <code class="language-math math-inline">IR</code> 表示 I × R，I 是 <code class="language-math math-inline">R</code> 的系数
-- 面积 <code class="language-math math-inline">= l \times w</code> 也可以写成 <code class="language-math math-inline">lw</code>。关系清楚时，乘号可以不写
+- \(2L\) 表示 2 × L，2 是 \(L\) 的系数
+- \(IR\) 表示 I × R，I 是 \(R\) 的系数
+- 面积 \(= l \times w\) 也可以写成 \(lw\)。关系清楚时，乘号可以不写
 
 #### 2.1.6 幂和根
 
-幂（指数）写在底数的右上角。<code class="language-math math-inline">y^x</code> 表示把 <code class="language-math math-inline">y</code> 自乘 <code class="language-math math-inline">x</code> 次。<code class="language-math math-inline">y</code> 的 <code class="language-math math-inline">x</code> 次方根再乘 <code class="language-math math-inline">x</code> 次，会回到 <code class="language-math math-inline">y</code>。
+幂（指数）写在底数的右上角。\(y^x\) 表示把 \(y\) 自乘 \(x\) 次。\(y\) 的 \(x\) 次方根再乘 \(x\) 次，会回到 \(y\)。
 
 平方就是一个数乘自己：
 
-```math
+\[
 6^2 = 6 \times 6 = 36
-```
+\]
 
-平方根是那个自乘后得到原数的因子。符号是 <code class="language-math math-inline">\sqrt{\ }</code>。求负荷、算风管风量都要用平方根。<code class="language-math math-inline">\sqrt{16} = 4</code>，因为 <code class="language-math math-inline">4^2 = 16</code>。
+平方根是那个自乘后得到原数的因子。符号是 \(\sqrt{\ }\)。求负荷、算风管风量都要用平方根。\(\sqrt{16} = 4\)，因为 \(4^2 = 16\)。
 
 完全平方数的平方根是整数。4、25、36、121、324 的平方根分别是 2、5、6、11、18。
 
 手算又慢又容易错，用科学计算器：
 
-- 平方：输入数字，按 <code class="language-math math-inline">x^2</code>。例如 4.235 的平方是 17.935225。
-- 平方根：输入数字，按 <code class="language-math math-inline">\sqrt{}</code> 或 <code class="language-math math-inline">\sqrt{x}</code>。17.935225 的平方根回到 4.235。有的计算器要先按根号再输入数字。
-- 任意次幂：先输入底数，按 <code class="language-math math-inline">y^x</code>，再输入指数，按等号。<code class="language-math math-inline">2.86^3 = 23.393656</code>。
-- 任意次方根：例如 <code class="language-math math-inline">\sqrt[3]{1500}</code>。输入 1500，按 INV（或 2nd）再按方根键，输入 3，按等号，得到约 11.447。用 <code class="language-math math-inline">11.447^3</code> 可以验算回 1,500。有的计算器要先按方根键。
+- 平方：输入数字，按 \(x^2\)。例如 4.235 的平方是 17.935225。
+- 平方根：输入数字，按 \(\sqrt{}\) 或 \(\sqrt{x}\)。17.935225 的平方根回到 4.235。有的计算器要先按根号再输入数字。
+- 任意次幂：先输入底数，按 \(y^x\)，再输入指数，按等号。\(2.86^3 = 23.393656\)。
+- 任意次方根：例如 \(\sqrt[3]{1500}\)。输入 1500，按 INV（或 2nd）再按方根键，输入 3，按等号，得到约 11.447。用 \(11.447^3\) 可以验算回 1,500。有的计算器要先按方根键。
 
 ### 2.2.0 运算顺序
 
 复杂算式必须按固定顺序做。本模块教的顺序是 **先乘、再除、再加、再减**，记成 MDAS。
 
-```math
+\[
 3 + 3 \times 2 - 6 \div 3
-```
+\]
 
-1. 乘：<code class="language-math math-inline">3 + 6 - 6 \div 3</code>
-2. 除：<code class="language-math math-inline">3 + 6 - 2</code>
-3. 加：<code class="language-math math-inline">9 - 2</code>
+1. 乘：\(3 + 6 - 6 \div 3\)
+2. 除：\(3 + 6 - 2\)
+3. 加：\(9 - 2\)
 4. 减：结果是 **7**
 
 不按这个顺序，会得到别的数。小节复习把“解方程时第一步”的答案定为乘法，指的就是这条 MDAS。
@@ -506,29 +506,29 @@ P = \frac{150 \times 62.43}{144} = 65 \text{ psig}
 
 方程里有好几个变量时，先尽量化简，再把要求的那个量单独留在等号一边。
 
-```math
+\[
 P = R - [5(3A + 4B) + 40L]
-```
+\]
 
-1. 先做最里面的括号，5 乘进去：<code class="language-math math-inline">P = R - [15A + 20B + 40L]</code>
-2. 括号前的减号相当于系数 −1，每一项都变号：<code class="language-math math-inline">P = R - 15A - 20B - 40L</code>
+1. 先做最里面的括号，5 乘进去：\(P = R - [15A + 20B + 40L]\)
+2. 括号前的减号相当于系数 −1，每一项都变号：\(P = R - 15A - 20B - 40L\)
 
 这可以对应一件真实的活：刚给五套相同公寓装完风管，要算利润。
 
-- <code class="language-math math-inline">P</code>：利润
-- <code class="language-math math-inline">R</code>：收到的工程款
-- 5 套公寓，每套 3 段单价为 <code class="language-math math-inline">A</code> 的风管、4 段单价为 <code class="language-math math-inline">B</code> 的风管
-- 40 小时人工，每小时成本 <code class="language-math math-inline">L</code>（含管理费）
+- \(P\)：利润
+- \(R\)：收到的工程款
+- 5 套公寓，每套 3 段单价为 \(A\) 的风管、4 段单价为 \(B\) 的风管
+- 40 小时人工，每小时成本 \(L\)（含管理费）
 
-代入：<code class="language-math math-inline">R = 7500</code>，<code class="language-math math-inline">A = 100</code>，<code class="language-math math-inline">B = 150</code>，<code class="language-math math-inline">L = 55</code>
+代入：\(R = 7500\)，\(A = 100\)，\(B = 150\)，\(L = 55\)
 
-```math
+\[
 P = 7500 - (15 \times 100) - (20 \times 150) - (40 \times 55)
-```
+\]
 
-```math
+\[
 P = 7500 - 1500 - 3000 - 2200 = 800
-```
+\]
 
 利润是 **800 美元**。
 
@@ -538,20 +538,20 @@ P = 7500 - 1500 - 3000 - 2200 = 800
 
 **规则 1：等号两边加上或减去同一个数，等式仍然成立。**
 
-- <code class="language-math math-inline">5 = 5</code>，两边加 3，得到 <code class="language-math math-inline">8 = 8</code>
-- 两边减 4，得到 <code class="language-math math-inline">1 = 1</code>
+- \(5 = 5\)，两边加 3，得到 \(8 = 8\)
+- 两边减 4，得到 \(1 = 1\)
 
 移项用的就是这一条。空调和蒸汽锅炉里常用：
 
-```math
+\[
 \text{绝对压力} = \text{表压} + 14.7
-```
+\]
 
 求表压时，两边都减 14.7：
 
-```math
+\[
 \text{表压} = \text{绝对压力} - 14.7
-```
+\]
 
 再求绝对压力时，两边都加 14.7，又回到原来的式子。
 
@@ -559,50 +559,50 @@ P = 7500 - 1500 - 3000 - 2200 = 800
 
 欧姆定律：
 
-```math
+\[
 E = IR
-```
+\]
 
-- <code class="language-math math-inline">E</code>：电压
-- <code class="language-math math-inline">I</code>：电流
-- <code class="language-math math-inline">R</code>：电阻
+- \(E\)：电压
+- \(I\)：电流
+- \(R\)：电阻
 
-已知电压和电流、要求电阻时，两边除以 <code class="language-math math-inline">I</code>：
+已知电压和电流、要求电阻时，两边除以 \(I\)：
 
-```math
+\[
 R = \frac{E}{I}
-```
+\]
 
-再两边乘以 <code class="language-math math-inline">I</code>，回到 <code class="language-math math-inline">E = IR</code>。
+再两边乘以 \(I\)，回到 \(E = IR\)。
 
 **规则 3：同类项可以像常数一样合并。**
 
-```math
+\[
 2A + 3A = 15
-```
+\]
 
-```math
+\[
 5A = 15
-```
+\]
 
-两边除以 5：<code class="language-math math-inline">A = 3</code>。
+两边除以 5：\(A = 3\)。
 
-这三条可以反复用。静压头公式 <code class="language-math math-inline">p = hd / 144</code> 求密度 <code class="language-math math-inline">d</code>：
+这三条可以反复用。静压头公式 \(p = hd / 144\) 求密度 \(d\)：
 
-1. 两边乘 144，消掉分母：<code class="language-math math-inline">144p = hd</code>
-2. 两边除以 <code class="language-math math-inline">h</code>：<code class="language-math math-inline">d = 144p / h</code>
+1. 两边乘 144，消掉分母：\(144p = hd\)
+2. 两边除以 \(h\)：\(d = 144p / h\)
 
 **风机定律里的一道：** 风量（cfm）和转速（rpm）成正比。
 
-```math
+\[
 \text{新 cfm} = \frac{\text{新 rpm} \times \text{原 cfm}}{\text{原 rpm}}
-```
+\]
 
 已知新风量、原风量和原转速，求新转速时，两边先乘原转速，再除以原风量：
 
-```math
+\[
 \text{新 rpm} = \frac{\text{新 cfm} \times \text{原 rpm}}{\text{原 cfm}}
-```
+\]
 
 ### 2.0.0 小节复习
 
@@ -616,17 +616,17 @@ R = \frac{E}{I}
    - b. 除
    - c. 加
    - d. 减
-3. 已知 <code class="language-math math-inline">E = IR</code>，把它改写成求 <code class="language-math math-inline">I</code>。
-   - a. <code class="language-math math-inline">I = E \times R</code>
-   - b. <code class="language-math math-inline">I = E - R</code>
-   - c. <code class="language-math math-inline">I = E \div R</code>
-   - d. <code class="language-math math-inline">I = E + R</code>
+3. 已知 \(E = IR\)，把它改写成求 \(I\)。
+   - a. \(I = E \times R\)
+   - b. \(I = E - R\)
+   - c. \(I = E \div R\)
+   - d. \(I = E + R\)
 
 **答案**
 
 1. **b**。会变的是变量。
 2. **a**。MDAS 从乘法开始。有括号时先做括号。
-3. **c**。两边除以 <code class="language-math math-inline">R</code>，<code class="language-math math-inline">R</code> 消掉，得到 <code class="language-math math-inline">I = E \div R</code>。
+3. **c**。两边除以 \(R\)，\(R\) 消掉，得到 \(I = E \div R\)。
 
 ---
 
@@ -644,15 +644,15 @@ R = \frac{E}{I}
 圆是一条与自身相连的曲线，还有这些性质：
 
 - 圆周上每一点到圆心的距离都相等。
-- 这段距离叫半径 <code class="language-math math-inline">r</code>。
-- 通过圆心、连接圆周上相对两点的最短距离叫直径 <code class="language-math math-inline">d</code>。<code class="language-math math-inline">d = 2r</code>。
+- 这段距离叫半径 \(r\)。
+- 通过圆心、连接圆周上相对两点的最短距离叫直径 \(d\)。\(d = 2r\)。
 - 绕圆外面一圈的长度叫周长：
 
-```math
+\[
 \text{周长} = \pi d
-```
+\]
 
-<code class="language-math math-inline">\pi \approx 3.14</code>，<code class="language-math math-inline">d = 2r</code>。
+\(\pi \approx 3.14\)，\(d = 2r\)。
 
 管子尺寸有的标内径（ID），有的标外径（OD）。内径是管内壁之间的距离，采暖和水管用的铜管通常按内径称呼。外径是管外壁之间的距离，空调和制冷（ACR）铜管通常按外径称呼。软铜盘管常见规格从 1/8 in OD 到 7/8 in OD。
 
@@ -662,8 +662,8 @@ R = \frac{E}{I}
 
 标角有两种写法：
 
-- 给角一个字母，例如 <code class="language-math math-inline">\angle D</code>
-- 用两条射线上的端点把顶点夹在中间，例如 <code class="language-math math-inline">\angle ABC</code>
+- 给角一个字母，例如 \(\angle D\)
+- 用两条射线上的端点把顶点夹在中间，例如 \(\angle ABC\)
 
 整圆分成 360 份，每一份是 1 度，所以 **1° = 1/360 圆**。度也用来量角的大小。度数尽量标在角的里面；角太小就标在外面，用箭头指进去。
 
@@ -690,9 +690,9 @@ R = \frac{E}{I}
 每一条边界叫边，两边交点叫顶点。
 
 - **周长** = 各边长度之和
-- **内角和** = <code class="language-math math-inline">(n - 2) \times 180°</code>，<code class="language-math math-inline">n</code> 是边数
+- **内角和** = \((n - 2) \times 180°\)，\(n\) 是边数
 
-正方形：<code class="language-math math-inline">(4 - 2) \times 180° = 360°</code>。三角形：<code class="language-math math-inline">(3 - 2) \times 180° = 180°</code>。
+正方形：\((4 - 2) \times 180° = 360°\)。三角形：\((3 - 2) \times 180° = 180°\)。
 
 ### 3.4.0 三角形
 
@@ -714,29 +714,29 @@ R = \frac{E}{I}
 
 直角三角形有一个 90° 角，另外两个角都是锐角，而且互为余角，加起来是 90°。形成直角的两条边互相垂直。
 
-习惯标法：角用大写字母，边用小写字母。直角标成 <code class="language-math math-inline">C</code>，直角对面那条边是斜边 <code class="language-math math-inline">c</code>，它永远比另外两条边长。<code class="language-math math-inline">a</code> 可以记成高（altitude），<code class="language-math math-inline">b</code> 记成底（base）。边和它所对的角用同一字母：边 <code class="language-math math-inline">a</code> 对着角 <code class="language-math math-inline">A</code>。
+习惯标法：角用大写字母，边用小写字母。直角标成 \(C\)，直角对面那条边是斜边 \(c\)，它永远比另外两条边长。\(a\) 可以记成高（altitude），\(b\) 记成底（base）。边和它所对的角用同一字母：边 \(a\) 对着角 \(A\)。
 
 #### 3.4.2 勾股定理
 
 直角三角形已知任意两边，可以求出第三边。勾股定理：斜边的平方等于另外两边的平方和。
 
-```math
+\[
 c^2 = a^2 + b^2
-```
+\]
 
-```math
+\[
 a = \sqrt{c^2 - b^2} \qquad b = \sqrt{c^2 - a^2} \qquad c = \sqrt{a^2 + b^2}
-```
+\]
 
-注意最后一式是平方**相加**再开方。<code class="language-math math-inline">\sqrt{a^2 - b^2}</code> 不是求斜边的公式。
+注意最后一式是平方**相加**再开方。\(\sqrt{a^2 - b^2}\) 不是求斜边的公式。
 
-**例：** 高 <code class="language-math math-inline">a = 8</code> ft，底 <code class="language-math math-inline">b = 12</code> ft。
+**例：** 高 \(a = 8\) ft，底 \(b = 12\) ft。
 
-```math
+\[
 c = \sqrt{8^2 + 12^2} = \sqrt{64 + 144} = \sqrt{208} = 14.422
-```
+\]
 
-斜边长 **14.422 ft**。先把两边分别平方再相加，然后开平方。计算器上输入数字后按根号；如果根号是 <code class="language-math math-inline">x^2</code> 的第二功能，就先按 INV 或 2nd，再按 <code class="language-math math-inline">x^2</code>。
+斜边长 **14.422 ft**。先把两边分别平方再相加，然后开平方。计算器上输入数字后按根号；如果根号是 \(x^2\) 的第二功能，就先按 INV 或 2nd，再按 \(x^2\)。
 
 **3-4-5 法则**用来用卷尺放样或检查直角，用了几百年。3 ft、4 ft、5 ft 是一组直角三角形的边。现场按距离放大成倍数：9-12-15、12-16-20、15-20-25。
 
@@ -769,10 +769,10 @@ c = \sqrt{8^2 + 12^2} = \sqrt{64 + 144} = \sqrt{208} = 14.422
 ### 3.0.0 小节复习
 
 1. 圆的周长公式是哪一个？
-   - a. <code class="language-math math-inline">\pi r^2</code>
-   - b. <code class="language-math math-inline">2\pi</code>
-   - c. <code class="language-math math-inline">\pi d</code>
-   - d. <code class="language-math math-inline">I \times R</code>
+   - a. \(\pi r^2\)
+   - b. \(2\pi\)
+   - c. \(\pi d\)
+   - d. \(I \times R\)
 2. 大于 90°、小于 180° 的角是什么角？
    - a. 直角
    - b. 锐角
@@ -791,10 +791,10 @@ c = \sqrt{8^2 + 12^2} = \sqrt{64 + 144} = \sqrt{208} = 14.422
 
 **答案**
 
-1. **c**。周长 = <code class="language-math math-inline">\pi d</code>。<code class="language-math math-inline">\pi r^2</code> 是面积。
+1. **c**。周长 = \(\pi d\)。\(\pi r^2\) 是面积。
 2. **d**。钝角。
 3. **b**。圆不是由直线围成的，不是多边形。
-4. **a**。<code class="language-math math-inline">b = \sqrt{15^2 - 12^2} = \sqrt{225 - 144} = \sqrt{81} = 9</code> in。这是 3-4-5 的放大，9-12-15。
+4. **a**。\(b = \sqrt{15^2 - 12^2} = \sqrt{225 - 144} = \sqrt{81} = 9\) in。这是 3-4-5 的放大，9-12-15。
 
 ---
 
@@ -817,7 +817,7 @@ c = \sqrt{8^2 + 12^2} = \sqrt{64 + 144} = \sqrt{208} = 14.422
    - b. 1.92 ft²
    - c. 13.3 ft²
    - d. 28 ft²
-4. <code class="language-math math-inline">\pi</code> 保留两位小数是多少？
+4. \(\pi\) 保留两位小数是多少？
    - a. 1.00
    - b. 3.14
    - c. 3.33
@@ -847,21 +847,21 @@ c = \sqrt{8^2 + 12^2} = \sqrt{64 + 144} = \sqrt{208} = 14.422
    - b. 36°C
    - c. 41°C
    - d. 100°C
-10. <code class="language-math math-inline">\sqrt{12500}</code> 等于多少？
+10. \(\sqrt{12500}\) 等于多少？
     - a. 1.11803
     - b. 11.1803
     - c. 111.803
     - d. 1118.03
-11. <code class="language-math math-inline">6^2</code> 等于多少？
+11. \(6^2\) 等于多少？
     - a. 4
     - b. 8
     - c. 12
     - d. 36
-12. 已知 <code class="language-math math-inline">P = E^2 / R</code>，求 <code class="language-math math-inline">R</code> 的式子是哪一个？
-    - a. <code class="language-math math-inline">R = E^2 / P</code>
-    - b. <code class="language-math math-inline">R = E^2 \times P</code>
-    - c. <code class="language-math math-inline">R = P / E^2</code>
-    - d. <code class="language-math math-inline">R = \sqrt{PE}</code>
+12. 已知 \(P = E^2 / R\)，求 \(R\) 的式子是哪一个？
+    - a. \(R = E^2 / P\)
+    - b. \(R = E^2 \times P\)
+    - c. \(R = P / E^2\)
+    - d. \(R = \sqrt{PE}\)
 13. 从圆心到圆周上任意一点的距离叫什么？
     - a. 周长
     - b. 半径
@@ -873,10 +873,10 @@ c = \sqrt{8^2 + 12^2} = \sqrt{64 + 144} = \sqrt{208} = 14.422
     - c. 直角三角形
     - d. 不等边三角形
 15. 下面哪一个不是勾股定理的形式？
-    - a. <code class="language-math math-inline">c^2 = a^2 + b^2</code>
-    - b. <code class="language-math math-inline">a = \sqrt{c^2 - b^2}</code>
-    - c. <code class="language-math math-inline">b = \sqrt{c^2 - a^2}</code>
-    - d. <code class="language-math math-inline">c = \sqrt{a^2 - b^2}</code>
+    - a. \(c^2 = a^2 + b^2\)
+    - b. \(a = \sqrt{c^2 - b^2}\)
+    - c. \(b = \sqrt{c^2 - a^2}\)
+    - d. \(c = \sqrt{a^2 - b^2}\)
 
 **答案与演算**
 
@@ -885,7 +885,7 @@ c = \sqrt{8^2 + 12^2} = \sqrt{64 + 144} = \sqrt{208} = 14.422
 | 1 | c | 表 4：1 m = 3.281 ft。39.37 是英寸，不是英尺。 |
 | 2 | c | 3.568 × 3.281 ≈ 11.707 ft，2.438 × 3.281 ≈ 8.000 ft，相乘 ≈ 93.64 ft²。 |
 | 3 | a | 16 × 12 = 192 in²。1 ft² = 144 in²，192 ÷ 144 = 1.33 ft²。 |
-| 4 | b | <code class="language-math math-inline">\pi</code> 取 3.14。 |
+| 4 | b | \(\pi\) 取 3.14。 |
 | 5 | d | 表 5：1 gal = 3.785 L。55 × 3.785 = 208 L。 |
 | 6 | b | 表 6：1 lb = 0.4536 kg。175 × 0.4536 = 79.38 kg。 |
 | 7 | d | 164 + 14.7 = 178.7 psia。 |
@@ -893,10 +893,10 @@ c = \sqrt{8^2 + 12^2} = \sqrt{64 + 144} = \sqrt{208} = 14.422
 | 9 | a | (68 − 32) × 5/9 = 20°C。 |
 | 10 | c | 111.803² = 12,500。 |
 | 11 | d | 6 × 6 = 36。 |
-| 12 | a | 两边乘 <code class="language-math math-inline">R</code> 再除以 <code class="language-math math-inline">P</code>，得到 <code class="language-math math-inline">R = E^2 / P</code>。 |
+| 12 | a | 两边乘 \(R\) 再除以 \(P\)，得到 \(R = E^2 / P\)。 |
 | 13 | b | 这段距离是半径。 |
 | 14 | d | 三边不等是 scalene，不等边三角形。 |
-| 15 | d | 斜边是 <code class="language-math math-inline">\sqrt{a^2 + b^2}</code>。选项 d 把加号写成了减号。 |
+| 15 | d | 斜边是 \(\sqrt{a^2 + b^2}\)。选项 d 把加号写成了减号。 |
 
 ---
 
@@ -948,7 +948,7 @@ c = \sqrt{8^2 + 12^2} = \sqrt{64 + 144} = \sqrt{208} = 14.422
 | 1 夸脱 | 0.926 升 |
 | 1 加仑 | 3,785 立方厘米，或 3.785 升 |
 
-**温度：** <code class="language-math math-inline">°C = \dfrac{5}{9}(°F - 32)</code>
+**温度：** \(°C = \dfrac{5}{9}(°F - 32)\)
 
 ### 公制换成美制
 
@@ -985,7 +985,7 @@ c = \sqrt{8^2 + 12^2} = \sqrt{64 + 144} = \sqrt{208} = 14.422
 | 1 立方米 | 35.31 立方英尺，或 1.308 立方码 |
 | 1 升 | 1.057 夸脱，2.113 品脱，或 61.02 立方英寸 |
 
-**温度：** <code class="language-math math-inline">°F = \left(\dfrac{9}{5} \times °C\right) + 32</code>
+**温度：** \(°F = \left(\dfrac{9}{5} \times °C\right) + 32\)
 
 ---
 
@@ -994,11 +994,11 @@ c = \sqrt{8^2 + 12^2} = \sqrt{64 + 144} = \sqrt{208} = 14.422
 - 1 in = 2.54 cm，1 m = 3.281 ft = 39.37 in，1 kg = 2.205 lb，1 lb = 0.4536 kg
 - 1 gal = 3.785 L，1 bar = 14.5 psi，1 个大气压 = 14.7 psi = 29.92 inHg
 - psia = psig + 14.7
-- <code class="language-math math-inline">°C = \frac{5}{9}(°F - 32)</code>，<code class="language-math math-inline">°F = \frac{9}{5}°C + 32</code>。温差只乘 5/9 或 9/5，不加 32
-- 矩形面积 = 长 × 宽，圆面积 = <code class="language-math math-inline">\pi r^2</code>，周长 = <code class="language-math math-inline">\pi d</code>，圆柱体积 = <code class="language-math math-inline">\pi r^2 h</code>
+- \(°C = \frac{5}{9}(°F - 32)\)，\(°F = \frac{9}{5}°C + 32\)。温差只乘 5/9 或 9/5，不加 32
+- 矩形面积 = 长 × 宽，圆面积 = \(\pi r^2\)，周长 = \(\pi d\)，圆柱体积 = \(\pi r^2 h\)
 - 运算顺序：有括号先做括号，否则先乘、再除、再加、再减
 - 移项时，加减就两边一起加减，乘除就两边一起乘除
-- 三角形内角和 180°。直角三角形 <code class="language-math math-inline">c = \sqrt{a^2 + b^2}</code>。3-4-5 及其倍数用来检查直角
+- 三角形内角和 180°。直角三角形 \(c = \sqrt{a^2 + b^2}\)。3-4-5 及其倍数用来检查直角
 - 小数英尺换成英寸：小数部分 × 12；余下的小数再 × 8，得到多少个 1/8 英寸
 
 ---

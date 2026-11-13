@@ -3,7 +3,7 @@ id: 03107-introduction-to-cooling
 slug: /hvacr/level-1/03107-introduction-to-cooling
 title: "03107 制冷入门"
 sidebar_label: "03107 制冷入门"
-sidebar_position: 3
+sidebar_position: 7
 mdx:
   format: md
 ---

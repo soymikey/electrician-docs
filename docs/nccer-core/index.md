@@ -17,14 +17,16 @@ These pages organize original study notes. They do not reproduce the textbook or
 
 | Module | Title |
 | --- | --- |
-| [00102](construction-math.md) | Introduction to Construction Math |
-| [00103](hand-tools.md) | Introduction to Hand Tools |
-| [00104](power-tools.md) | Introduction to Power Tools |
-| [00105](construction-drawings.md) | Introduction to Construction Drawings |
-| [00106](basic-rigging.md) | Introduction to Basic Rigging |
-| [00107](communication-skills.md) | Basic Communication Skills |
-| [00108](employability-skills.md) | Basic Employability Skills |
-| [00109](material-handling.md) | Introduction to Material Handling |
+| [00100](nccer-core/build-your-future-in-construction) | Build Your Future in Construction |
+| [00101](nccer-core/basic-safety) | Basic Safety |
+| [00102](nccer-core/construction-math) | Introduction to Construction Math |
+| [00103](nccer-core/hand-tools) | Introduction to Hand Tools |
+| [00104](nccer-core/power-tools) | Introduction to Power Tools |
+| [00105](nccer-core/construction-drawings) | Introduction to Construction Drawings |
+| [00106](nccer-core/basic-rigging) | Introduction to Basic Rigging |
+| [00107](nccer-core/communication-skills) | Basic Communication Skills |
+| [00108](nccer-core/employability-skills) | Basic Employability Skills |
+| [00109](nccer-core/material-handling) | Introduction to Material Handling |
 
 ## Suggested note format
 

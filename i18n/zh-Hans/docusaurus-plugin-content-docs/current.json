@@ -58,5 +58,21 @@
   "sidebar.tutorialSidebar.category.Government Building · HVACR": {
     "message": "政府建筑 · HVACR 与配电室",
     "description": "The label for category 'Government Building · HVACR' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.YouTube Supplementary Learning": {
+    "message": "YouTube 补充学习",
+    "description": "The label for category 'YouTube Supplementary Learning' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Learning Reference": {
+    "message": "学习参考",
+    "description": "The label for category 'Learning Reference' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Electrical": {
+    "message": "Electrical 电工课程",
+    "description": "The label for category 'Electrical' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Electrical Level 1 — 12th Edition": {
+    "message": "Electrical Level 1 第12版",
+    "description": "The label for category 'Electrical Level 1 — 12th Edition' in sidebar 'tutorialSidebar'"
   }
 }
