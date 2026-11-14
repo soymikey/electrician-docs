@@ -1,30 +1,78 @@
 {
   "title": {
-    "message": "电工学习文档",
+    "message": "电工与暖通学习",
     "description": "The title in the navbar"
   },
   "logo.alt": {
     "message": "Electrician Docs 标志",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Docs": {
-    "message": "文档",
-    "description": "Navbar item with label Docs"
-  },
   "item.label.Video Index": {
     "message": "视频索引",
     "description": "Navbar item with label Video Index"
   },
-  "item.label.Cheatsheet": {
-    "message": "速查表",
-    "description": "Navbar item with label Cheatsheet"
-  },
-  "item.label.Glossary": {
-    "message": "术语表",
-    "description": "Navbar item with label Glossary"
-  },
   "item.label.YouTube Playlist": {
     "message": "YouTube 播放列表",
     "description": "Navbar item with label YouTube Playlist"
+  },
+  "item.label.Textbooks": {
+    "message": "课程教材",
+    "description": "Navbar item with label Textbooks"
+  },
+  "item.label.NCCER Core 6th Edition": {
+    "message": "Core 第6版",
+    "description": "Navbar item with label NCCER Core 6th Edition"
+  },
+  "item.label.Electrical Level 1": {
+    "message": "Electrical 电工",
+    "description": "Navbar item with label Electrical Level 1"
+  },
+  "item.label.HVACR Level 1": {
+    "message": "HVACR 暖通制冷",
+    "description": "Navbar item with label HVACR Level 1"
+  },
+  "item.label.EPA 608": {
+    "message": "EPA 608",
+    "description": "Navbar item with label EPA 608"
+  },
+  "item.label.Field Trip": {
+    "message": "实地考察",
+    "description": "Navbar item with label Field Trip"
+  },
+  "item.label.Supplementary Learning": {
+    "message": "补充学习",
+    "description": "Navbar item with label Supplementary Learning"
+  },
+  "item.label.YouTube Stage Quizzes": {
+    "message": "视频阶段测验",
+    "description": "Navbar item with label YouTube Stage Quizzes"
+  },
+  "item.label.Jobsite English": {
+    "message": "现场口语",
+    "description": "Navbar item with label Jobsite English"
+  },
+  "item.label.Learning Reference": {
+    "message": "学习参考",
+    "description": "Navbar item with label Learning Reference"
+  },
+  "item.label.Core Glossary": {
+    "message": "Core 术语表",
+    "description": "Navbar item with label Core Glossary"
+  },
+  "item.label.Electrical Glossary": {
+    "message": "Electrical 术语表",
+    "description": "Navbar item with label Electrical Glossary"
+  },
+  "item.label.HVACR Glossary": {
+    "message": "HVACR 术语表",
+    "description": "Navbar item with label HVACR Glossary"
+  },
+  "item.label.Basic Glossary": {
+    "message": "基础术语表",
+    "description": "Navbar item with label Basic Glossary"
+  },
+  "item.label.Formula Reference": {
+    "message": "公式参考",
+    "description": "Navbar item with label Formula Reference"
   }
 }

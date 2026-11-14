@@ -93,27 +93,46 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Electrician Docs',
+      title: 'Electrical & HVACR',
       logo: {
         alt: 'Electrician Docs Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          label: 'Textbooks',
           position: 'left',
-          label: 'Docs',
+          items: [
+            {to: '/docs/nccer-core', label: 'NCCER Core 6th Edition'},
+            {to: '/docs/electrical/level-1/26101-occupational-overview-the-electrical-industry', label: 'Electrical Level 1'},
+            {to: '/docs/hvacr/level-1/03101-introduction-to-hvacr', label: 'HVACR Level 1'},
+            {to: '/docs/hvacr/epa-608/introduction', label: 'EPA 608'},
+          ],
         },
-        {to: '/docs/nccer-core', label: 'NCCER Core 6th Edition', position: 'left'},
         {to: '/docs/field-trip', label: 'Field Trip', position: 'left'},
-        {to: '/docs/video-index', label: 'Video Index', position: 'left'},
-        {to: '/docs/formula-reference', label: 'Cheatsheet', position: 'left'},
-        {to: '/docs/glossary', label: 'Glossary', position: 'left'},
         {
-          href: 'https://www.youtube.com/playlist?list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K',
-          label: 'YouTube Playlist',
-          position: 'right',
+          label: 'Supplementary Learning',
+          position: 'left',
+          items: [
+            {to: '/docs/video-index', label: 'Video Index'},
+            {to: '/docs/quizzes/core-concepts', label: 'YouTube Stage Quizzes'},
+            {to: '/docs/spoken-english/main-panel-phrases', label: 'Jobsite English'},
+            {
+              href: 'https://www.youtube.com/playlist?list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K',
+              label: 'YouTube Playlist',
+            },
+          ],
+        },
+        {
+          label: 'Learning Reference',
+          position: 'left',
+          items: [
+            {to: '/docs/nccer-core/glossary', label: 'Core Glossary'},
+            {to: '/docs/electrical/level-1/glossary', label: 'Electrical Glossary'},
+            {to: '/docs/hvacr/level-1/glossary', label: 'HVACR Glossary'},
+            {to: '/docs/glossary', label: 'Basic Glossary'},
+            {to: '/docs/formula-reference', label: 'Formula Reference'},
+          ],
         },
         {
           type: 'localeDropdown',
