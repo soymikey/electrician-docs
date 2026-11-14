@@ -45,6 +45,7 @@ const sidebars: SidebarsConfig = {
             'electrical/level-1/26114-outlet-device-pull-and-junction-boxes',
             'electrical/level-1/26115-conduit-preparation-and-bending',
             'electrical/level-1/module-review',
+            'electrical/level-1/glossary',
           ],
         },
       ],
@@ -67,6 +68,7 @@ const sidebars: SidebarsConfig = {
             'hvacr/level-1/03108-introduction-to-heating',
             'hvacr/level-1/03109-air-distribution-systems',
             'hvacr/level-1/module-review',
+            'hvacr/level-1/glossary',
           ],
         },
         {
