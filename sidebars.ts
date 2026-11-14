@@ -23,6 +23,7 @@ const sidebars: SidebarsConfig = {
         'nccer-core/communication-skills',
         'nccer-core/employability-skills',
         'nccer-core/material-handling',
+        'nccer-core/glossary',
       ],
     },
     {
